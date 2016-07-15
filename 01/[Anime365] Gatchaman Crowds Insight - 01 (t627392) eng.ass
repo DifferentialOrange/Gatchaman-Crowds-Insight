@@ -1,0 +1,535 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Gatchaman(D)_Announcer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Fireworks_Festival_00:45(GCI01),Open Sans Semibold,27,&H007E666B,&H000000FF,&H003B1627,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,547,13,133,1
+Style: Misudachi_Fireworks_00:10(GCI01),Open Sans Semibold,24,&H009D8C85,&H000000FF,&H00250D0C,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,87,13,133,1
+Style: Nationwide_01:04(GCI01),Open Sans Semibold,24,&H006D4545,&H000000FF,&H00CAC2C1,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,71,133,1
+Style: Prime_Minister_01:10(GCI01),Open Sans Semibold,24,&H00DCD9CF,&H000000FF,&H0036332A,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,13,71,280,1
+Style: Misudachi_02:00(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00622C15,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,533,13,133,1
+Style: UFO here_03:44(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H007EDDE7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,451,87,1
+Style: Incoming_call_04:39(GCI01),Open Sans Semibold,24,&H00EEF3CB,&H000000FF,&H00BDA432,&H00000000,1,0,0,0,100,100,0,17,1,1,0,8,13,600,267,1
+Style: Targeted_10:08(GCI01),Open Sans Semibold,27,&H00354347,&H000000FF,&H00873C19,&H00000000,1,0,0,0,100,100,0,8,1,2,0,5,13,13,151,1
+Style: Upper_right_text_10:20(GCI01),Open Sans Semibold,27,&H002C2A21,&H000000FF,&H00F6FEF9,&H00000000,1,0,0,0,100,100,0,0,1,1,0,8,533,13,233,1
+Style: Pie_chart_10:33(GCI01),Open Sans Semibold,24,&H00250D0C,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,71,133,1
+Style: The_Millione_Show_11:50(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H005C002C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,600,13,133,1
+Style: Gatchaman_11:50(GCI01),Open Sans Semibold,24,&H00DFE9F0,&H000000FF,&H002FA7EB,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,347,1
+Style: Small-minded_12:32(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00360CC2,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,80,13,20,1
+Style: The_Millione_Show_11:50(GCI01) - Copy,Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00421AC8,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,600,13,133,1
+Style: Even that_12:32(GCI01),Open Sans Semibold,21,&H00F4F2F2,&H000000FF,&H00F4EBE9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,80,13,100,1
+Style: Fireworks_Festival_13:56(GCI01),Open Sans Semibold,27,&H00EDA4C8,&H000000FF,&H0091003C,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,471,13,133,1
+Style: VAPE_15:38(GCI01),Open Sans Semibold,27,&H005B2BD4,&H000000FF,&H00F4EBE9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,140,13,133,1
+Style: Emergency_17:06(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00909187,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,580,13,107,1
+Style: Alien_invasion_17:43(GCI01),Open Sans Semibold,27,&H005B2BD4,&H000000FF,&H00F4EBE9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,167,13,133,1
+Style: Emergency_17:43(GCI01),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00909187,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,600,13,93,1
+Style: New_Gatchaman_20:54(GCI01),Open Sans Semibold,30,&H005B2BD4,&H000000FF,&H00F4EBE9,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,107,1
+Style: Thumb_Election_21:16(GCI01),Open Sans Semibold,21,&H00E0E8F2,&H000000FF,&H00083DDC,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,160,1
+Style: Thumb_Election_21:16(GCI01) - Copy,Open Sans Semibold,33,&H00CBBD42,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.00,Gatchaman(D)_Main,Ariga,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,What do you think, Kimura-san?
+Dialogue: 0,0:00:07.86,0:00:10.82,Fireworks_Festival_00:45(GCI01),Sign 0009,0000,0000,0000,,Nagaoka Fireworks Festival: \NAugust 2-3, 2016
+Dialogue: 0,0:00:10.82,0:00:13.03,Misudachi_Fireworks_00:10(GCI01),Sign 0012,0000,0000,0000,,Misudachi Fireworks Company
+Dialogue: 0,0:00:13.03,0:00:15.11,Misudachi_Fireworks_00:10(GCI01),Sign 0014,0000,0000,0000,,Nagaoka Misudachi
+Dialogue: 0,0:00:43.47,0:00:44.56,Gatchaman(D)_Main,Tsubasa,0000,0000,0000,,All right!
+Dialogue: 0,0:00:44.86,0:00:46.53,Gatchaman(D)_Main,Tsubasa,0000,0000,0000,,On with the usual!
+Dialogue: 0,0:00:47.48,0:00:49.06,Gatchaman(D)_Announcer,TV,0000,0000,0000,,An evacuation advisory has been issued.
+Dialogue: 0,0:00:49.69,0:00:51.26,Gatchaman(D)_Announcer,TV,0000,0000,0000,,The rainfall over the past 24 hours
+Dialogue: 0,0:00:51.26,0:00:54.53,Gatchaman(D)_Announcer,TV,0000,0000,0000,,has exceeded what's typically expected \Nover the entire month this time of year.
+Dialogue: 0,0:00:54.94,0:00:58.63,Gatchaman(D)_Announcer,TV,0000,0000,0000,,Tanizaki City should remain on alert for \Nmudslides due to rain saturating the soil.
+Dialogue: 0,0:00:59.63,0:01:03.79,Gatchaman(D)_Announcer,TV,0000,0000,0000,,Next up is news on the continued problems \Nrelated to the CROWDS phenomenon...
+Dialogue: 0,0:01:04.87,0:01:08.54,Nationwide_01:04(GCI01),Sign 0105,0000,0000,0000,,Nationwide Damage from Red CROWDS Activity\N Convenience Store in Saitama City
+Dialogue: 0,0:01:05.06,0:01:09.23,Gatchaman(D)_Announcer,Sign 0105,0000,0000,0000,,Yesterday saw more incidents \Nby red CROWDS nationwide.
+Dialogue: 0,0:01:10.03,0:01:12.39,Gatchaman(D)_Announcer,Sign 0105,0000,0000,0000,,Prime Minister Sugayama made a statement
+Dialogue: 0,0:01:11.18,0:01:15.05,Gatchaman(D)_Main,TDad,0000,0000,0000,,It sounds like the whole world's \Ngoing to hell in a handbasket.
+Dialogue: 0,0:01:12.39,0:01:15.27,Gatchaman(D)_Announcer,,0000,0000,0000,,yesterday that their origins \Nare as of yet unknown—
+Dialogue: 0,0:01:16.68,0:01:20.64,Gatchaman(D)_Main,T,0000,0000,0000,,Good morning!
+Dialogue: 0,0:01:20.64,0:01:22.64,Gatchaman(D)_Main,TMom,0000,0000,0000,,Morning, Tsubasa.
+Dialogue: 0,0:01:22.64,0:01:24.53,Gatchaman(D)_Main,T,0000,0000,0000,,Good morning!
+Dialogue: 0,0:01:24.53,0:01:25.43,Gatchaman(D)_Main,TDad,0000,0000,0000,,Morning.
+Dialogue: 0,0:01:25.74,0:01:28.40,Gatchaman(D)_Main,TDad,0000,0000,0000,,Tsubasa, Yuru-jii is already at it.
+Dialogue: 0,0:01:29.92,0:01:31.69,Gatchaman(D)_Main,T,0000,0000,0000,,Going right over!
+Dialogue: 0,0:01:38.95,0:01:43.00,Gatchaman(D)_Main,,0000,0000,0000,,Relax, relax, relax, relax, relax...
+Dialogue: 0,0:01:42.35,0:01:43.40,Gatchaman(D)_Main,Y,0000,0000,0000,,Exhale properly!
+Dialogue: 0,0:01:44.10,0:01:45.41,Gatchaman(D)_Main,T,0000,0000,0000,,Got it!
+Dialogue: 0,0:01:46.96,0:01:49.39,Gatchaman(D)_Main,T,0000,0000,0000,,Relax, relax, relax, relax, relax...
+Dialogue: 0,0:01:48.15,0:01:49.39,Gatchaman(D)_Main,Y,0000,0000,0000,,You're doing it wrong!
+Dialogue: 0,0:01:50.04,0:01:51.50,Gatchaman(D)_Main,T,0000,0000,0000,,I'm exhaling properly!
+Dialogue: 0,0:01:54.02,0:01:55.46,Gatchaman(D)_Main,T,0000,0000,0000,,This is tough!
+Dialogue: 0,0:01:55.46,0:01:56.96,Gatchaman(D)_Main,Y,0000,0000,0000,,Don't complain.
+Dialogue: 0,0:01:56.96,0:01:58.25,Gatchaman(D)_Main,T,0000,0000,0000,,Okay!
+Dialogue: 0,0:01:59.07,0:02:00.40,Gatchaman(D)_Main,T,0000,0000,0000,,Hey, Yuru-jii.
+Dialogue: 0,0:02:00.97,0:02:04.47,Misudachi_02:00(GCI01),Sign 0202,0000,0000,0000,,Misudachi
+Dialogue: 0,0:02:01.44,0:02:03.74,Gatchaman(D)_Main,T,0000,0000,0000,,When do I get to wear that, too?
+Dialogue: 0,0:02:04.18,0:02:05.66,Gatchaman(D)_Main,Y,0000,0000,0000,,You've got a ways to go.
+Dialogue: 0,0:02:05.66,0:02:07.59,Gatchaman(D)_Main,T,0000,0000,0000,,Huh? Why?
+Dialogue: 0,0:02:07.59,0:02:09.59,Gatchaman(D)_Main,T,0000,0000,0000,,{OP}
+Dialogue: 0,0:03:44.37,0:03:45.82,UFO here_03:44(GCI01),Sign 0346,0000,0000,0000,,UFO here
+Dialogue: 0,0:03:52.75,0:03:53.87,Gatchaman(D)_Main,Y,0000,0000,0000,,Don't slack.
+Dialogue: 0,0:03:53.87,0:03:55.85,Gatchaman(D)_Main,T,0000,0000,0000,,No, Yuru-jii.
+Dialogue: 0,0:03:55.85,0:03:56.73,Gatchaman(D)_Main,T,0000,0000,0000,,Look!
+Dialogue: 0,0:04:03.17,0:04:04.24,Gatchaman(D)_Main,Y,0000,0000,0000,,Run!
+Dialogue: 0,0:04:10.05,0:04:11.63,Gatchaman(D)_Main,T,0000,0000,0000,,Thanks, Yuru-jii!
+Dialogue: 0,0:04:12.66,0:04:14.23,Gatchaman(D)_Main,T,0000,0000,0000,,What's this?
+Dialogue: 0,0:04:14.45,0:04:15.64,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Tsubasa!
+Dialogue: 0,0:04:15.64,0:04:17.14,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:04:17.14,0:04:19.01,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, Kodama.
+Dialogue: 0,0:04:19.01,0:04:20.71,Gatchaman(D)_Main,T,0000,0000,0000,,Yep, I'm fine.
+Dialogue: 0,0:04:20.71,0:04:22.92,Gatchaman(D)_Main,Kodama,0000,0000,0000,,She's okay, guys!
+Dialogue: 0,0:04:21.79,0:04:23.09,Gatchaman(D)_Main,People,0000,0000,0000,,What {\i1}is{\i0} this?!
+Dialogue: 0,0:04:22.92,0:04:23.74,Gatchaman(D)_Main,People,0000,0000,0000,,A UFO?
+Dialogue: 0,0:04:24.06,0:04:25.29,Gatchaman(D)_Main,Granny,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:04:25.29,0:04:28.00,Gatchaman(D)_Main,Granny,0000,0000,0000,,And we just planted the rice!
+Dialogue: 0,0:04:32.73,0:04:34.92,Gatchaman(D)_Main,People,0000,0000,0000,,It's an alien invasion!
+Dialogue: 0,0:04:35.18,0:04:37.61,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Come save us, Gatchaman!
+Dialogue: 0,0:04:39.44,0:04:40.84,Incoming_call_04:39(GCI01),Sign 0440,0000,0000,0000,,Ichinose Hajime \N Incoming Call
+Dialogue: 0,0:04:41.15,0:04:42.94,Gatchaman(D)_Main,T,0000,0000,0000,,"Ichinose Hajime"...?
+Dialogue: 0,0:04:42.94,0:04:44.59,Gatchaman(D)_Main,K,0000,0000,0000,,{\i1}The{\i0} Ichinose Hajime?
+Dialogue: 0,0:04:44.89,0:04:46.29,Gatchaman(D)_Main,T,0000,0000,0000,,It's Hajime-chan!
+Dialogue: 0,0:04:52.24,0:04:53.68,Gatchaman(D)_Main,H,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:04:53.68,0:04:55.94,Gatchaman(D)_Main,H,0000,0000,0000,,I'm Ichinose Hajime, a Gatchaman!
+Dialogue: 0,0:04:57.54,0:04:58.53,Gatchaman(D)_Main,T,0000,0000,0000,,I'm Tsubasa!
+Dialogue: 0,0:04:58.53,0:04:59.67,Gatchaman(D)_Main,T,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:04:59.67,0:05:01.90,Gatchaman(D)_Main,H,0000,0000,0000,,Everything's going to be \Nokay now, Tsubasa-chan!
+Dialogue: 0,0:05:02.20,0:05:04.74,Gatchaman(D)_Main,T,0000,0000,0000,,I'm so happy we met!
+Dialogue: 0,0:05:04.74,0:05:05.80,Gatchaman(D)_Main,H,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:05:05.80,0:05:06.85,Gatchaman(D)_Main,H,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:05:06.85,0:05:07.99,Gatchaman(D)_Main,Boy,0000,0000,0000,,Oh, it's Paiman!
+Dialogue: 0,0:05:07.99,0:05:09.46,Gatchaman(D)_Main,Guy,0000,0000,0000,,Utsutsu-chan!
+Dialogue: 0,0:05:09.46,0:05:12.52,Gatchaman(D)_Main,P,0000,0000,0000,,We've come here to Nagaoka \NCity in Niigata Prefecture
+Dialogue: 0,0:05:12.52,0:05:14.81,Gatchaman(D)_Main,P,0000,0000,0000,,to place an extraterrestrial \Nlife form under our protection!
+Dialogue: 0,0:05:14.81,0:05:17.08,Gatchaman(D)_Main,H,0000,0000,0000,,This is so cute!
+Dialogue: 0,0:05:17.08,0:05:18.08,Gatchaman(D)_Main,T,0000,0000,0000,,Oh...
+Dialogue: 0,0:05:20.23,0:05:22.00,Gatchaman(D)_Main,H,0000,0000,0000,,Oh, is that your grandpa?
+Dialogue: 0,0:05:22.32,0:05:23.90,Gatchaman(D)_Main,T,0000,0000,0000,,He's my great-grandfather.
+Dialogue: 0,0:05:23.90,0:05:24.98,Gatchaman(D)_Main,H,0000,0000,0000,,I'm Hajime!
+Dialogue: 0,0:05:24.98,0:05:26.62,Gatchaman(D)_Main,H,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:05:26.98,0:05:28.84,Gatchaman(D)_Main,Yuru-jii,0000,0000,0000,,Hello, Hajime-chan.
+Dialogue: 0,0:05:32.16,0:05:34.52,Gatchaman(D)_Main,Woman,0000,0000,0000,,Hajime-chan, this way, please!
+Dialogue: 0,0:05:35.15,0:05:36.43,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy...
+Dialogue: 0,0:05:36.43,0:05:37.77,Gatchaman(D)_Main,Woman,0000,0000,0000,,Good luck, Gatchaman!
+Dialogue: 0,0:05:38.05,0:05:39.29,Gatchaman(D)_Main,Kodama,0000,0000,0000,,A UFO and the Gatchaman!
+Dialogue: 0,0:05:38.67,0:05:40.30,Gatchaman(D)_Main,T,0000,0000,0000,,Mom!
+Dialogue: 0,0:05:39.29,0:05:41.09,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Nagaoka City might become super famous!
+Dialogue: 0,0:05:40.30,0:05:41.77,Gatchaman(D)_Main,T,0000,0000,0000,,My sock!
+Dialogue: 0,0:05:42.06,0:05:44.47,Gatchaman(D)_Main,P,0000,0000,0000,,Okay, everyone! Stand back!
+Dialogue: 0,0:05:44.47,0:05:45.50,Gatchaman(D)_Main,Guy,0000,0000,0000,,UFO!
+Dialogue: 0,0:05:45.50,0:05:47.29,Gatchaman(D)_Main,P,0000,0000,0000,,I told you to stand back!
+Dialogue: 0,0:05:47.29,0:05:49.41,Gatchaman(D)_Main,P,0000,0000,0000,,The alien might be dangerous!
+Dialogue: 0,0:05:50.19,0:05:51.66,Gatchaman(D)_Main,P,0000,0000,0000,,Hajime, stay on guard!
+Dialogue: 0,0:05:52.14,0:05:53.16,Gatchaman(D)_Main,H,0000,0000,0000,,Roger!
+Dialogue: 0,0:05:53.50,0:05:55.73,Gatchaman(D)_Main,H,0000,0000,0000,,Go, Bird!
+Dialogue: 0,0:05:59.43,0:06:01.09,Gatchaman(D)_Main,Kodama,0000,0000,0000,,She transformed!
+Dialogue: 0,0:06:01.39,0:06:03.05,Gatchaman(D)_Main,H,0000,0000,0000,,Alien-san!
+Dialogue: 0,0:06:03.05,0:06:04.64,Gatchaman(D)_Main,H,0000,0000,0000,,Can you hear me?
+Dialogue: 0,0:06:04.64,0:06:06.80,Gatchaman(D)_Main,H,0000,0000,0000,,What'd you come to this planet for?
+Dialogue: 0,0:06:06.80,0:06:08.11,Gatchaman(D)_Main,H,0000,0000,0000,,Alien-san!
+Dialogue: 0,0:06:08.11,0:06:10.14,Gatchaman(D)_Main,H,0000,0000,0000,,Please respond!
+Dialogue: 0,0:06:14.67,0:06:16.73,Gatchaman(D)_Main,Guys,0000,0000,0000,,A-An alien?
+Dialogue: 0,0:06:15.66,0:06:16.73,Gatchaman(D)_Main,Guys,0000,0000,0000,,What's up with the wind?
+Dialogue: 0,0:06:17.01,0:06:17.99,Gatchaman(D)_Main,Guys,0000,0000,0000,,It looked this way!
+Dialogue: 0,0:06:17.99,0:06:19.19,Gatchaman(D)_Main,Guys,0000,0000,0000,,Don't look into its eyes.
+Dialogue: 0,0:06:19.19,0:06:21.13,Gatchaman(D)_Main,Guys,0000,0000,0000,,I'm scared of the alien...
+Dialogue: 0,0:06:26.38,0:06:28.47,Gatchaman(D)_Main,H,0000,0000,0000,,Out, Bird!
+Dialogue: 0,0:06:28.93,0:06:30.41,Gatchaman(D)_Main,H,0000,0000,0000,,So cute!
+Dialogue: 0,0:06:30.41,0:06:31.41,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, wow!
+Dialogue: 0,0:06:31.41,0:06:33.05,Gatchaman(D)_Main,T,0000,0000,0000,,She hugged the alien!
+Dialogue: 0,0:06:33.05,0:06:34.40,Gatchaman(D)_Main,P,0000,0000,0000,,Oh, it's her.
+Dialogue: 0,0:06:34.40,0:06:36.34,Gatchaman(D)_Main,H,0000,0000,0000,,Huh? You know her, Pai-pai?
+Dialogue: 0,0:06:36.34,0:06:37.66,Gatchaman(D)_Main,P,0000,0000,0000,,Don't call me that!
+Dialogue: 0,0:06:39.17,0:06:41.34,Gatchaman(D)_Main,H,0000,0000,0000,,You're really so cute.
+Dialogue: 0,0:06:41.34,0:06:42.80,Gatchaman(D)_Main,Katze,0000,0000,0000,,Oh, it's her.
+Dialogue: 0,0:06:42.80,0:06:44.75,Gatchaman(D)_Main,H,0000,0000,0000,,What? You know her, too?
+Dialogue: 0,0:06:45.06,0:06:45.78,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:45.78,0:06:46.46,Gatchaman(D)_Main,T,0000,0000,0000,,What?
+Dialogue: 0,0:06:47.13,0:06:49.34,Gatchaman(D)_Main,JJ,0000,0000,0000,,A delicate ray of light
+Dialogue: 0,0:06:49.93,0:06:51.71,Gatchaman(D)_Main,JJ,0000,0000,0000,,falls upon a land illuminated by fireworks
+Dialogue: 0,0:06:51.71,0:06:54.30,Gatchaman(D)_Main,JJ,0000,0000,0000,,near the North Sea...
+Dialogue: 0,0:06:56.20,0:06:58.25,Gatchaman(D)_Main,P,0000,0000,0000,,Even JJ's losing his edge.
+Dialogue: 0,0:06:58.25,0:07:02.24,Gatchaman(D)_Main,H,0000,0000,0000,,But this "delicate light" \Nbusiness makes you worry.
+Dialogue: 0,0:07:02.24,0:07:05.38,Gatchaman(D)_Main,P,0000,0000,0000,,JJ's prophecies are more \Nfor reference than anything else.
+Dialogue: 0,0:07:05.38,0:07:07.42,Gatchaman(D)_Main,P,0000,0000,0000,,How we choose to interpret and act on them
+Dialogue: 0,0:07:07.42,0:07:09.68,Gatchaman(D)_Main,P,0000,0000,0000,,rests solely on us Gatchaman.
+Dialogue: 0,0:07:09.68,0:07:13.35,Gatchaman(D)_Main,H,0000,0000,0000,,Wow! You're really starting \Nto sound like a leader.
+Dialogue: 0,0:07:13.35,0:07:14.49,Gatchaman(D)_Main,H,0000,0000,0000,,Doesn't he, Katze-san?
+Dialogue: 0,0:07:14.75,0:07:17.30,Gatchaman(D)_Main,Katze,0000,0000,0000,,Eh, he's just a panda!
+Dialogue: 0,0:07:17.84,0:07:19.75,Gatchaman(D)_Main,P,0000,0000,0000,,Don't call me a panda, you pyromaniac!
+Dialogue: 0,0:07:20.11,0:07:22.04,Gatchaman(D)_Main,Girl,0000,0000,0000,,It's coming this way.
+Dialogue: 0,0:07:22.04,0:07:23.52,Gatchaman(D)_Main,Boy,0000,0000,0000,,I'm scared.
+Dialogue: 0,0:07:23.52,0:07:24.77,Gatchaman(D)_Main,P,0000,0000,0000,,You don't need to be scared.
+Dialogue: 0,0:07:24.77,0:07:27.04,Gatchaman(D)_Main,P,0000,0000,0000,,She's not dangerous.
+Dialogue: 0,0:07:29.79,0:07:31.06,Gatchaman(D)_Main,Mom,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:07:31.50,0:07:32.22,Gatchaman(D)_Main,Girl,0000,0000,0000,,Mom!
+Dialogue: 0,0:07:32.22,0:07:33.21,Gatchaman(D)_Main,Girl,0000,0000,0000,,It's only a little girl!
+Dialogue: 0,0:07:38.68,0:07:40.26,Gatchaman(D)_Main,G,0000,0000,0000,,Good morning!
+Dialogue: 0,0:07:40.26,0:07:41.81,Gatchaman(D)_Main,G,0000,0000,0000,,My name is Gelsadra!
+Dialogue: 0,0:07:41.81,0:07:43.08,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, wow!
+Dialogue: 0,0:07:43.08,0:07:44.49,Gatchaman(D)_Main,T,0000,0000,0000,,It turned into a human!
+Dialogue: 0,0:07:44.49,0:07:45.56,Gatchaman(D)_Main,H,0000,0000,0000,,I'm Hajime!
+Dialogue: 0,0:07:45.56,0:07:47.11,Gatchaman(D)_Main,H,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:07:47.96,0:07:50.00,Gatchaman(D)_Main,Boy,0000,0000,0000,,Gel-chan, why did you come here?
+Dialogue: 0,0:07:50.00,0:07:51.41,Gatchaman(D)_Main,Mom,0000,0000,0000,,Shh! Don't ask.
+Dialogue: 0,0:08:01.24,0:08:03.15,Gatchaman(D)_Main,Crowd,0000,0000,0000,,What's this wind?
+Dialogue: 0,0:08:04.75,0:08:05.92,Gatchaman(D)_Main,T,0000,0000,0000,,Huh? What's this?
+Dialogue: 0,0:08:06.31,0:08:08.67,Gatchaman(D)_Main,H,0000,0000,0000,,Gel-chan, what's this?
+Dialogue: 0,0:08:08.67,0:08:11.09,Gatchaman(D)_Main,G,0000,0000,0000,,They're everyone's thoughts.
+Dialogue: 0,0:08:11.45,0:08:13.36,Gatchaman(D)_Main,People,0000,0000,0000,,Something weird's floating there.
+Dialogue: 0,0:08:11.79,0:08:13.92,Gatchaman(D)_Main,People,0000,0000,0000,,Mom, it's all floppy.
+Dialogue: 0,0:08:12.94,0:08:15.01,Gatchaman(D)_Main,People,0000,0000,0000,,{\a6}Where'd this come from?
+Dialogue: 0,0:08:13.92,0:08:15.71,Gatchaman(D)_Main,People,0000,0000,0000,,What's this? Put it back.
+Dialogue: 0,0:08:15.71,0:08:17.73,Gatchaman(D)_Main,People,0000,0000,0000,,How strange...
+Dialogue: 0,0:08:16.33,0:08:17.73,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy...
+Dialogue: 0,0:08:20.75,0:08:21.90,Gatchaman(D)_Main,H,0000,0000,0000,,Wow.
+Dialogue: 0,0:08:21.90,0:08:24.58,Gatchaman(D)_Main,H,0000,0000,0000,,Everyone's so different. It's pretty.
+Dialogue: 0,0:08:24.58,0:08:26.02,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Hajime-chan, you're amazing!
+Dialogue: 0,0:08:26.21,0:08:27.97,Gatchaman(D)_Main,H,0000,0000,0000,,Amnesia, Remind!
+Dialogue: 0,0:08:30.42,0:08:31.46,Gatchaman(D)_Main,People,0000,0000,0000,,What's that?
+Dialogue: 0,0:08:32.26,0:08:33.61,Gatchaman(D)_Main,T,0000,0000,0000,,So pretty!
+Dialogue: 0,0:08:33.61,0:08:35.64,Gatchaman(D)_Main,H,0000,0000,0000,,Rock, paper, scissors!
+Dialogue: 0,0:08:35.64,0:08:37.71,Gatchaman(D)_Main,H,0000,0000,0000,,Look that way!
+Dialogue: 0,0:08:38.24,0:08:40.35,Gatchaman(D)_Main,G,0000,0000,0000,,Rock, paper, scissors!
+Dialogue: 0,0:08:40.79,0:08:43.02,Gatchaman(D)_Main,G,0000,0000,0000,,Look that way!
+Dialogue: 0,0:08:45.77,0:08:47.84,Gatchaman(D)_Main,People,0000,0000,0000,,Gel-chan's cute.
+Dialogue: 0,0:08:46.98,0:08:49.23,Gatchaman(D)_Main,People,0000,0000,0000,,She seems nice enough.
+Dialogue: 0,0:08:49.23,0:08:51.30,Gatchaman(D)_Main,People,0000,0000,0000,,That's what I thought from the start!
+Dialogue: 0,0:08:51.30,0:08:52.15,Gatchaman(D)_Main,People,0000,0000,0000,,Right!
+Dialogue: 0,0:08:52.15,0:08:54.96,Gatchaman(D)_Main,People,0000,0000,0000,,Alien-san, are you here to sightsee today?
+Dialogue: 0,0:08:57.67,0:08:59.64,Gatchaman(D)_Main,H,0000,0000,0000,,What'd you do, Gel-chan?
+Dialogue: 0,0:09:00.08,0:09:02.89,Gatchaman(D)_Main,Kodama,0000,0000,0000,,The atmosphere just got a lot better.
+Dialogue: 0,0:09:03.15,0:09:04.25,Gatchaman(D)_Main,G,0000,0000,0000,,The atmosphere?
+Dialogue: 0,0:09:04.25,0:09:04.89,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:05.21,0:09:07.72,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Oh, um, the atmosphere...
+Dialogue: 0,0:09:07.72,0:09:08.61,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Tsubasa!
+Dialogue: 0,0:09:08.61,0:09:09.54,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:10.29,0:09:12.02,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, Gel-chan.
+Dialogue: 0,0:09:12.02,0:09:13.80,Gatchaman(D)_Main,T,0000,0000,0000,,The atmosphere is...
+Dialogue: 0,0:09:13.80,0:09:15.36,Gatchaman(D)_Main,T,0000,0000,0000,,It's on this planet,
+Dialogue: 0,0:09:15.36,0:09:16.98,Gatchaman(D)_Main,T,0000,0000,0000,,and... well...
+Dialogue: 0,0:09:18.72,0:09:19.81,Gatchaman(D)_Main,T,0000,0000,0000,,Anyway!
+Dialogue: 0,0:09:19.81,0:09:22.63,Gatchaman(D)_Main,T,0000,0000,0000,,It was really fun when \Neveryone came together, right?
+Dialogue: 0,0:09:22.63,0:09:24.76,Gatchaman(D)_Main,,0000,0000,0000,,That's called a good atmosphere.
+Dialogue: 0,0:09:24.76,0:09:26.76,Gatchaman(D)_Main,,0000,0000,0000,,Yeah, see?
+Dialogue: 0,0:09:26.76,0:09:28.28,Gatchaman(D)_Main,,0000,0000,0000,,Good atmosphere!
+Dialogue: 0,0:09:33.36,0:09:35.11,Gatchaman(D)_Main,G,0000,0000,0000,,Thank you, Tsubasa-chan.
+Dialogue: 0,0:09:35.11,0:09:36.56,Gatchaman(D)_Main,T,0000,0000,0000,,You're welcome!
+Dialogue: 0,0:09:37.49,0:09:39.35,Gatchaman(D)_Main,T,0000,0000,0000,,Welcome to Nagaoka.
+Dialogue: 0,0:09:43.89,0:09:45.93,Gatchaman(D)_Main,P,0000,0000,0000,,So the rumors were true.
+Dialogue: 0,0:09:45.93,0:09:47.39,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy.
+Dialogue: 0,0:09:48.37,0:09:49.17,Gatchaman(D)_Main,H,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:49.17,0:09:51.27,Gatchaman(D)_Main,H,0000,0000,0000,,Mine doesn't change.
+Dialogue: 0,0:09:51.27,0:09:53.64,Gatchaman(D)_Main,Katze,0000,0000,0000,,Of course yours wouldn't, Hajime-tan.
+Dialogue: 0,0:09:53.64,0:09:54.84,Gatchaman(D)_Main,H,0000,0000,0000,,Why not?
+Dialogue: 0,0:09:54.84,0:09:57.61,Gatchaman(D)_Main,Katze,0000,0000,0000,,Because you're you, Hajime-tan.
+Dialogue: 0,0:09:57.73,0:10:01.37,Gatchaman(D)_Main,Katze,0000,0000,0000,,More importantly, just let me outta \Nhere already, you shitty bitch!
+Dialogue: 0,0:10:01.37,0:10:03.53,Gatchaman(D)_Main,H,0000,0000,0000,,Katze-san, shut up.
+Dialogue: 0,0:10:06.11,0:10:07.32,Gatchaman(D)_Announcer,News,0000,0000,0000,,Late last night,
+Dialogue: 0,0:10:06.34,0:10:09.56,Gatchaman(D)_Main,Suga,0000,0000,0000,,I have to say, I thought I was a real goner.
+Dialogue: 0,0:10:07.32,0:10:13.04,Gatchaman(D)_Announcer,News,0000,0000,0000,,Prime Minister Sugayama's flight was \Nattacked by several red CROWDS.
+Dialogue: 0,0:10:08.94,0:10:12.71,Targeted_10:08(GCI01),Sign 1010,0000,0000,0000,,{\c&HF6EAE1&}Even the Prime Minister Targeted!\N\N{\c&HC49E71&}Tachikawa City, Tokyo Prefecture \NVAPE, the Red CROWDS Organization
+Dialogue: 0,0:10:09.56,0:10:13.04,Gatchaman(D)_Main,Suga,0000,0000,0000,,They use CROWDS, even though \Nthey say they're anti-CROWDS.
+Dialogue: 0,0:10:13.63,0:10:16.79,Gatchaman(D)_Main,Suga,0000,0000,0000,,I wonder what their goal is.
+Dialogue: 0,0:10:13.63,0:10:16.79,Gatchaman(D)_Announcer,News,0000,0000,0000,,The mysterious group behind the attack \Nhas identified itself as VAPE.
+Dialogue: 0,0:10:16.79,0:10:19.74,Gatchaman(D)_Announcer,News,0000,0000,0000,,There have also been reports that JSDF \Nfighters were lost during the altercation,
+Dialogue: 0,0:10:17.28,0:10:20.17,Upper_right_text_10:20(GCI01),Sign 1017,0000,0000,0000,,I'm counting on you guys!!! \NPlease vote for Mayor Shimizu!!
+Dialogue: 0,0:10:19.28,0:10:20.18,Upper_right_text_10:20(GCI01),Sign 1020,0000,0000,0000,,It'll be the first smartphone election in history!
+Dialogue: 0,0:10:19.74,0:10:21.48,Gatchaman(D)_Announcer,News,0000,0000,0000,,and we are seeking confirmation.
+Dialogue: 0,0:10:20.50,0:10:25.85,Gatchaman(D)_Main,J,0000,0000,0000,,It's said that "VAPE" refers to "Violent Ape." \NAggressive monkeys, more or less.
+Dialogue: 0,0:10:26.33,0:10:27.22,Gatchaman(D)_Main,Suga,0000,0000,0000,,Monkeys?
+Dialogue: 0,0:10:27.22,0:10:30.47,Gatchaman(D)_Main,J,0000,0000,0000,,X, what does everyone think about CROWDS?
+Dialogue: 0,0:10:33.86,0:10:37.90,Pie_chart_10:33(GCI01),Sign 1035,0000,0000,0000,,{\c&H5BF15F&}Status quo is fine (52%)\N{\c&H46EFEC&}Should regulate (20%)\N{\c&H7306CA&}Should eradicate (18%)
+Dialogue: 0,0:10:33.86,0:10:37.90,Gatchaman(D)_Main,X,0000,0000,0000,,Over the past week, those in favor \Nof the status quo fell 12 percent.
+Dialogue: 0,0:10:38.12,0:10:40.97,Gatchaman(D)_Main,J,0000,0000,0000,,So now almost a half are revolutionaries.
+Dialogue: 0,0:10:40.97,0:10:44.04,Gatchaman(D)_Main,Suga,0000,0000,0000,,I'm sure the earlier incident \Nfrom the day is a factor,
+Dialogue: 0,0:10:44.04,0:10:46.74,Gatchaman(D)_Main,Suga,0000,0000,0000,,but talk about a rapid \Nshift in public opinion.
+Dialogue: 0,0:10:46.74,0:10:49.92,Gatchaman(D)_Main,Suga,0000,0000,0000,,It wasn't so long ago \Nthat everyone was happy
+Dialogue: 0,0:10:49.92,0:10:52.00,Gatchaman(D)_Main,Suga,0000,0000,0000,,saying that CROWDS changed the world...
+Dialogue: 0,0:10:52.46,0:10:54.88,Gatchaman(D)_Main,J,0000,0000,0000,,The Prime Minister's popularity \Nhas also gone down.
+Dialogue: 0,0:10:55.12,0:10:57.11,Gatchaman(D)_Main,Suga,0000,0000,0000,,Oh, man...
+Dialogue: 0,0:10:57.11,0:11:00.70,Gatchaman(D)_Main,Suga,0000,0000,0000,,But I'm not the sole leader of this nation.
+Dialogue: 0,0:11:00.70,0:11:01.79,Gatchaman(D)_Main,Suga,0000,0000,0000,,Everyone is.
+Dialogue: 0,0:11:01.79,0:11:04.89,Gatchaman(D)_Main,Suga,0000,0000,0000,,And CROWDS support that notion. \NThey're our hope.
+Dialogue: 0,0:11:04.89,0:11:06.60,Gatchaman(D)_Main,Suga,0000,0000,0000,,I believe in you all.
+Dialogue: 0,0:11:08.34,0:11:09.30,Gatchaman(D)_Main,J,0000,0000,0000,,But, Prime Minister.
+Dialogue: 0,0:11:09.79,0:11:12.52,Gatchaman(D)_Main,J,0000,0000,0000,,Not all people are the same.
+Dialogue: 0,0:11:12.76,0:11:13.58,Gatchaman(D)_Main,Suga,0000,0000,0000,,What?
+Dialogue: 0,0:11:13.58,0:11:15.33,Gatchaman(D)_Main,J,0000,0000,0000,,Because there are some monkeys among us,
+Dialogue: 0,0:11:15.33,0:11:18.83,Gatchaman(D)_Main,J,0000,0000,0000,,this nation hasn't been able \Nto produce a civilized society.
+Dialogue: 0,0:11:18.83,0:11:21.20,Gatchaman(D)_Main,Suga,0000,0000,0000,,That's harsh.
+Dialogue: 0,0:11:21.20,0:11:22.53,Gatchaman(D)_Main,J,0000,0000,0000,,That's reality.
+Dialogue: 0,0:11:23.23,0:11:26.72,Gatchaman(D)_Main,J,0000,0000,0000,,Our role is to grasp \Nreality with objectivity
+Dialogue: 0,0:11:26.72,0:11:28.65,Gatchaman(D)_Main,J,0000,0000,0000,,and move people to action.
+Dialogue: 0,0:11:28.65,0:11:29.81,Gatchaman(D)_Main,Suga,0000,0000,0000,,I see.
+Dialogue: 0,0:11:29.81,0:11:33.83,Gatchaman(D)_Main,Suga,0000,0000,0000,,I guess becoming secretary \Nto the mayor has changed what you say.
+Dialogue: 0,0:11:34.26,0:11:36.51,Gatchaman(D)_Main,J,0000,0000,0000,,No, nothing's changed.
+Dialogue: 0,0:11:36.88,0:11:39.29,Gatchaman(D)_Main,J,0000,0000,0000,,My dream has always been, and always will be,
+Dialogue: 0,0:11:41.50,0:11:43.22,Gatchaman(D)_Main,,0000,0000,0000,,world peace.
+Dialogue: 0,0:11:43.48,0:11:45.09,Gatchaman(D)_Main,Suga,0000,0000,0000,,That's the spirit!
+Dialogue: 0,0:11:45.09,0:11:48.17,Gatchaman(D)_Main,Suga,0000,0000,0000,,Oh, The Millione Show is starting.
+Dialogue: 0,0:11:48.02,0:11:49.01,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Hello!
+Dialogue: 0,0:11:48.17,0:11:50.93,Gatchaman(D)_Main,J,0000,0000,0000,,OD's into it like usual.
+Dialogue: 0,0:11:49.01,0:11:50.93,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Happy New Year!
+Dialogue: 0,0:11:50.93,0:11:54.86,The_Millione_Show_11:50(GCI01),Signs 1152,0000,0000,0000,,{\c&H752FE2&}The {\c&H29EAE6&}Mil{\c&HE0DD31&}li{\c&H48FD9F&}one {\c&H514D4F&}Show
+Dialogue: 0,0:11:50.93,0:11:54.86,Gatchaman_11:50(GCI01),Signs 1152,0000,0000,0000,,Gatchaman
+Dialogue: 0,0:11:51.29,0:11:54.86,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Hello! How is everyone?
+Dialogue: 0,0:11:56.66,0:11:57.62,Gatchaman(D)_Main,K,0000,0000,0000,,Good morning.
+Dialogue: 0,0:11:59.85,0:12:01.26,Gatchaman(D)_Main,Girls,0000,0000,0000,,Sugane-kun!
+Dialogue: 0,0:12:01.95,0:12:03.52,Gatchaman(D)_Main,Girls,0000,0000,0000,,I'll sit next to him!
+Dialogue: 0,0:12:03.52,0:12:04.59,Gatchaman(D)_Main,Girls,0000,0000,0000,,Hey! Me first!
+Dialogue: 0,0:12:04.59,0:12:05.73,Gatchaman(D)_Main,Girls,0000,0000,0000,,Me, me!
+Dialogue: 0,0:12:04.97,0:12:06.59,Gatchaman(D)_Main,K,0000,0000,0000,,Please don't fight.
+Dialogue: 0,0:12:06.59,0:12:07.96,Gatchaman(D)_Main,Girls,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:12.34,0:12:16.67,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Look at you, all happy and \Ngorgeous like usual, OD!
+Dialogue: 0,0:12:17.03,0:12:18.80,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Aw, thanks.
+Dialogue: 0,0:12:19.27,0:12:21.05,Gatchaman(D)_Main,Girls,0000,0000,0000,,Sugane-kun, you're so cute!
+Dialogue: 0,0:12:21.05,0:12:22.30,Gatchaman(D)_Main,Girls,0000,0000,0000,,Please smile one more time!
+Dialogue: 0,0:12:23.05,0:12:24.46,Gatchaman(D)_Main,K,0000,0000,0000,,Oh, jeez...
+Dialogue: 0,0:12:23.05,0:12:24.46,Gatchaman(D)_Main,K,0000,0000,0000,,{Eyecatch}
+Dialogue: 0,0:12:32.48,0:12:34.44,Gatchaman(D)_Main,OD,0000,0000,0000,,Don't be so small-minded! Be a man!
+Dialogue: 0,0:12:32.50,0:12:33.97,Small-minded_12:32(GCI01),Sign 1233,0000,0000,0000,,Small-Minded Celebrities!
+Dialogue: 0,0:12:32.50,0:12:33.97,Even that_12:32(GCI01),Sign 1233,0000,0000,0000,,{\c&H7ACA62&}Even *that* celeb hottie!? \N{\c&H7447CB&}Top 5 Closet Small-Minded Male Celebrities
+Dialogue: 0,0:12:32.63,0:12:34.44,Gatchaman(D)_Main,H,0000,0000,0000,,D-san!
+Dialogue: 0,0:12:34.44,0:12:37.02,Gatchaman(D)_Main,H,0000,0000,0000,,Good job today!
+Dialogue: 0,0:12:35.79,0:12:38.14,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Tough love from you as usual, OD!
+Dialogue: 0,0:12:37.36,0:12:38.98,Gatchaman(D)_Main,Crowd,0000,0000,0000,,Oh, it's Millio!
+Dialogue: 0,0:12:38.98,0:12:40.82,Gatchaman(D)_Main,Crowd,0000,0000,0000,,Millio's fun.
+Dialogue: 0,0:12:40.82,0:12:42.31,Gatchaman(D)_Main,Katze,0000,0000,0000,,Here comes the fairy!
+Dialogue: 0,0:12:42.31,0:12:44.19,Gatchaman(D)_Main,Katze,0000,0000,0000,,Gross, gross, gross!
+Dialogue: 0,0:12:44.19,0:12:46.48,Gatchaman(D)_Main,P,0000,0000,0000,,OD's quite the celebrity now.
+Dialogue: 0,0:12:48.01,0:12:49.79,Gatchaman(D)_Main,U,0000,0000,0000,,Pai-pai, you're eating too much.
+Dialogue: 0,0:12:49.79,0:12:52.54,Gatchaman(D)_Main,H,0000,0000,0000,,I heard D-san's got \Nthree TV commercial deals.
+Dialogue: 0,0:12:52.98,0:12:54.28,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy.
+Dialogue: 0,0:12:54.64,0:12:55.50,Gatchaman(D)_Main,P,0000,0000,0000,,Yeesh.
+Dialogue: 0,0:12:56.92,0:12:59.37,Gatchaman(D)_Main,H,0000,0000,0000,,Oh, come to think of it, I hear \Nthere's someone around here
+Dialogue: 0,0:12:59.37,0:13:01.63,Gatchaman(D)_Main,H,0000,0000,0000,,who's supposed to become a new Gatchaman.
+Dialogue: 0,0:13:01.63,0:13:04.19,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Oh, really? Here in Nagaoka?
+Dialogue: 0,0:13:07.48,0:13:09.53,Gatchaman(D)_Main,JJ,0000,0000,0000,,A delicate ray of light
+Dialogue: 0,0:13:10.03,0:13:11.76,Gatchaman(D)_Main,JJ,0000,0000,0000,,falls upon a land illuminated by fireworks
+Dialogue: 0,0:13:11.76,0:13:14.23,Gatchaman(D)_Main,JJ,0000,0000,0000,,near the North Sea
+Dialogue: 0,0:13:14.92,0:13:18.28,Gatchaman(D)_Main,JJ,0000,0000,0000,,where it will meet wings \Nthat are still blue...
+Dialogue: 0,0:13:18.79,0:13:20.77,Gatchaman(D)_Main,H,0000,0000,0000,,What's your dream, Tsubasa-chan?
+Dialogue: 0,0:13:22.10,0:13:23.94,Gatchaman(D)_Main,T,0000,0000,0000,,Huh? Me?
+Dialogue: 0,0:13:23.94,0:13:25.15,Gatchaman(D)_Main,T,0000,0000,0000,,Well...
+Dialogue: 0,0:13:26.97,0:13:28.70,Gatchaman(D)_Main,,0000,0000,0000,,that's to become a fireworks craftsman.
+Dialogue: 0,0:13:30.07,0:13:31.59,Gatchaman(D)_Main,T,0000,0000,0000,,Right, Yuru-jii?
+Dialogue: 0,0:13:33.69,0:13:35.27,Gatchaman(D)_Main,H,0000,0000,0000,,A fireworks craftsman, huh?
+Dialogue: 0,0:13:35.27,0:13:36.71,Gatchaman(D)_Main,H,0000,0000,0000,,That's great.
+Dialogue: 0,0:13:36.71,0:13:40.09,Gatchaman(D)_Main,T,0000,0000,0000,,Yuru-jii is a super famous \Nfireworks craftsman.
+Dialogue: 0,0:13:40.36,0:13:42.82,Gatchaman(D)_Main,T,0000,0000,0000,,He's even had a movie character based on him.
+Dialogue: 0,0:13:43.50,0:13:47.34,Gatchaman(D)_Main,TDad,0000,0000,0000,,He made this giant Niagara fireworks, too.
+Dialogue: 0,0:13:47.65,0:13:48.77,Gatchaman(D)_Main,H,0000,0000,0000,,Wow!
+Dialogue: 0,0:13:48.77,0:13:50.35,Gatchaman(D)_Main,H,0000,0000,0000,,It's super gorgeous!
+Dialogue: 0,0:13:50.35,0:13:55.23,Gatchaman(D)_Main,T,0000,0000,0000,,Yuru-jii is basically a god here \Nin Nagaoka, the fireworks capital.
+Dialogue: 0,0:13:55.47,0:13:56.64,Gatchaman(D)_Main,Y,0000,0000,0000,,Don't exaggerate.
+Dialogue: 0,0:13:56.67,0:14:06.77,Fireworks_Festival_13:56(GCI01),Sign 1359,0000,0000,0000,,Nagaoka Fireworks Festival   8/2-3 2016
+Dialogue: 0,0:13:57.03,0:14:00.16,Gatchaman(D)_Main,T,0000,0000,0000,,The fireworks festival is on \Nthe second and third of August!
+Dialogue: 0,0:14:00.16,0:14:02.64,Gatchaman(D)_Main,T,0000,0000,0000,,You should all come see it!
+Dialogue: 0,0:14:03.04,0:14:06.78,Gatchaman(D)_Main,T,0000,0000,0000,,This year's really special because \NYuru-jii's going to be a hundred years old!
+Dialogue: 0,0:14:06.78,0:14:08.85,Gatchaman(D)_Main,H,0000,0000,0000,,A... A hundred years old?!
+Dialogue: 0,0:14:08.85,0:14:10.14,Gatchaman(D)_Main,H,0000,0000,0000,,Wow.
+Dialogue: 0,0:14:10.14,0:14:12.31,Gatchaman(D)_Main,H,0000,0000,0000,,I want to live that long, too.
+Dialogue: 0,0:14:14.09,0:14:16.29,Gatchaman(D)_Main,P,0000,0000,0000,,A hundred? That's young.
+Dialogue: 0,0:14:16.29,0:14:18.50,Gatchaman(D)_Main,H,0000,0000,0000,,Yuru-jii, do you play shogi?
+Dialogue: 0,0:14:18.50,0:14:20.51,Gatchaman(D)_Main,TMom,0000,0000,0000,,Don't bother, it's boring to watch.
+Dialogue: 0,0:14:20.51,0:14:22.59,Gatchaman(D)_Main,TMom,0000,0000,0000,,He never makes any moves.
+Dialogue: 0,0:14:22.59,0:14:25.95,Gatchaman(D)_Main,TMom,0000,0000,0000,,It stays just like that for weeks.
+Dialogue: 0,0:14:27.76,0:14:29.93,Gatchaman(D)_Main,H,0000,0000,0000,,I like things like that!
+Dialogue: 0,0:14:29.93,0:14:31.20,Gatchaman(D)_Main,T,0000,0000,0000,,Hey, Yuru-jii.
+Dialogue: 0,0:14:31.20,0:14:34.05,Gatchaman(D)_Main,T,0000,0000,0000,,Don't you think it's time \Nyou teach me about fireworks?
+Dialogue: 0,0:14:34.50,0:14:36.61,Gatchaman(D)_Main,T,0000,0000,0000,,Summer break just started today.
+Dialogue: 0,0:14:36.61,0:14:38.23,Gatchaman(D)_Main,Y,0000,0000,0000,,I can't leave the business to you.
+Dialogue: 0,0:14:40.45,0:14:42.15,Gatchaman(D)_Main,T,0000,0000,0000,,That's mean. Why?
+Dialogue: 0,0:14:42.15,0:14:43.86,Gatchaman(D)_Main,T,0000,0000,0000,,What am I missing?
+Dialogue: 0,0:14:45.98,0:14:47.49,Gatchaman(D)_Main,T,0000,0000,0000,,That doesn't tell me anything!
+Dialogue: 0,0:14:55.28,0:14:57.91,Gatchaman(D)_Main,G,0000,0000,0000,,But I think you'll make it.
+Dialogue: 0,0:14:57.91,0:14:58.66,Gatchaman(D)_Main,T,0000,0000,0000,,What?
+Dialogue: 0,0:14:59.17,0:15:02.31,Gatchaman(D)_Main,G,0000,0000,0000,,I want to cheer you on, Tsubasa-chan.
+Dialogue: 0,0:15:02.72,0:15:03.92,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan.
+Dialogue: 0,0:15:04.64,0:15:08.84,Gatchaman(D)_Main,G,0000,0000,0000,,Having a dream is a wonderful thing.
+Dialogue: 0,0:15:08.84,0:15:10.32,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan,
+Dialogue: 0,0:15:11.08,0:15:12.47,Gatchaman(D)_Main,,0000,0000,0000,,you're so nice!
+Dialogue: 0,0:15:18.65,0:15:21.04,Gatchaman(D)_Main,TDad,0000,0000,0000,,I'm cheering you on, too.
+Dialogue: 0,0:15:21.04,0:15:23.94,Gatchaman(D)_Main,TDad,0000,0000,0000,,I don't want to let \Nthis family tradition die out.
+Dialogue: 0,0:15:23.94,0:15:26.90,Gatchaman(D)_Main,TMom,0000,0000,0000,,Well, it's only if Yuru-jii will allow it.
+Dialogue: 0,0:15:26.90,0:15:28.14,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Just look at this footage!
+Dialogue: 0,0:15:28.14,0:15:30.83,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,We're all tired to death of seeing \Nthem day in and day out...
+Dialogue: 0,0:15:30.52,0:15:33.12,Gatchaman(D)_Main,Guys,0000,0000,0000,,It's nice to have hopes \Nand dreams as young'uns.
+Dialogue: 0,0:15:30.83,0:15:32.68,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,but it's the red CROWDS again!
+Dialogue: 0,0:15:32.68,0:15:34.91,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Just what do they even what?
+Dialogue: 0,0:15:33.12,0:15:35.52,Gatchaman(D)_Main,Guys,0000,0000,0000,,But just look at the world.
+Dialogue: 0,0:15:34.91,0:15:35.78,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,They're terrifying!
+Dialogue: 0,0:15:35.97,0:15:38.76,Gatchaman(D)_Main,Millio,0000,0000,0000,,The mysterious organization known as VAPE
+Dialogue: 0,0:15:38.31,0:15:44.20,Small-minded_12:32(GCI01),Sign 1543,0000,0000,0000,,Cowardly Terrorists
+Dialogue: 0,0:15:38.31,0:15:44.20,Even that_12:32(GCI01),Sign 1543,0000,0000,0000,,{\c&H85D178&}Cut it out! \N{\c&H6339CD&}Red CROWDS on rampage again!
+Dialogue: 0,0:15:38.31,0:15:44.20,VAPE_15:38(GCI01),Sign 1543,0000,0000,0000,,What Does the Violent CROWDS Group, VAPE, Want!?
+Dialogue: 0,0:15:38.76,0:15:42.41,Gatchaman(D)_Main,Millio,0000,0000,0000,,is shaking the very \Nfoundations of this nation!
+Dialogue: 0,0:15:42.41,0:15:46.47,Gatchaman(D)_Main,Millio,0000,0000,0000,,Even the Prime Minister's life was in peril! \NWho is their next target?
+Dialogue: 0,0:15:46.47,0:15:48.47,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,How long must we spend sleepless nights?
+Dialogue: 0,0:15:48.47,0:15:49.97,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,This is unconscionable!
+Dialogue: 0,0:15:49.70,0:15:52.68,Gatchaman(D)_Main,P,0000,0000,0000,,Jeez, what are they doing?
+Dialogue: 0,0:15:49.97,0:15:54.66,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,There were elderly and children \Nrunning away in that footage!
+Dialogue: 0,0:15:53.12,0:15:55.94,Gatchaman(D)_Main,P,0000,0000,0000,,This planet still needs to be under \Nprotective observation for sure.
+Dialogue: 0,0:15:54.66,0:15:55.51,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Right, right.
+Dialogue: 0,0:15:55.51,0:15:56.94,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,{\a6}This is the act of cowards!
+Dialogue: 0,0:15:56.94,0:16:00.11,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,I can't believe they'd use \Nthe CROWDS from far away
+Dialogue: 0,0:16:00.11,0:16:01.69,Gatchaman(D)_Main,T,0000,0000,0000,,What's wrong, Gel-chan?
+Dialogue: 0,0:16:00.11,0:16:02.80,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,to attack the weak and vulnerable!
+Dialogue: 0,0:16:02.19,0:16:04.38,Gatchaman(D)_Main,G,0000,0000,0000,,I don't want this.
+Dialogue: 0,0:16:02.80,0:16:04.22,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,That's right.
+Dialogue: 0,0:16:04.22,0:16:06.32,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,You have a young child yourself, right?
+Dialogue: 0,0:16:04.38,0:16:05.19,Gatchaman(D)_Main,T,0000,0000,0000,,What?
+Dialogue: 0,0:16:05.50,0:16:07.14,Gatchaman(D)_Main,G,0000,0000,0000,,Everyone's all over the place.
+Dialogue: 0,0:16:06.32,0:16:07.14,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,Yes, I do.
+Dialogue: 0,0:16:07.14,0:16:08.57,Gatchaman(D)_Main,G,0000,0000,0000,,That makes me sad.
+Dialogue: 0,0:16:07.14,0:16:09.08,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,He's really scared.
+Dialogue: 0,0:16:08.57,0:16:10.52,Gatchaman(D)_Main,G,0000,0000,0000,,I want everyone to be united.
+Dialogue: 0,0:16:09.08,0:16:11.95,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,I walk him to school and back every day now.
+Dialogue: 0,0:16:11.95,0:16:13.83,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Are all parents doing that?
+Dialogue: 0,0:16:13.83,0:16:17.49,Gatchaman(D)_Announcer,Kimura,0000,0000,0000,,Of course. That's what I hear.
+Dialogue: 0,0:16:16.20,0:16:17.49,Gatchaman(D)_Main,T,0000,0000,0000,,Right?
+Dialogue: 0,0:16:17.49,0:16:18.42,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,I see.
+Dialogue: 0,0:16:18.42,0:16:19.93,Gatchaman(D)_Main,G,0000,0000,0000,,Right.
+Dialogue: 0,0:16:20.48,0:16:22.77,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan, you're so nice!
+Dialogue: 0,0:16:22.77,0:16:24.00,Gatchaman(D)_Main,T,0000,0000,0000,,You're like an angel!
+Dialogue: 0,0:16:24.00,0:16:25.23,Gatchaman(D)_Main,T,0000,0000,0000,,Did you hear that, guys?
+Dialogue: 0,0:16:25.23,0:16:27.99,Gatchaman(D)_Main,T,0000,0000,0000,,She wants everyone to be united!
+Dialogue: 0,0:16:27.99,0:16:29.51,Gatchaman(D)_Main,T,0000,0000,0000,,That's so impressive!
+Dialogue: 0,0:16:39.67,0:16:42.61,Gatchaman(D)_Main,H,0000,0000,0000,,Yuru-jii, who's that?
+Dialogue: 0,0:16:44.22,0:16:45.42,Gatchaman(D)_Main,Y,0000,0000,0000,,My younger brother.
+Dialogue: 0,0:16:45.42,0:16:47.27,Gatchaman(D)_Main,H,0000,0000,0000,,I see.
+Dialogue: 0,0:16:47.27,0:16:51.00,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Jeez! Vape or Dape, I don't care!
+Dialogue: 0,0:16:51.00,0:16:53.46,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,They just need to cut it out!
+Dialogue: 0,0:16:53.46,0:16:55.79,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Millio-chan, don't get too hotheaded.
+Dialogue: 0,0:16:55.79,0:16:58.37,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Give us some cheerful news once in a while!
+Dialogue: 0,0:16:58.70,0:17:00.34,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Leave that to me!
+Dialogue: 0,0:17:00.34,0:17:02.63,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Let's have a change of pace
+Dialogue: 0,0:17:02.63,0:17:04.84,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,and hear a surprising piece of news!
+Dialogue: 0,0:17:04.84,0:17:06.17,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Saitou-san!
+Dialogue: 0,0:17:06.17,0:17:09.96,Emergency_17:06(GCI01),Sign 1707,0000,0000,0000,,Emergency \NLive Broadcast!
+Dialogue: 0,0:17:06.17,0:17:09.96,Alien_invasion_17:43(GCI01),Sign 1707,0000,0000,0000,,An Alien Invasion in Nagaoka City, Niigata Prefecture?!
+Dialogue: 0,0:17:06.48,0:17:09.01,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,Hi, this is Saitou from Smiling TV.
+Dialogue: 0,0:17:09.01,0:17:12.83,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,A UFO just landed nearby, \Nand the whole area is in an uproar.
+Dialogue: 0,0:17:09.14,0:17:09.96,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:09.96,0:17:12.07,Gatchaman(D)_Main,T,0000,0000,0000,,I've seen this house somewhere before.
+Dialogue: 0,0:17:12.07,0:17:13.59,Gatchaman(D)_Main,Kodama,0000,0000,0000,,This is your home, Tsubasa!
+Dialogue: 0,0:17:12.83,0:17:14.81,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,We have not only members of the press,
+Dialogue: 0,0:17:13.59,0:17:15.40,Gatchaman(D)_Main,Kodama,0000,0000,0000,,See? Takeshi's on TV, too!
+Dialogue: 0,0:17:14.81,0:17:16.97,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,but local residents gathered \Nhere in the hopes of
+Dialogue: 0,0:17:15.91,0:17:17.18,Gatchaman(D)_Main,All,0000,0000,0000,,What?!
+Dialogue: 0,0:17:16.97,0:17:18.43,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,getting a glimpse of the UFO!
+Dialogue: 0,0:17:18.43,0:17:21.56,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,This is the local home thought \Nto be concealing the alien.
+Dialogue: 0,0:17:21.56,0:17:23.42,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,Hello? I'm with The Millione Show!
+Dialogue: 0,0:17:23.42,0:17:25.55,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,I heard there was an alien here!
+Dialogue: 0,0:17:30.35,0:17:31.61,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,Oh! Paiman-san!
+Dialogue: 0,0:17:32.00,0:17:34.23,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,Wait. Does this mean there is an alien here?
+Dialogue: 0,0:17:34.78,0:17:38.75,Gatchaman(D)_Main,P,0000,0000,0000,,We have, indeed, placed an extraterrestrial \Nlife form under our protective custody.
+Dialogue: 0,0:17:38.75,0:17:39.93,Gatchaman(D)_Announcer,Saitou,0000,0000,0000,,Really?!
+Dialogue: 0,0:17:39.93,0:17:41.16,Gatchaman(D)_Main,P,0000,0000,0000,,Calm down!
+Dialogue: 0,0:17:41.16,0:17:43.33,Gatchaman(D)_Main,P,0000,0000,0000,,She is not dangerous.
+Dialogue: 0,0:17:43.35,0:17:48.20,Emergency_17:06(GCI01),Sign 1744,0000,0000,0000,,Emergency \NLive Broadcast!
+Dialogue: 0,0:17:43.35,0:17:48.20,Alien_invasion_17:43(GCI01),Sign 1744,0000,0000,0000,,An Alien Invasion in Nagaoka City, Niigata Prefecture?!
+Dialogue: 0,0:17:43.88,0:17:48.21,Gatchaman(D)_Main,P,0000,0000,0000,,She could even be a savior \Nwho's come to help this planet!
+Dialogue: 0,0:17:48.44,0:17:49.86,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,A savior?!
+Dialogue: 0,0:17:49.86,0:17:53.88,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Will world peace finally be achieved, OD?
+Dialogue: 0,0:17:54.14,0:17:56.34,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Oh, how fun!
+Dialogue: 0,0:17:56.34,0:17:58.92,Gatchaman(D)_Announcer,OD,0000,0000,0000,,This planet's been way too dangerous lately!
+Dialogue: 0,0:17:58.92,0:18:01.14,Gatchaman(D)_Announcer,OD,0000,0000,0000,,Oh, Utsutsu!
+Dialogue: 0,0:18:02.75,0:18:06.06,Gatchaman(D)_Main,P,0000,0000,0000,,We'll release an official statement \Non Gatchannel in the near future.
+Dialogue: 0,0:18:06.30,0:18:10.36,Gatchaman(D)_Main,P,0000,0000,0000,,Do leave the citizens alone until then.
+Dialogue: 0,0:18:11.95,0:18:13.57,Gatchaman(D)_Main,People,0000,0000,0000,,Oh, it's Tsubasa-chan!
+Dialogue: 0,0:18:13.57,0:18:14.72,Gatchaman(D)_Main,People,0000,0000,0000,,Do you have a comment?
+Dialogue: 0,0:18:13.57,0:18:14.72,Gatchaman(D)_Main,People,0000,0000,0000,,You're Tsubasa-chan?
+Dialogue: 0,0:18:14.72,0:18:16.49,Gatchaman(D)_Main,People,0000,0000,0000,,The camera, quick!
+Dialogue: 0,0:18:17.39,0:18:18.25,Gatchaman(D)_Main,T,0000,0000,0000,,Hey!
+Dialogue: 0,0:18:19.87,0:18:20.97,Gatchaman(D)_Main,T,0000,0000,0000,,You idiot!
+Dialogue: 0,0:18:20.97,0:18:22.66,Gatchaman(D)_Main,T,0000,0000,0000,,What are you thinking?!
+Dialogue: 0,0:18:28.94,0:18:30.88,Gatchaman(D)_Main,T,0000,0000,0000,,Who are you, Mister?
+Dialogue: 0,0:18:33.32,0:18:34.47,Gatchaman(D)_Main,H,0000,0000,0000,,JJ!
+Dialogue: 0,0:18:34.47,0:18:35.79,Gatchaman(D)_Main,P,0000,0000,0000,,This means...
+Dialogue: 0,0:18:35.79,0:18:36.72,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy.
+Dialogue: 0,0:18:36.72,0:18:38.48,Gatchaman(D)_Main,Saitou,0000,0000,0000,,Hey, are you recording this?
+Dialogue: 0,0:18:38.48,0:18:39.64,Gatchaman(D)_Main,Crew,0000,0000,0000,,Yes...
+Dialogue: 0,0:18:39.64,0:18:40.55,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Tsubasa.
+Dialogue: 0,0:18:41.11,0:18:45.52,Gatchaman(D)_Main,JJ,0000,0000,0000,,Everyone has power that \Nis concealed deep within.
+Dialogue: 0,0:18:46.17,0:18:48.87,Gatchaman(D)_Main,JJ,0000,0000,0000,,Only those who realize that \Nthey possess this power
+Dialogue: 0,0:18:49.31,0:18:51.67,Gatchaman(D)_Main,JJ,0000,0000,0000,,will awaken to their greater purpose.
+Dialogue: 0,0:18:53.33,0:18:54.65,Gatchaman(D)_Main,JJ,0000,0000,0000,,Awaken!
+Dialogue: 0,0:18:56.96,0:19:00.32,Gatchaman(D)_Main,JJ,0000,0000,0000,,Spread your as-of-yet \Ninvisible wings...
+Dialogue: 0,0:19:12.90,0:19:14.34,Gatchaman(D)_Main,JJ,0000,0000,0000,,Thy name is...
+Dialogue: 0,0:19:14.68,0:19:16.11,Gatchaman(D)_Main,JJ,0000,0000,0000,,Gatchaman!
+Dialogue: 0,0:19:17.47,0:19:18.96,Gatchaman(D)_Main,T,0000,0000,0000,,G-Gatchaman?!
+Dialogue: 0,0:19:18.96,0:19:20.02,Gatchaman(D)_Main,T,0000,0000,0000,,Me?!
+Dialogue: 0,0:19:22.69,0:19:24.72,Gatchaman(D)_Main,T,0000,0000,0000,,Ow...
+Dialogue: 0,0:19:26.94,0:19:27.96,Gatchaman(D)_Main,T,0000,0000,0000,,Whoa!
+Dialogue: 0,0:19:27.96,0:19:28.99,Gatchaman(D)_Main,T,0000,0000,0000,,What's this?!
+Dialogue: 0,0:19:28.99,0:19:32.34,Gatchaman(D)_Main,H,0000,0000,0000,,Hmm, those wings are still blue, all right.
+Dialogue: 0,0:19:32.34,0:19:34.19,Gatchaman(D)_Main,Saitou,0000,0000,0000,,This is a huge scoop!
+Dialogue: 0,0:19:34.19,0:19:35.43,Gatchaman(D)_Main,Saitou,0000,0000,0000,,What's your name?
+Dialogue: 0,0:19:35.43,0:19:37.21,Gatchaman(D)_Main,Saitou,0000,0000,0000,,How do you feel about being \Nchosen to be a Gatchaman?!
+Dialogue: 0,0:19:37.21,0:19:38.84,Gatchaman(D)_Main,T,0000,0000,0000,,Huh? Well...
+Dialogue: 0,0:19:38.84,0:19:40.02,Gatchaman(D)_Main,Saitou,0000,0000,0000,,Try to transform for us!
+Dialogue: 0,0:19:40.30,0:19:41.66,Gatchaman(D)_Main,T,0000,0000,0000,,Huh? Transform?
+Dialogue: 0,0:19:42.05,0:19:42.74,Gatchaman(D)_Main,Saitou,0000,0000,0000,,Camera?!
+Dialogue: 0,0:19:42.74,0:19:43.49,Gatchaman(D)_Main,Crew,0000,0000,0000,,Ready!
+Dialogue: 0,0:19:43.88,0:19:46.78,Gatchaman(D)_Main,T,0000,0000,0000,,Go, Bird!
+Dialogue: 0,0:19:47.65,0:19:48.49,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:49.39,0:19:52.10,Gatchaman(D)_Main,T,0000,0000,0000,,Go, Bird?
+Dialogue: 0,0:19:52.65,0:19:53.83,Gatchaman(D)_Main,T,0000,0000,0000,,Why?!
+Dialogue: 0,0:19:53.83,0:19:54.76,Gatchaman(D)_Main,Press,0000,0000,0000,,Do you have a boyfriend?
+Dialogue: 0,0:19:54.76,0:19:55.93,Gatchaman(D)_Main,Press,0000,0000,0000,,Who do you look up to?
+Dialogue: 0,0:19:55.93,0:19:57.34,Gatchaman(D)_Main,Saitou,0000,0000,0000,,Who's your favorite Gatchaman?
+Dialogue: 0,0:19:57.34,0:19:58.59,Gatchaman(D)_Main,Press,0000,0000,0000,,How old are you?
+Dialogue: 0,0:19:58.59,0:19:59.72,Gatchaman(D)_Main,T,0000,0000,0000,,Hey, don't—
+Dialogue: 0,0:19:58.59,0:19:59.72,Gatchaman(D)_Main,Press,0000,0000,0000,,Do you have a boyfriend?
+Dialogue: 0,0:19:59.72,0:20:00.64,Gatchaman(D)_Main,Press,0000,0000,0000,,Are you a high school student?
+Dialogue: 0,0:20:00.64,0:20:02.38,Gatchaman(D)_Main,T,0000,0000,0000,,Don't talk all at once!
+Dialogue: 0,0:20:04.47,0:20:05.97,Gatchaman(D)_Main,T,0000,0000,0000,,Cut it...
+Dialogue: 0,0:20:05.97,0:20:07.83,Gatchaman(D)_Main,T,0000,0000,0000,,out!
+Dialogue: 0,0:20:10.24,0:20:12.73,Gatchaman(D)_Main,Crew,0000,0000,0000,,It's a new Gatchaman...
+Dialogue: 0,0:20:19.78,0:20:21.04,Gatchaman(D)_Main,Saitou,0000,0000,0000,,How do you feel?
+Dialogue: 0,0:20:23.45,0:20:24.98,Gatchaman(D)_Main,T,0000,0000,0000,,Get out, now!
+Dialogue: 0,0:20:24.98,0:20:26.36,Gatchaman(D)_Main,T,0000,0000,0000,,I'll deck you!
+Dialogue: 0,0:20:26.36,0:20:27.33,Gatchaman(D)_Main,Saitou,0000,0000,0000,,Deck?
+Dialogue: 0,0:20:27.33,0:20:30.14,Gatchaman(D)_Main,Kodama,0000,0000,0000,,She's saying she'll beat you all up.
+Dialogue: 0,0:20:30.14,0:20:31.08,Gatchaman(D)_Main,Saitou,0000,0000,0000,,What?!
+Dialogue: 0,0:20:33.35,0:20:34.30,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?!
+Dialogue: 0,0:20:34.30,0:20:35.50,Gatchaman(D)_Main,T,0000,0000,0000,,I transformed?
+Dialogue: 0,0:20:35.50,0:20:36.59,Gatchaman(D)_Main,T,0000,0000,0000,,How?
+Dialogue: 0,0:20:37.24,0:20:38.42,Gatchaman(D)_Main,H,0000,0000,0000,,Oh, yeah!
+Dialogue: 0,0:20:41.76,0:20:45.09,Gatchaman(D)_Main,H,0000,0000,0000,,The air here is great!
+Dialogue: 0,0:20:48.95,0:20:50.09,Gatchaman(D)_Main,Y,0000,0000,0000,,Exhale properly.
+Dialogue: 0,0:20:50.91,0:20:52.81,Gatchaman(D)_Main,Student,0000,0000,0000,,Huh? A new Gatchaman!
+Dialogue: 0,0:20:53.45,0:20:54.65,Gatchaman(D)_Main,K,0000,0000,0000,,Another girl...
+Dialogue: 0,0:20:54.65,0:20:56.92,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,This is a tremendous scoop!
+Dialogue: 0,0:20:54.65,0:21:03.40,New_Gatchaman_20:54(GCI01),Sign 2057,0000,0000,0000,,A New Gatchaman Is Born!
+Dialogue: 0,0:20:56.92,0:20:59.36,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,OD, do give us the lowdown later!
+Dialogue: 0,0:20:59.94,0:21:03.40,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Who cares about those barbaric VAPE people!
+Dialogue: 0,0:21:04.36,0:21:08.44,Gatchaman(D)_Main,Ri,0000,0000,0000,,This planet is still \Nthe planet of the apes...
+Dialogue: 0,0:21:16.54,0:21:19.88,Thumb_Election_21:16(GCI01),Sign 2118,0000,0000,0000,,The First Smart Phone Elections in History!\N{\fs24}Tachikawa City Mayoral Elections
+Dialogue: 0,0:21:16.54,0:21:19.88,Thumb_Election_21:16(GCI01) - Copy,Sign 2118,0000,0000,0000,,Vote with Your Thumb
+Dialogue: 0,0:21:16.78,0:21:17.78,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:17.78,0:21:19.38,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,Voting in the elections \Nusing your smartphone?
+Dialogue: 0,0:21:19.88,0:21:20.82,Gatchaman(D)_Main,Ariga,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:20.82,0:21:23.13,Gatchaman(D)_Main,Ariga,0000,0000,0000,,You can vote once you're sixteen.
+Dialogue: 0,0:21:23.13,0:21:25.18,Gatchaman(D)_Main,Ran,0000,0000,0000,,Then we can, too?
+Dialogue: 0,0:21:25.72,0:21:30.60,Gatchaman(D)_Main,Ariga,0000,0000,0000,,Yeah, I hear the next Prime Minister will \Nbe chosen through smart phone votes, too.
+Dialogue: 0,0:21:30.60,0:21:32.06,Gatchaman(D)_Main,Ariga,0000,0000,0000,,Isn't that amazing?
+Dialogue: 0,0:21:32.06,0:21:33.09,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,Seriously?
+Dialogue: 0,0:21:33.09,0:21:35.29,Gatchaman(D)_Main,Ran,0000,0000,0000,,Kae-chan, isn't that too "easy"?
+Dialogue: 0,0:21:35.89,0:21:38.44,Gatchaman(D)_Main,Ariga,0000,0000,0000,,Well, that's the world we live in.
+Dialogue: 0,0:21:38.44,0:21:40.39,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,Who are you trying to be?
+Dialogue: 0,0:21:40.39,0:21:42.03,Gatchaman(D)_Main,Ariga,0000,0000,0000,,Those are the times we live in.
+Dialogue: 0,0:21:40.39,0:21:42.03,Gatchaman(D)_Main,Ariga,0000,0000,0000,,{ED}
