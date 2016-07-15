@@ -16,7 +16,9 @@ Video File: [HorribleSubs] Gatchaman Crowds Insight - 01 [1080p].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.250000
-Video Position: 189
+Scroll Position: 426
+Active Line: 432
+Video Position: 28061
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -485,8 +487,8 @@ Dialogue: 0,0:19:12.90,0:19:14.34,Gatchaman(D)_Main,JJ,0,0,0,,Имя тебе...
 Dialogue: 0,0:19:14.68,0:19:16.11,Gatchaman(D)_Main,JJ,0,0,0,,Гатчамен!
 Dialogue: 0,0:19:17.47,0:19:18.96,Gatchaman(D)_Main,T,0,0,0,,Г-Гатчамен?!
 Dialogue: 0,0:19:18.96,0:19:20.02,Gatchaman(D)_Main,T,0,0,0,,Я?!
-Dialogue: 0,0:19:22.69,0:19:24.72,Gatchaman(D)_Main,T,0,0,0,,О...
-Dialogue: 0,0:19:26.94,0:19:27.96,Gatchaman(D)_Main,T,0,0,0,,Ого!
+Dialogue: 0,0:19:22.69,0:19:24.72,Gatchaman(D)_Main,T,0,0,0,,Ох...
+Dialogue: 0,0:19:26.94,0:19:27.96,Gatchaman(D)_Main,T,0,0,0,,Чего?!
 Dialogue: 0,0:19:27.96,0:19:28.99,Gatchaman(D)_Main,T,0,0,0,,Что это?!
 Dialogue: 0,0:19:28.99,0:19:32.34,Gatchaman(D)_Main,H,0,0,0,,Хм, эти крылья всё ещё синие,\N всё в порядке.
 Dialogue: 0,0:19:32.34,0:19:34.19,Gatchaman(D)_Main,Saitou,0,0,0,,Это огромная удача!
