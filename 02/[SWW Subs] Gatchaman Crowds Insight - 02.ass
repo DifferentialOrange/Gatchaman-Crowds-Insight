@@ -16,8 +16,8 @@ Video File: [HorribleSubs] Gatchaman Crowds Insight - 02 [1080p].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.250000
-Scroll Position: 286
-Active Line: 103
+Scroll Position: 403
+Active Line: 92
 Video Position: 32895
 
 [V4+ Styles]
@@ -57,8 +57,6 @@ Style: Gatchaman(D)_Italics Up,Open Sans Semibold,81,&H00FFFFFF,&H000000FF,&H000
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,Gatchaman(D)_Main,Natsuki,0,0,0,,
-Dialogue: 0,0:00:00.00,0:00:00.00,Gatchaman(D)_Main,T,0,0,0,,
 Dialogue: 0,0:00:02.14,0:00:03.25,Gatchaman(D)_Main,T,0,0,0,,А?
 Dialogue: 0,0:00:04.60,0:00:05.48,Gatchaman(D)_Main,T,0,0,0,,Эм...
 Dialogue: 0,0:00:05.78,0:00:06.86,Gatchaman(D)_Main,Kodama,0,0,0,,Цубаса.
@@ -139,7 +137,7 @@ Dialogue: 0,0:04:12.77,0:04:15.65,Gatchaman(D)_Announcer,P,0,0,0,,Эй! Прек
 Dialogue: 0,0:04:15.65,0:04:17.68,The_Millione_Show_04:15(GCI02),Sign 0417,0,0,0,,Инфо-лайв: Шоу Миллиона
 Dialogue: 0,0:04:15.65,0:04:18.87,Gatchaman(D)_Italics,TV,0,0,0,,Шоу Миллиона!
 Dialogue: 0,0:04:18.87,0:04:19.61,Gatchaman(D)_Announcer,Millio,0,0,0,,Привет!
-Dialogue: 0,0:04:19.96,0:04:22.32,Gatchaman(D)_Announcer,Millio,0,0,0,,Добро пожаловаться на Инфо-Лайв: Шоу Миллиона!
+Dialogue: 0,0:04:19.96,0:04:22.32,Gatchaman(D)_Announcer,Millio,0,0,0,,Добро пожаловаться на "Инфо-Лайв: Шоу Миллиона"!
 Dialogue: 0,0:04:22.73,0:04:25.22,Gatchaman(D)_Announcer,Millio,0,0,0,,Да, вчерашний денёк был тем ещё подарком!
 Dialogue: 0,0:04:25.22,0:04:28.03,Gatchaman(D)_Announcer,Millio,0,0,0,,Прямо перед камерой родился новый Гатчамен!
 Dialogue: 0,0:04:28.37,0:04:31.28,Gatchaman(D)_Announcer,Millio,0,0,0,,И пришёл этот высоченный Джей-Джей!
@@ -149,7 +147,7 @@ Dialogue: 0,0:04:32.66,0:04:37.41,Celebration_04:32(GCI02),Sign 0434,0,0,0,,Ве
 Dialogue: 0,0:04:34.95,0:04:37.42,Gatchaman(D)_Italics,OD,0,0,0,,Джей слишком выделяется!
 Dialogue: 0,0:04:37.42,0:04:40.74,Gatchaman(D)_Announcer,Millio,0,0,0,,Так что, этот новый член -\N Мисудачи Цубаса-тян?
 Dialogue: 0,0:04:40.74,0:04:45.93,Gatchaman(D)_Announcer,Millio,0,0,0,,Ей хотят устроить \Nпрощальную вечеринку в Риверсайд Сеншу.
-Dialogue: 0,0:04:45.93,0:04:49.77,Gatchaman(D)_Announcer,Millio,0,0,0,,Шоу Миллиона устроит эксклюзивную\Nпрямую трансляцию!
+Dialogue: 0,0:04:45.93,0:04:49.77,Gatchaman(D)_Announcer,Millio,0,0,0,,"Шоу Миллиона" устроит эксклюзивную\Nпрямую трансляцию!
 Dialogue: 0,0:04:49.77,0:04:51.46,Gatchaman(D)_Announcer,Millio,0,0,0,,Жду с нетерпением!
 Dialogue: 0,0:04:50.40,0:04:52.14,Gatchaman(D)_Main,Crowd,0,0,0,,Спаситель? Серьёзно?
 Dialogue: 0,0:04:52.14,0:04:55.26,Gatchaman(D)_Announcer,Millio,0,0,0,,{\a6}Было бы прекрасно, если бы все наши темы\N для обсуждения были такими приятными,
