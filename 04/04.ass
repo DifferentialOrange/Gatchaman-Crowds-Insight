@@ -1,0 +1,504 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Gatchaman(D)_Announcer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: exit,Open Sans Semibold,33,&H00475F69,&H000000FF,&H00D8F6FD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,200,1
+Style: Gatchaman-X,Open Sans Semibold,36,&H00E1FFEC,&H000000FF,&H003A1E03,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,13,13,24,1
+Style: Urgent_News_00:20(GCI04),Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,1
+Style: Go_Tsubasa-chan!_00:27(GCI04),Open Sans Semibold,21,&H00CFC9B8,&H000000FF,&H0033401A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,80,27,53,1
+Style: Urgent_News_03:40(GCI04),Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,7,0,0,28,1
+Style: Urgent_Debate_09:00(GCI04),Open Sans Semibold,21,&H00F9EDF3,&H000000FF,&H00A55A45,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,400,27,120,1
+Style: Toriyama_11:00(GCI04),Open Sans Semibold,27,&H00030505,&H000000FF,&H00B8BFC5,&H00000000,1,0,0,0,100,100,0,2,1,2,0,8,480,13,113,1
+Style: Toriyama_12:20(GCI04),Open Sans Semibold,23,&H00030505,&H000000FF,&H00B8BFC5,&H00000000,1,0,0,0,100,100,0,-3,1,0,0,8,373,13,147,1
+Style: PM_Resigns_13:23(GCI04),Open Sans Semibold,21,&H00524D47,&H000000FF,&H00DFD9D5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,1,27,27,133,1
+Style: Emergency_Broadcast_13:23(GCI04),Open Sans Semibold,24,&H00003606,&H000000FF,&H0045A76A,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,27,33,57,1
+Style: Authorized_Personnel_Only_17:05(GCI04),Open Sans Semibold,27,&H00250D0C,&H000000FF,&H00AEB2B4,&H00000000,1,0,0,0,100,100,0,-2,1,2,0,8,500,13,147,1
+Style: The_Millione_Show_04:15(GCI04),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00CB9E15,&H00000000,1,0,0,0,100,100,0,0,1,2,0,9,13,67,200,1
+Style: PM_Resigns!_18:12(GCI04),Open Sans Semibold,21,&H00F3F1F1,&H000000FF,&H00D840A3,&H00000000,1,0,0,0,100,100,0,4,1,2,0,8,227,13,227,1
+Style: Blocks_18:16(GCI04),Open Sans Semibold,24,&H00B2EBF5,&H000000FF,&H002C3435,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,93,1
+Style: No_Restrictions!_18:36(GCI04),Open Sans Semibold,21,&H00F3F1F1,&H000000FF,&H00333333,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,227,13,227,1
+Style: Anyone_Can_Register_18:36(GCI04),Open Sans Semibold,21,&H00F3F1F1,&H000000FF,&H00333333,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,227,13,320,1
+Style: Firs_PM_Elections-phone_21:31(GCI04),Open Sans Semibold,21,&H001F236A,&H000000FF,&H00EAEAF7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,17,173,1
+Style: Authorized_Personnel_Only_17:15(GCI04),Open Sans Semibold,27,&H00250D0C,&H000000FF,&H00FEFEFE,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,173,13,147,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,Gatchaman(D)_Main,Sign 0022,0000,0000,0000,,
+Dialogue: 0,0:00:15.49,0:00:16.57,Gatchaman(D)_Main,Millio,0000,0000,0000,,They did it!
+Dialogue: 0,0:00:16.57,0:00:18.08,Gatchaman(D)_Main,Millio,0000,0000,0000,,There's one Gatchaman,
+Dialogue: 0,0:00:18.08,0:00:20.66,Gatchaman(D)_Main,Millio,0000,0000,0000,,Ninomiya Rui-san, and someone \Nwe believe to be tied to VAPE.
+Dialogue: 0,0:00:20.66,0:00:23.88,Gatchaman(D)_Main,Millio,0000,0000,0000,,The Gatchaman has reached \Nthe top of a skyscraper in Shibuya!
+Dialogue: 0,0:00:20.68,0:00:24.25,Urgent_News_00:20(GCI04),Sign 0022,0000,0000,0000,,Urgent News: Mr. Ninomiya Rui Bleeding! \N Gatchaman vs. VAPE
+Dialogue: 0,0:00:23.88,0:00:27.45,Gatchaman(D)_Main,Sign 0022,0000,0000,0000,,We have reports that it's the \Nrookie, Misudachi Tsubasa-chan!
+Dialogue: 0,0:00:27.45,0:00:29.31,Gatchaman(D)_Announcer,Sign 0022,0000,0000,0000,,Go, Tsubasa-chan!
+Dialogue: 0,0:02:04.20,0:02:05.31,Gatchaman(D)_Main,T,0000,0000,0000,,{\a6}So he's their leader.
+Dialogue: 0,0:02:05.31,0:02:07.56,Gatchaman(D)_Main,T,0000,0000,0000,,Cherry Blossom Vine!
+Dialogue: 0,0:02:08.60,0:02:10.10,Gatchaman(D)_Main,T,0000,0000,0000,,Rui-senpai!
+Dialogue: 0,0:02:13.00,0:02:14.27,Gatchaman(D)_Main,T,0000,0000,0000,,Out of the way!
+Dialogue: 0,0:02:14.57,0:02:16.65,Gatchaman(D)_Main,Gel,0000,0000,0000,,Innocent Storm!
+Dialogue: 0,0:02:23.72,0:02:26.59,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Oh! Who's that now?
+Dialogue: 0,0:02:26.59,0:02:28.98,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Is he a new Gatchaman, too?
+Dialogue: 0,0:02:28.98,0:02:32.00,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,He's tearing through the red CROWDS!
+Dialogue: 0,0:02:34.44,0:02:36.90,Gatchaman(D)_Main,Gel,0000,0000,0000,,Innocent Storm!
+Dialogue: 0,0:02:36.90,0:02:37.67,Gatchaman(D)_Main,H,0000,0000,0000,,Gel-chan!
+Dialogue: 0,0:02:37.67,0:02:39.55,Gatchaman(D)_Main,Gel,0000,0000,0000,,Let's save Rui-kun together!
+Dialogue: 0,0:02:39.55,0:02:40.69,Gatchaman(D)_Main,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:02:43.72,0:02:47.21,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Go, Gatchaman!
+Dialogue: 0,0:02:47.76,0:02:49.60,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,They're so cool!
+Dialogue: 0,0:02:49.60,0:02:51.32,Gatchaman(D)_Main,Yuga,0000,0000,0000,,Just look at their teamwork!
+Dialogue: 0,0:02:51.32,0:02:52.31,Gatchaman(D)_Main,Ran,0000,0000,0000,,Nice!
+Dialogue: 0,0:02:52.31,0:02:54.02,Urgent_News_00:20(GCI04),Ran,0000,0000,0000,,Urgent News: The New Gatchaman is on a Roll! \NGatchaman vs. VAPE
+Dialogue: 0,0:02:54.11,0:02:55.20,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Go!
+Dialogue: 0,0:02:54.70,0:02:58.17,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Good job, team!
+Dialogue: 0,0:02:55.20,0:02:57.20,Gatchaman(D)_Announcer,Men,0000,0000,0000,,Go!
+Dialogue: 0,0:02:55.34,0:02:58.17,Gatchaman(D)_Main,Men,0000,0000,0000,,Why can't they all get along?
+Dialogue: 0,0:02:58.17,0:02:59.74,Gatchaman(D)_Main,Men,0000,0000,0000,,Get 'em!
+Dialogue: 0,0:03:08.91,0:03:10.14,Gatchaman(D)_Main,Ri,0000,0000,0000,,I surrender.
+Dialogue: 0,0:03:11.58,0:03:14.92,Gatchaman(D)_Main,Ri,0000,0000,0000,,My purpose has been more than met.
+Dialogue: 0,0:03:23.39,0:03:25.01,Gatchaman(D)_Main,Hostages,0000,0000,0000,,VAPE has lost!
+Dialogue: 0,0:03:23.39,0:03:26.52,Gatchaman(D)_Main,Hostages,0000,0000,0000,,The leader's been captured!
+Dialogue: 0,0:03:25.01,0:03:26.52,Gatchaman(D)_Main,Hostages,0000,0000,0000,,You lost!
+Dialogue: 0,0:03:26.52,0:03:27.84,Gatchaman(D)_Main,Hostages,0000,0000,0000,,Die, VAPE!
+Dialogue: 0,0:03:27.41,0:03:29.01,Gatchaman(D)_Main,Hostages,0000,0000,0000,,Get out of here!
+Dialogue: 0,0:03:29.78,0:03:33.32,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Thanks to valiant action from one \Nof our commentators, Tsubasa-chan,
+Dialogue: 0,0:03:34.11,0:03:36.02,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,it appears the matter's been resolved!
+Dialogue: 0,0:03:40.19,0:03:43.45,Urgent_News_00:20(GCI04),Sign 0343,0000,0000,0000,,Urgent News: VAPE Leader Arrested! \N Cowardly Terrorist Attack on Shibuya Quelled!
+Dialogue: 0,0:03:40.38,0:03:41.97,Gatchaman(D)_Italics,Sign 0343,0000,0000,0000,,We did it, everyone!
+Dialogue: 0,0:03:41.97,0:03:45.40,Gatchaman(D)_Italics,Sign 0343,0000,0000,0000,,The VAPE leader has been \Ncaptured by Gatchaman!
+Dialogue: 0,0:03:45.40,0:03:46.90,Gatchaman(D)_Main,Natsuki,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:45.40,0:03:46.90,Gatchaman(D)_Main,Ran,0000,0000,0000,,Nice.
+Dialogue: 0,0:03:47.40,0:03:48.26,Gatchaman(D)_Main,Old,0000,0000,0000,,Shh!
+Dialogue: 0,0:03:48.26,0:03:49.62,Gatchaman(D)_Main,Old,0000,0000,0000,,Quiet, please.
+Dialogue: 0,0:03:50.29,0:03:52.09,Gatchaman(D)_Main,Ran,0000,0000,0000,,Sorry!
+Dialogue: 0,0:03:51.16,0:03:55.33,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,And it seems Ninomiya Rui-san is alive.
+Dialogue: 0,0:03:55.33,0:03:56.50,Gatchaman(D)_Main,H,0000,0000,0000,,Rui-kun!
+Dialogue: 0,0:03:56.97,0:03:59.50,Gatchaman(D)_Main,T,0000,0000,0000,,Rui-senpai, everything's going to be all right.
+Dialogue: 0,0:03:59.84,0:04:02.25,Gatchaman(D)_Main,T,0000,0000,0000,,We caught the VAPE leader!
+Dialogue: 0,0:04:03.21,0:04:04.34,Gatchaman(D)_Main,R,0000,0000,0000,,Why...
+Dialogue: 0,0:04:05.05,0:04:08.00,Gatchaman(D)_Main,R,0000,0000,0000,,Why did you... interfere?
+Dialogue: 0,0:04:08.92,0:04:09.85,Gatchaman(D)_Main,T,0000,0000,0000,,Interfere?
+Dialogue: 0,0:04:10.17,0:04:11.54,Gatchaman(D)_Main,R,0000,0000,0000,,I told you...
+Dialogue: 0,0:04:11.54,0:04:13.27,Gatchaman(D)_Main,R,0000,0000,0000,,not to come.
+Dialogue: 0,0:04:13.27,0:04:14.52,Gatchaman(D)_Main,T,0000,0000,0000,,What?!
+Dialogue: 0,0:04:14.52,0:04:16.48,Gatchaman(D)_Main,T,0000,0000,0000,,How could I just do nothing?!
+Dialogue: 0,0:04:17.53,0:04:18.86,Gatchaman(D)_Main,T,0000,0000,0000,,Rui-senpai?!
+Dialogue: 0,0:04:18.86,0:04:20.79,Gatchaman(D)_Main,H,0000,0000,0000,,How is he, Utsutsu-chan?
+Dialogue: 0,0:04:21.19,0:04:22.70,Gatchaman(D)_Main,U,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:04:22.70,0:04:24.13,Gatchaman(D)_Main,U,0000,0000,0000,,I won't let him die!
+Dialogue: 0,0:04:25.40,0:04:26.56,Gatchaman(D)_Main,T,0000,0000,0000,,I saved him,
+Dialogue: 0,0:04:26.56,0:04:27.97,Gatchaman(D)_Main,T,0000,0000,0000,,but he said I interfered.
+Dialogue: 0,0:04:28.94,0:04:30.86,Gatchaman(D)_Main,T,0000,0000,0000,,Why'd he say that?
+Dialogue: 0,0:04:36.23,0:04:39.67,Gatchaman(D)_Main,OD,0000,0000,0000,,Looks like it all worked out in the end!
+Dialogue: 0,0:04:44.01,0:04:45.39,Gatchaman(D)_Main,Cops,0000,0000,0000,,This road is temporarily closed
+Dialogue: 0,0:04:45.39,0:04:46.93,Gatchaman(D)_Main,Cops,0000,0000,0000,,in order to remove debris.
+Dialogue: 0,0:04:46.93,0:04:48.69,Gatchaman(D)_Main,Cops,0000,0000,0000,,It's not safe.
+Dialogue: 0,0:04:48.69,0:04:50.97,Gatchaman(D)_Main,Cops,0000,0000,0000,,Please stay back.
+Dialogue: 0,0:04:53.50,0:04:54.48,Gatchaman(D)_Main,U,0000,0000,0000,,Hang in there.
+Dialogue: 0,0:04:54.48,0:04:55.52,Gatchaman(D)_Main,U,0000,0000,0000,,Hang in there...
+Dialogue: 0,0:04:55.79,0:04:57.94,Gatchaman(D)_Announcer,News,0000,0000,0000,,We'll be broadcasting live from \Nthe Prime Minister's residence
+Dialogue: 0,0:04:57.94,0:05:00.49,Gatchaman(D)_Announcer,News,0000,0000,0000,,about the CROWDS upheaval in Shibuya.
+Dialogue: 0,0:05:01.21,0:05:02.89,Gatchaman(D)_Main,Gel,0000,0000,0000,,This is so sad.
+Dialogue: 0,0:05:02.89,0:05:06.63,Gatchaman(D)_Main,Gel,0000,0000,0000,,This planet's in more \Ndisarray than I'd thought.
+Dialogue: 0,0:05:06.63,0:05:08.95,Gatchaman(D)_Main,Gel,0000,0000,0000,,There'd be no conflict \Nif everyone becomes united.
+Dialogue: 0,0:05:08.95,0:05:11.97,Gatchaman(D)_Main,H,0000,0000,0000,,Is conflict so bad?
+Dialogue: 0,0:05:11.97,0:05:12.69,Gatchaman(D)_Main,Gel,0000,0000,0000,,What?
+Dialogue: 0,0:05:12.69,0:05:14.46,Gatchaman(D)_Main,T,0000,0000,0000,,What are you saying, Senpai?
+Dialogue: 0,0:05:14.46,0:05:16.29,Gatchaman(D)_Main,T,0000,0000,0000,,Of course it's bad!
+Dialogue: 0,0:05:16.29,0:05:18.47,Gatchaman(D)_Main,H,0000,0000,0000,,Isn't it sometimes necessary?
+Dialogue: 0,0:05:18.47,0:05:21.68,Gatchaman(D)_Main,T,0000,0000,0000,,Are you saying it's okay \Nfor people to get hurt?
+Dialogue: 0,0:05:21.68,0:05:24.75,Gatchaman(D)_Main,H,0000,0000,0000,,No, but when people aren't united,
+Dialogue: 0,0:05:24.75,0:05:28.08,Gatchaman(D)_Main,H,0000,0000,0000,,there can be pretty sparkles when they clash!
+Dialogue: 0,0:05:28.39,0:05:29.37,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:29.37,0:05:30.76,Gatchaman(D)_Main,T,0000,0000,0000,,I don't really get what you mean.
+Dialogue: 0,0:05:30.76,0:05:32.11,Gatchaman(D)_Main,P,0000,0000,0000,,Don't mind her.
+Dialogue: 0,0:05:32.11,0:05:34.90,Gatchaman(D)_Main,P,0000,0000,0000,,She sometimes says stuff that makes no sense.
+Dialogue: 0,0:05:34.90,0:05:37.15,Gatchaman(D)_Main,H,0000,0000,0000,,It does make sense!
+Dialogue: 0,0:05:37.15,0:05:38.94,Gatchaman(D)_Main,P,0000,0000,0000,,By the way, newbie.
+Dialogue: 0,0:05:38.94,0:05:41.43,Gatchaman(D)_Main,P,0000,0000,0000,,I believe I told you to be on standby.
+Dialogue: 0,0:05:41.43,0:05:44.18,Gatchaman(D)_Main,P,0000,0000,0000,,You shouldn't disobey orders.
+Dialogue: 0,0:05:44.18,0:05:46.08,Gatchaman(D)_Main,T,0000,0000,0000,,I apologize for not following orders.
+Dialogue: 0,0:05:46.08,0:05:48.85,Gatchaman(D)_Main,T,0000,0000,0000,,But I don't think I did anything wrong!
+Dialogue: 0,0:05:48.85,0:05:50.13,Gatchaman(D)_Main,P,0000,0000,0000,,What?!
+Dialogue: 0,0:05:50.13,0:05:52.91,Gatchaman(D)_Main,T,0000,0000,0000,,I couldn't let Rui-senpai die!
+Dialogue: 0,0:05:52.91,0:05:54.95,Gatchaman(D)_Main,T,0000,0000,0000,,There's nothing more important than life!
+Dialogue: 0,0:05:55.15,0:05:56.78,Gatchaman(D)_Main,H,0000,0000,0000,,Is that true?
+Dialogue: 0,0:05:56.78,0:05:57.35,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:57.35,0:05:59.89,Gatchaman(D)_Main,H,0000,0000,0000,,Is there nothing more important than life?
+Dialogue: 0,0:05:59.89,0:06:01.10,Gatchaman(D)_Main,T,0000,0000,0000,,Of course not!
+Dialogue: 0,0:06:01.10,0:06:03.71,Gatchaman(D)_Main,T,0000,0000,0000,,Heroes should protect life above all else!
+Dialogue: 0,0:06:03.71,0:06:07.08,Gatchaman(D)_Main,H,0000,0000,0000,,But you don't know if Rui-kun thinks that.
+Dialogue: 0,0:06:07.08,0:06:10.89,Gatchaman(D)_Main,T,0000,0000,0000,,Then are you saying I should've \Njust let Rui-senpai die?
+Dialogue: 0,0:06:10.89,0:06:12.61,Gatchaman(D)_Main,H,0000,0000,0000,,That's not what I mean,
+Dialogue: 0,0:06:12.61,0:06:16.42,Gatchaman(D)_Main,H,0000,0000,0000,,but I think it would've been \Nokay to give Rui-kun more time.
+Dialogue: 0,0:06:16.91,0:06:19.33,Gatchaman(D)_Main,T,0000,0000,0000,,But Rui-senpai was hurt really bad!
+Dialogue: 0,0:06:19.33,0:06:21.35,Gatchaman(D)_Main,T,0000,0000,0000,,I couldn't just watch and do nothing!
+Dialogue: 0,0:06:21.35,0:06:22.90,Gatchaman(D)_Main,T,0000,0000,0000,,You've said things like \Nhow conflict's necessary
+Dialogue: 0,0:06:22.90,0:06:24.63,Gatchaman(D)_Main,T,0000,0000,0000,,and how Rui-senpai shouldn't \Nhave been helped.
+Dialogue: 0,0:06:24.63,0:06:27.05,Gatchaman(D)_Main,T,0000,0000,0000,,You're cold, Hajime-senpai.
+Dialogue: 0,0:06:27.59,0:06:28.65,Gatchaman(D)_Main,H,0000,0000,0000,,Am I?
+Dialogue: 0,0:06:28.65,0:06:29.95,Gatchaman(D)_Main,H,0000,0000,0000,,Am I cold?
+Dialogue: 0,0:06:29.95,0:06:32.35,Gatchaman(D)_Main,Jo,0000,0000,0000,,"There's nothing more important than life."
+Dialogue: 0,0:06:32.35,0:06:35.07,Gatchaman(D)_Main,Jo,0000,0000,0000,,That's a good motto for the Gatchaman. \NWe're supposed to love peace.
+Dialogue: 0,0:06:35.07,0:06:37.22,Gatchaman(D)_Main,Sugane,0000,0000,0000,,But you shouldn't disobey orders.
+Dialogue: 0,0:06:37.22,0:06:39.96,Gatchaman(D)_Main,Jo,0000,0000,0000,,Heroes need to be flexible.
+Dialogue: 0,0:06:39.96,0:06:42.21,Gatchaman(D)_Main,Sugane,0000,0000,0000,,It's a matter of degree.
+Dialogue: 0,0:06:42.21,0:06:46.55,Gatchaman(D)_Main,P,0000,0000,0000,,Hey, the newbie is learning \Nall this from watching you.
+Dialogue: 0,0:06:46.95,0:06:50.30,Gatchaman(D)_Announcer,TV,0000,0000,0000,,Prime Minister Sugayama has begun \Nan emergency press conference.
+Dialogue: 0,0:06:50.30,0:06:52.30,Gatchaman(D)_Announcer,TV,0000,0000,0000,,We're broadcasting live from \Nthe prime minister's residence.
+Dialogue: 0,0:06:52.71,0:06:57.31,Gatchaman(D)_Main,Suga,0000,0000,0000,,Regarding the red CROWDS disturbance \Nin Shibuya earlier today,
+Dialogue: 0,0:06:57.31,0:07:00.64,Gatchaman(D)_Main,Suga,0000,0000,0000,,we have something to share with our citizens.
+Dialogue: 0,0:07:00.64,0:07:02.80,Gatchaman(D)_Main,Suga,0000,0000,0000,,The red CROWDS, controlled by \Nthe criminal organization VAPE,
+Dialogue: 0,0:07:02.80,0:07:08.30,Gatchaman(D)_Main,Suga,0000,0000,0000,,were the sole perpetrators \Nin the terrorist incident
+Dialogue: 0,0:07:08.30,0:07:10.02,Gatchaman(D)_Main,Suga,0000,0000,0000,,targeting the Prime Minister's plane.
+Dialogue: 0,0:07:10.02,0:07:12.66,Gatchaman(D)_Main,Suga,0000,0000,0000,,We arrested the leader \Nof that organization today.
+Dialogue: 0,0:07:13.02,0:07:16.55,Gatchaman(D)_Main,Suga,0000,0000,0000,,CROWDS have made major \Ncontributions to various sectors
+Dialogue: 0,0:07:16.55,0:07:19.39,Gatchaman(D)_Main,Suga,0000,0000,0000,,in terms of labor, medical assistance, \Nand social work.
+Dialogue: 0,0:07:19.39,0:07:24.46,Gatchaman(D)_Main,Suga,0000,0000,0000,,I would like to support CROWDS' \Ncontinued presence in our society.
+Dialogue: 0,0:07:24.46,0:07:26.02,Gatchaman(D)_Main,Journalist,0000,0000,0000,,This is Smile TV.
+Dialogue: 0,0:07:26.02,0:07:27.12,Gatchaman(D)_Main,Journalist,0000,0000,0000,,So are you saying that the blue CROWDS
+Dialogue: 0,0:07:27.12,0:07:30.22,Gatchaman(D)_Main,Journalist,0000,0000,0000,,would never instigate a similar \Nincident in the future?
+Dialogue: 0,0:07:31.14,0:07:35.30,Gatchaman(D)_Main,Suga,0000,0000,0000,,The blue CROWDS are under \NX's absolute supervision.
+Dialogue: 0,0:07:35.30,0:07:38.31,Gatchaman(D)_Main,Suga,0000,0000,0000,,They would never give rise to similar violence.
+Dialogue: 0,0:07:38.74,0:07:40.35,Gatchaman(D)_Italics,Ri,0000,0000,0000,,I'm your proof.
+Dialogue: 0,0:07:40.79,0:07:42.60,Gatchaman(D)_Italics,Ri,0000,0000,0000,,Just look at me.
+Dialogue: 0,0:07:43.04,0:07:47.23,Gatchaman(D)_Italics,Ri,0000,0000,0000,,Who can say that \NNinomiya Rui, who oversees X,
+Dialogue: 0,0:07:47.72,0:07:49.52,Gatchaman(D)_Italics,Ri,0000,0000,0000,,won't end up like me?
+Dialogue: 0,0:07:47.72,0:07:49.52,Gatchaman(D)_Main,Ri,0000,0000,0000,,
+Dialogue: 0,0:07:57.90,0:08:00.88,Gatchaman(D)_Flashback,Ri,0000,0000,0000,,CROWDS have made major contributions \Nto various sectors...
+Dialogue: 0,0:07:59.95,0:08:01.55,Gatchaman(D)_Announcer,GALAX users,0000,0000,0000,,{\a6}CROWDS scary!
+Dialogue: 0,0:08:00.88,0:08:05.67,Gatchaman(D)_Flashback,Ri,0000,0000,0000,,I would like to support CROWDS' \Ncontinued presence in our society.
+Dialogue: 0,0:08:01.55,0:08:03.75,Gatchaman(D)_Announcer,GALAX users,0000,0000,0000,,{\a6}I can't trust the blues anymore, either!
+Dialogue: 0,0:08:03.75,0:08:05.67,Gatchaman(D)_Announcer,GALAX users,0000,0000,0000,,{\a6}Do we really need CROWDS?
+Dialogue: 0,0:08:05.67,0:08:09.10,Gatchaman(D)_Announcer,TV,0000,0000,0000,,The Millione Show!
+Dialogue: 0,0:08:07.16,0:08:10.96,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Hello. In today's Millione Show, \Nwe'll start with this topic:
+Dialogue: 0,0:08:11.96,0:08:13.69,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,CROWDS terrorism in Shibuya!
+Dialogue: 0,0:08:13.69,0:08:16.26,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,The new Gatchaman and \Na mysterious hero save the day!
+Dialogue: 0,0:08:16.26,0:08:17.37,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,I see!
+Dialogue: 0,0:08:17.37,0:08:19.86,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,So the mysterious hero who \Nfought alongside Tsubasa-chan
+Dialogue: 0,0:08:19.86,0:08:21.64,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,was Gelsadra-kun!
+Dialogue: 0,0:08:21.64,0:08:23.06,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yes, that's right.
+Dialogue: 0,0:08:23.06,0:08:25.70,Gatchaman(D)_Main,Millio,0000,0000,0000,,I have to thank you for all of Japan.
+Dialogue: 0,0:08:25.70,0:08:27.52,Gatchaman(D)_Main,Millio,0000,0000,0000,,Thanks to you, the terrorists were quelled,
+Dialogue: 0,0:08:27.52,0:08:30.99,Gatchaman(D)_Main,Millio,0000,0000,0000,,and Suzuki Rizumu, who's suspected \Nof being their leader, was arrested.
+Dialogue: 0,0:08:30.99,0:08:33.07,Gatchaman(D)_Main,Millio,0000,0000,0000,,Tsubasa-chan and Gelsadra-kun,
+Dialogue: 0,0:08:33.07,0:08:36.28,Gatchaman(D)_Main,Millio,0000,0000,0000,,you're both new heroes who'll protect Japan.
+Dialogue: 0,0:08:36.59,0:08:37.93,Gatchaman(D)_Main,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:08:37.93,0:08:39.65,Gatchaman(D)_Main,T,0000,0000,0000,,I'll continue to do my best!
+Dialogue: 0,0:08:40.09,0:08:45.06,Gatchaman(D)_Main,Millio,0000,0000,0000,,We've received a ton of questions about \Nyou two ever since our broadcast yesterday.
+Dialogue: 0,0:08:45.06,0:08:48.30,Gatchaman(D)_Main,Millio,0000,0000,0000,,You're viewed favorably on-line, too.
+Dialogue: 0,0:08:48.30,0:08:51.88,Gatchaman(D)_Main,Millio,0000,0000,0000,,This must mean that our citizens \Nhave acknowledged your worth.
+Dialogue: 0,0:08:52.10,0:08:55.34,Gatchaman(D)_Main,Gel,0000,0000,0000,,I just wanted to take \Neveryone's sadness away.
+Dialogue: 0,0:08:55.34,0:08:57.09,Gatchaman(D)_Main,Millio,0000,0000,0000,,You're so modest!
+Dialogue: 0,0:08:57.09,0:09:00.32,Gatchaman(D)_Main,Millio,0000,0000,0000,,So, what's become a prominent issue is this!
+Dialogue: 0,0:09:00.35,0:09:01.81,Urgent_Debate_09:00(GCI04),Sign 0901,0000,0000,0000,,Urgent Debate: Are CROWDS Safe? \N Can We Trust the Blue CROWDS?!
+Dialogue: 0,0:09:01.98,0:09:05.33,Gatchaman(D)_Main,Millio,0000,0000,0000,,We now know that once \NCROWDS get out of control,
+Dialogue: 0,0:09:05.33,0:09:08.02,Gatchaman(D)_Main,Millio,0000,0000,0000,,they can cause incidents of this magnitude.
+Dialogue: 0,0:09:08.02,0:09:12.23,Gatchaman(D)_Main,Millio,0000,0000,0000,,Don't you think this strikes \Nsome fear into people's hearts?
+Dialogue: 0,0:09:12.66,0:09:13.44,Gatchaman(D)_Main,OD,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:13.44,0:09:14.60,Gatchaman(D)_Main,OD,0000,0000,0000,,Wait a minute,
+Dialogue: 0,0:09:14.60,0:09:16.71,Gatchaman(D)_Main,OD,0000,0000,0000,,the ones behind the incident \Nare the red CROWDS.
+Dialogue: 0,0:09:16.71,0:09:18.95,Gatchaman(D)_Main,OD,0000,0000,0000,,They're different from \Nthe blue CROWDS, you know.
+Dialogue: 0,0:09:18.95,0:09:22.06,Gatchaman(D)_Main,Millio,0000,0000,0000,,Sure, that's what Prime \NMinister Sugayama said, too.
+Dialogue: 0,0:09:22.06,0:09:24.74,Gatchaman(D)_Main,Millio,0000,0000,0000,,But we're discussing whether \Nthe CROWDS are as safe
+Dialogue: 0,0:09:24.74,0:09:26.66,Gatchaman(D)_Main,Millio,0000,0000,0000,,as the Prime Minister says they are.
+Dialogue: 0,0:09:26.66,0:09:27.62,Gatchaman(D)_Main,Millio,0000,0000,0000,,What do you two think?
+Dialogue: 0,0:09:27.92,0:09:30.82,Gatchaman(D)_Main,T,0000,0000,0000,,I think they are dangerous.
+Dialogue: 0,0:09:30.82,0:09:32.24,Gatchaman(D)_Main,T,0000,0000,0000,,If this is what can happen,
+Dialogue: 0,0:09:32.24,0:09:35.46,Gatchaman(D)_Main,T,0000,0000,0000,,why push to keep using CROWDS?
+Dialogue: 0,0:09:35.46,0:09:36.66,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:36.66,0:09:38.89,Gatchaman(D)_Main,Gel,0000,0000,0000,,I don't want scary things \Nlike that to happen again.
+Dialogue: 0,0:09:38.89,0:09:40.89,Gatchaman(D)_Main,Millio,0000,0000,0000,,This terrorist attack wouldn't \Nhave happened in the first place
+Dialogue: 0,0:09:40.89,0:09:42.77,Gatchaman(D)_Main,Millio,0000,0000,0000,,if there had been no CROWDS.
+Dialogue: 0,0:09:42.77,0:09:46.00,Gatchaman(D)_Main,Millio,0000,0000,0000,,So there's rising criticism
+Dialogue: 0,0:09:46.00,0:09:49.05,Gatchaman(D)_Main,Millio,0000,0000,0000,,of Prime Minister Sugayama for carelessly \Npushing the adoption of CROWDS,
+Dialogue: 0,0:09:49.05,0:09:52.27,Gatchaman(D)_Main,Millio,0000,0000,0000,,and of Mr. Ninomiya Rui for developing them.
+Dialogue: 0,0:09:52.27,0:09:54.90,Gatchaman(D)_Main,Millio,0000,0000,0000,,Mr. Ninomiya Rui has been critically \Ninjured during the attack.
+Dialogue: 0,0:09:54.90,0:09:56.62,Gatchaman(D)_Main,Millio,0000,0000,0000,,He's currently hospitalized,
+Dialogue: 0,0:09:56.62,0:09:59.57,Gatchaman(D)_Main,Millio,0000,0000,0000,,but everyone's waiting to hear what \Nhe has to say after he recovers.
+Dialogue: 0,0:10:04.83,0:10:05.94,Gatchaman(D)_Main,U,0000,0000,0000,,Hang in there...
+Dialogue: 0,0:10:06.55,0:10:07.83,Gatchaman(D)_Main,U,0000,0000,0000,,Hang in there.
+Dialogue: 0,0:10:08.14,0:10:10.10,Gatchaman(D)_Main,Katze,0000,0000,0000,,What Rui-rui did was suicide.
+Dialogue: 0,0:10:10.10,0:10:12.21,Gatchaman(D)_Main,Katze,0000,0000,0000,,You should've just let him die.
+Dialogue: 0,0:10:12.57,0:10:15.98,Gatchaman(D)_Main,Katze,0000,0000,0000,,Saying stuff like "I believe," like whatever.
+Dialogue: 0,0:10:15.98,0:10:18.09,Gatchaman(D)_Main,H,0000,0000,0000,,You know why, Katze-san.
+Dialogue: 0,0:10:18.09,0:10:20.47,Gatchaman(D)_Main,H,0000,0000,0000,,You know why Rui-kun did that.
+Dialogue: 0,0:10:20.47,0:10:21.47,Gatchaman(D)_Main,Katze,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:21.47,0:10:22.48,Gatchaman(D)_Main,Katze,0000,0000,0000,,No way!
+Dialogue: 0,0:10:22.48,0:10:24.04,Gatchaman(D)_Main,Katze,0000,0000,0000,,No clue!
+Dialogue: 0,0:10:24.04,0:10:25.84,Gatchaman(D)_Main,Katze,0000,0000,0000,,He's just an idiot!
+Dialogue: 0,0:10:25.84,0:10:27.48,Gatchaman(D)_Main,Katze,0000,0000,0000,,Lololol!
+Dialogue: 0,0:10:27.81,0:10:32.23,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'd like to unite everyone's hearts \Nand get rid of all conflict.
+Dialogue: 0,0:10:32.23,0:10:35.38,Gatchaman(D)_Main,T,0000,0000,0000,,Yeah, I think that's a great idea.
+Dialogue: 0,0:10:35.38,0:10:37.45,Gatchaman(D)_Main,T,0000,0000,0000,,Hajime-senpai said a lot of things,
+Dialogue: 0,0:10:37.45,0:10:40.31,Gatchaman(D)_Main,T,0000,0000,0000,,but it's just sad when \Npeople hurt each other.
+Dialogue: 0,0:10:40.31,0:10:42.16,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:42.50,0:10:45.42,Gatchaman(D)_Main,Gel,0000,0000,0000,,That's why I want to know \Nwhat everyone thinks.
+Dialogue: 0,0:10:51.78,0:10:54.12,Gatchaman(D)_Main,T,0000,0000,0000,,You can really know that?
+Dialogue: 0,0:10:56.01,0:10:56.99,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yep.
+Dialogue: 0,0:10:56.99,0:10:58.17,Gatchaman(D)_Main,Gel,0000,0000,0000,,I got it!
+Dialogue: 0,0:10:59.00,0:11:02.64,Gatchaman(D)_Main,Millio,0000,0000,0000,,Maybe it's time to cut OD from the show.
+Dialogue: 0,0:11:00.43,0:11:03.97,Toriyama_11:00(GCI04),Sign 1102,0000,0000,0000,,Toriyama Millio-sama
+Dialogue: 0,0:11:02.64,0:11:03.97,Gatchaman(D)_Main,Director,0000,0000,0000,,Oh, why?
+Dialogue: 0,0:11:03.97,0:11:08.39,Gatchaman(D)_Main,Director,0000,0000,0000,,Our ratings have shot up after \NOD-san became a regular.
+Dialogue: 0,0:11:08.39,0:11:10.66,Gatchaman(D)_Main,Millio,0000,0000,0000,,I'm talking about the future of the show.
+Dialogue: 0,0:11:10.66,0:11:12.25,Gatchaman(D)_Main,Millio,0000,0000,0000,,If a... {\i1}supporter{\i0} is a program regular,
+Dialogue: 0,0:11:12.25,0:11:16.07,Gatchaman(D)_Main,Millio,0000,0000,0000,,we might make a negative impression \Non our viewers, you know?
+Dialogue: 0,0:11:16.07,0:11:18.32,Gatchaman(D)_Main,Director,0000,0000,0000,,I see. You're right.
+Dialogue: 0,0:11:18.32,0:11:20.50,Gatchaman(D)_Main,Millio,0000,0000,0000,,Look ahead, will you?
+Dialogue: 0,0:11:20.50,0:11:21.41,Gatchaman(D)_Main,Millio,0000,0000,0000,,If you don't,
+Dialogue: 0,0:11:21.41,0:11:25.43,Gatchaman(D)_Main,Millio,0000,0000,0000,,we'd risk losing our longtime hold \Non the top spot in our airtime.
+Dialogue: 0,0:11:27.20,0:11:28.25,Gatchaman(D)_Main,Millio,0000,0000,0000,,Come in.
+Dialogue: 0,0:11:28.77,0:11:31.56,Gatchaman(D)_Main,Millio,0000,0000,0000,,Oh! Gel-chan, Tsubasa-chan!
+Dialogue: 0,0:11:31.56,0:11:33.10,Gatchaman(D)_Main,Millio,0000,0000,0000,,Thanks for coming today.
+Dialogue: 0,0:11:33.10,0:11:35.36,Gatchaman(D)_Main,Millio,0000,0000,0000,,You two are so popular!
+Dialogue: 0,0:11:35.36,0:11:37.18,Gatchaman(D)_Main,Millio,0000,0000,0000,,Please become our regulars!
+Dialogue: 0,0:11:37.18,0:11:40.60,Gatchaman(D)_Main,Gel,0000,0000,0000,,Millio-san, I want you \Nto unite everyone's hearts.
+Dialogue: 0,0:11:40.60,0:11:41.43,Gatchaman(D)_Main,Millio,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:41.43,0:11:44.36,Gatchaman(D)_Main,Gel,0000,0000,0000,,Everyone listens to what you have to say.
+Dialogue: 0,0:11:44.36,0:11:47.27,Gatchaman(D)_Main,Gel,0000,0000,0000,,I think you'd be capable \Nof uniting everyone's hearts
+Dialogue: 0,0:11:47.27,0:11:50.34,Gatchaman(D)_Main,Gel,0000,0000,0000,,and creating a world without conflict.
+Dialogue: 0,0:11:50.34,0:11:52.68,Gatchaman(D)_Main,T,0000,0000,0000,,What are you talking about, Gel-chan?
+Dialogue: 0,0:11:52.68,0:11:55.52,Gatchaman(D)_Main,T,0000,0000,0000,,You shouldn't ask Millio-san \Nto do something like that!
+Dialogue: 0,0:11:55.52,0:11:56.52,Gatchaman(D)_Main,Gel,0000,0000,0000,,Why not?
+Dialogue: 0,0:11:56.52,0:11:57.94,Gatchaman(D)_Main,Gel,0000,0000,0000,,It's what everyone wants.
+Dialogue: 0,0:11:57.94,0:12:01.53,Gatchaman(D)_Main,Gel,0000,0000,0000,,They want a world without conflict, \Nwhere no one is sad.
+Dialogue: 0,0:12:03.08,0:12:05.12,Gatchaman(D)_Main,Millio,0000,0000,0000,,You say really interesting things!
+Dialogue: 0,0:12:05.12,0:12:07.17,Gatchaman(D)_Main,Millio,0000,0000,0000,,But I don't think I can.
+Dialogue: 0,0:12:07.17,0:12:08.95,Gatchaman(D)_Main,Millio,0000,0000,0000,,I'm not cut out for the job.
+Dialogue: 0,0:12:08.95,0:12:11.28,Gatchaman(D)_Main,Millio,0000,0000,0000,,Being the host of a daytime \NTV show is the best I can do.
+Dialogue: 0,0:12:11.92,0:12:13.47,Gatchaman(D)_Main,Gel,0000,0000,0000,,Really?
+Dialogue: 0,0:12:13.47,0:12:15.14,Gatchaman(D)_Main,T,0000,0000,0000,,I'm sorry, Millio-san!
+Dialogue: 0,0:12:15.14,0:12:17.96,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan doesn't know that \Nmuch about Earth yet.
+Dialogue: 0,0:12:18.79,0:12:20.63,Gatchaman(D)_Main,Millio,0000,0000,0000,,It's okay.
+Dialogue: 0,0:12:20.63,0:12:23.34,Toriyama_12:20(GCI04),Sign 1223,0000,0000,0000,,Toriyama Millio-sama
+Dialogue: 0,0:12:21.64,0:12:23.34,Gatchaman(D)_Main,Gel,0000,0000,0000,,I don't understand...
+Dialogue: 0,0:12:23.65,0:12:26.51,Gatchaman(D)_Main,Director,0000,0000,0000,,Aliens sure are different from us.
+Dialogue: 0,0:12:26.74,0:12:30.02,Gatchaman(D)_Main,Millio,0000,0000,0000,,Right? We should make them regulars.
+Dialogue: 0,0:12:30.42,0:12:33.61,Gatchaman(D)_Main,Gel,0000,0000,0000,,I thought Millio-san could do it, though.
+Dialogue: 0,0:12:33.61,0:12:35.77,Gatchaman(D)_Main,Gel,0000,0000,0000,,Unite everyone's hearts.
+Dialogue: 0,0:12:35.77,0:12:37.89,Gatchaman(D)_Main,T,0000,0000,0000,,You're still hung up on that?
+Dialogue: 0,0:12:37.89,0:12:40.92,Gatchaman(D)_Main,T,0000,0000,0000,,You can't ask Millio-san \Nto do things like that!
+Dialogue: 0,0:12:41.62,0:12:43.86,Gatchaman(D)_Main,Gel,0000,0000,0000,,Then who should I ask?
+Dialogue: 0,0:12:44.78,0:12:46.91,Gatchaman(D)_Main,T,0000,0000,0000,,Who?
+Dialogue: 0,0:12:46.91,0:12:48.05,Gatchaman(D)_Main,T,0000,0000,0000,,Um, someone important?
+Dialogue: 0,0:12:48.05,0:12:49.54,Gatchaman(D)_Main,Gel,0000,0000,0000,,Who's someone important?
+Dialogue: 0,0:12:49.54,0:12:52.04,Gatchaman(D)_Main,T,0000,0000,0000,,Well... a politician, maybe?
+Dialogue: 0,0:12:52.04,0:12:53.52,Gatchaman(D)_Main,Gel,0000,0000,0000,,A politician?
+Dialogue: 0,0:12:53.52,0:12:55.42,Gatchaman(D)_Main,Gel,0000,0000,0000,,Like Prime Minister Sugayama?
+Dialogue: 0,0:12:55.80,0:12:57.38,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Guys, we have an emergency!
+Dialogue: 0,0:12:57.38,0:12:59.64,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Prime Minister Sugayama \Njust announced his resignation!
+Dialogue: 0,0:13:02.64,0:13:05.79,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,Like I said, I'd like \Nto resign as prime minister
+Dialogue: 0,0:13:05.79,0:13:09.47,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,and nominate myself as a candidate for \Nthe popular Prime Minister election to follow.
+Dialogue: 0,0:13:09.77,0:13:12.66,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,I'd like to stake my re-election \Non what all Japanese citizens
+Dialogue: 0,0:13:12.66,0:13:14.18,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,believe the CROWDS to be worth.
+Dialogue: 0,0:13:14.18,0:13:17.72,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,If you truly believe CROWDS \Nare not necessary in society,
+Dialogue: 0,0:13:17.72,0:13:19.97,Gatchaman(D)_Announcer,Suga,0000,0000,0000,,let me lose the election!
+Dialogue: 0,0:13:19.97,0:13:23.24,Gatchaman(D)_Main,Suga,0000,0000,0000,,I'd like the people to vote!
+Dialogue: 0,0:13:23.24,0:13:30.08,PM_Resigns_13:23(GCI04),Sign 1325,0000,0000,0000,,Prime Minister Sugayama Resigns; \NPuts CROWDS to the Popular Vote in the First Prime Minister Elections
+Dialogue: 0,0:13:23.24,0:13:30.08,Emergency_Broadcast_13:23(GCI04),Sign 1325,0000,0000,0000,,Emergency Broadcast
+Dialogue: 0,0:13:23.72,0:13:27.84,Gatchaman(D)_Main,TV,0000,0000,0000,,There will be an election to choose the \Nnext Prime Minister via smart phone vote,
+Dialogue: 0,0:13:27.84,0:13:30.08,Gatchaman(D)_Main,TV,0000,0000,0000,,as stipulated by legislation \Npassed last year.
+Dialogue: 0,0:13:30.44,0:13:32.83,Gatchaman(D)_Main,OD,0000,0000,0000,,Sugayama-chan is such a man.
+Dialogue: 0,0:13:33.20,0:13:35.15,Gatchaman(D)_Main,Gel,0000,0000,0000,,What's the prime minister election?
+Dialogue: 0,0:13:35.15,0:13:38.30,Gatchaman(D)_Main,OD,0000,0000,0000,,Everyone will vote to decide who'll \Nbe the leader of the government.
+Dialogue: 0,0:13:38.96,0:13:40.85,Gatchaman(D)_Main,Jo,0000,0000,0000,,I don't think it's good strategy to put your
+Dialogue: 0,0:13:40.85,0:13:43.84,Gatchaman(D)_Main,Jo,0000,0000,0000,,own neck on the line based on \Nwhat people think about CROWDS.
+Dialogue: 0,0:13:44.22,0:13:45.58,Gatchaman(D)_Main,Sugane,0000,0000,0000,,It isn't?
+Dialogue: 0,0:13:45.58,0:13:50.00,Gatchaman(D)_Main,Sugane,0000,0000,0000,,I don't think it's such a bad idea to put \Nthe question to a general public vote
+Dialogue: 0,0:13:50.00,0:13:51.76,Gatchaman(D)_Main,Sugane,0000,0000,0000,,rather than just have CROWDS banned outright.
+Dialogue: 0,0:13:52.07,0:13:54.70,Gatchaman(D)_Main,Pman,0000,0000,0000,,What a backwards planet this is,
+Dialogue: 0,0:13:54.70,0:13:56.95,Gatchaman(D)_Main,,0000,0000,0000,,to get in a scuffle about \Nsomething as minor as CROWDS.
+Dialogue: 0,0:13:56.95,0:14:00.52,Gatchaman(D)_Main,Pman,0000,0000,0000,,How can children grow up \Nin safety on a planet like this?
+Dialogue: 0,0:14:00.52,0:14:03.92,Gatchaman(D)_Main,Jo,0000,0000,0000,,The danger of CROWDS has become \Nknown to the world at large.
+Dialogue: 0,0:14:04.33,0:14:06.22,Gatchaman(D)_Main,Jo,0000,0000,0000,,Suzuki Rizumu did a good job.
+Dialogue: 0,0:14:06.81,0:14:09.78,Gatchaman(D)_Main,Jo,0000,0000,0000,,No one can feel safe about \Nusing CROWDS anymore.
+Dialogue: 0,0:14:09.78,0:14:11.51,Gatchaman(D)_Main,OD,0000,0000,0000,,I wonder about that.
+Dialogue: 0,0:14:11.51,0:14:13.46,Gatchaman(D)_Main,OD,0000,0000,0000,,It's like trying to ban all cars
+Dialogue: 0,0:14:13.46,0:14:16.87,Gatchaman(D)_Main,OD,0000,0000,0000,,just because someone lost \Ncontrol of their car.
+Dialogue: 0,0:14:17.39,0:14:19.86,Gatchaman(D)_Main,Jo,0000,0000,0000,,CROWDS are far more dangerous than cars.
+Dialogue: 0,0:14:20.24,0:14:23.13,Gatchaman(D)_Main,Jo,0000,0000,0000,,They are tools humanity \Nwas not prepared to use.
+Dialogue: 0,0:14:23.13,0:14:27.51,Gatchaman(D)_Main,Pman,0000,0000,0000,,Man, this is why this planet will always \Nremain under protective surveillance.
+Dialogue: 0,0:14:27.51,0:14:31.43,Gatchaman(D)_Main,OD,0000,0000,0000,,There are people who are putting \Nit to good use to help others.
+Dialogue: 0,0:14:31.96,0:14:34.35,Gatchaman(D)_Main,Jo,0000,0000,0000,,It's the rule of 2:6:2.
+Dialogue: 0,0:14:34.35,0:14:36.53,Gatchaman(D)_Main,Sugane,0000,0000,0000,,You're talking about how \Nin a group of people,
+Dialogue: 0,0:14:36.53,0:14:38.25,Gatchaman(D)_Main,Sugane,0000,0000,0000,,20% will be intelligent,
+Dialogue: 0,0:14:38.25,0:14:39.69,Gatchaman(D)_Main,Sugane,0000,0000,0000,,60% will be average,
+Dialogue: 0,0:14:39.69,0:14:42.65,Gatchaman(D)_Main,Sugane,0000,0000,0000,,and 20% will be foolish \Nas a general rule, right?
+Dialogue: 0,0:14:43.15,0:14:46.66,Gatchaman(D)_Main,Jo,0000,0000,0000,,Right now, only 20% are able \Nto use CROWDS as intended.
+Dialogue: 0,0:14:47.10,0:14:49.69,Gatchaman(D)_Main,Jo,0000,0000,0000,,When the average 60% becomes capable \Nof using CROWDS at that level,
+Dialogue: 0,0:14:49.69,0:14:51.98,Gatchaman(D)_Main,Jo,0000,0000,0000,,that's when we can say CROWDS \Nare being used as intended.
+Dialogue: 0,0:14:52.41,0:14:55.22,Gatchaman(D)_Main,Jo,0000,0000,0000,,But it's quite possible \Nthat CROWDS will become
+Dialogue: 0,0:14:55.22,0:14:59.05,Gatchaman(D)_Main,Jo,0000,0000,0000,,a destructive force in society \Nbefore that ever happens.
+Dialogue: 0,0:14:59.05,0:15:00.00,Gatchaman(D)_Main,T,0000,0000,0000,,Um!
+Dialogue: 0,0:15:00.00,0:15:02.65,Gatchaman(D)_Main,T,0000,0000,0000,,Am I part of the 20% or the 60%?
+Dialogue: 0,0:15:03.51,0:15:06.58,Gatchaman(D)_Main,T,0000,0000,0000,,You're talking all high and mighty like that,
+Dialogue: 0,0:15:06.58,0:15:09.97,Gatchaman(D)_Main,T,0000,0000,0000,,but is it that fun to look down on \Npeople and classify them that way?
+Dialogue: 0,0:15:10.34,0:15:13.72,Gatchaman(D)_Main,Sugane,0000,0000,0000,,No, Tsubasa-chan, it's not about having fun.
+Dialogue: 0,0:15:14.06,0:15:17.44,Gatchaman(D)_Main,T,0000,0000,0000,,Is this something we Gatchaman \Nshould be even talking about?
+Dialogue: 0,0:15:17.44,0:15:18.81,Gatchaman(D)_Main,T,0000,0000,0000,,We're heroes,
+Dialogue: 0,0:15:18.81,0:15:22.98,Gatchaman(D)_Main,T,0000,0000,0000,,so isn't it more important that \Nwe focus on helping people in need?
+Dialogue: 0,0:15:22.98,0:15:25.42,Gatchaman(D)_Main,H,0000,0000,0000,,Well said, Tsubasa-chan.
+Dialogue: 0,0:15:25.42,0:15:28.24,Gatchaman(D)_Main,H,0000,0000,0000,,This is what I meant by \Nclashing and sparkles!
+Dialogue: 0,0:15:28.51,0:15:29.60,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:29.60,0:15:33.41,Gatchaman(D)_Main,H,0000,0000,0000,,Lately, people are all "meh,"
+Dialogue: 0,0:15:33.41,0:15:37.46,Gatchaman(D)_Main,H,0000,0000,0000,,but you're "bam!" You know?
+Dialogue: 0,0:15:37.46,0:15:41.78,Gatchaman(D)_Main,H,0000,0000,0000,,That's why we need you right now.
+Dialogue: 0,0:15:42.68,0:15:44.49,Gatchaman(D)_Main,T,0000,0000,0000,,I don't really understand what you mean,
+Dialogue: 0,0:15:44.49,0:15:46.63,Gatchaman(D)_Main,T,0000,0000,0000,,but is this what we should \Nbe really thinking about?
+Dialogue: 0,0:15:46.96,0:15:49.54,Gatchaman(D)_Main,H,0000,0000,0000,,I don't know if we should be,
+Dialogue: 0,0:15:49.54,0:15:51.30,Gatchaman(D)_Main,H,0000,0000,0000,,but I find myself thinking about it!
+Dialogue: 0,0:15:54.45,0:15:56.00,Gatchaman(D)_Main,T,0000,0000,0000,,Yes, hello?
+Dialogue: 0,0:15:56.79,0:15:58.52,Gatchaman(D)_Main,T,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:15:59.36,0:16:02.13,Gatchaman(D)_Main,T,0000,0000,0000,,Okay, I'll go over when I can.
+Dialogue: 0,0:16:02.87,0:16:05.31,Gatchaman(D)_Main,T,0000,0000,0000,,Leader, may I go somewhere for a bit?
+Dialogue: 0,0:16:05.62,0:16:07.18,Gatchaman(D)_Main,Pman,0000,0000,0000,,Hm?
+Dialogue: 0,0:16:07.18,0:16:08.96,Gatchaman(D)_Main,Pman,0000,0000,0000,,Well, we finished our debrief,
+Dialogue: 0,0:16:08.96,0:16:10.94,Gatchaman(D)_Main,Pman,0000,0000,0000,,and we have no particular \Nplan to sortie at the moment.
+Dialogue: 0,0:16:10.94,0:16:12.87,Gatchaman(D)_Main,Pman,0000,0000,0000,,You have my permission.
+Dialogue: 0,0:16:12.87,0:16:14.32,Gatchaman(D)_Main,T,0000,0000,0000,,Thank you! Excuse me!
+Dialogue: 0,0:16:18.39,0:16:20.67,Gatchaman(D)_Main,Gel,0000,0000,0000,,Where are you going, Tsubasa-chan?
+Dialogue: 0,0:16:20.67,0:16:22.68,Gatchaman(D)_Main,T,0000,0000,0000,,Nowhere special. Want to come?
+Dialogue: 0,0:16:23.15,0:16:24.17,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:24.17,0:16:26.67,Gatchaman(D)_Main,Gel,0000,0000,0000,,
+Dialogue: 0,0:16:26.67,0:16:28.87,Gatchaman(D)_Main,T,0000,0000,0000,,I got to know some of the
+Dialogue: 0,0:16:28.87,0:16:31.59,Gatchaman(D)_Main,,0000,0000,0000,,neighborhood association people \Nyesterday after the attack.
+Dialogue: 0,0:16:31.59,0:16:35.00,Gatchaman(D)_Main,T,0000,0000,0000,,They said they were going to be clearing \Ndebris today, so I thought I'd chip in.
+Dialogue: 0,0:16:35.00,0:16:35.89,Gatchaman(D)_Main,Gel,0000,0000,0000,,Great!
+Dialogue: 0,0:16:35.89,0:16:37.35,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'll help, too!
+Dialogue: 0,0:16:37.35,0:16:39.48,Gatchaman(D)_Main,Man,0000,0000,0000,,Oh, Tsubasa-chan!
+Dialogue: 0,0:16:39.95,0:16:42.23,Gatchaman(D)_Main,T,0000,0000,0000,,Hi, everyone!
+Dialogue: 0,0:16:42.23,0:16:44.70,Gatchaman(D)_Main,Man,0000,0000,0000,,You must be Gel-chan.
+Dialogue: 0,0:16:44.70,0:16:47.06,Gatchaman(D)_Main,Man,0000,0000,0000,,Thanks, you two! What a big help.
+Dialogue: 0,0:16:47.43,0:16:49.82,Gatchaman(D)_Main,Man,0000,0000,0000,,C'mon, guys! We have friends!
+Dialogue: 0,0:16:50.16,0:16:53.06,Gatchaman(D)_Main,Gel,0000,0000,0000,,You should've invited \NHajime-chan and the others, too.
+Dialogue: 0,0:16:53.06,0:16:55.51,Gatchaman(D)_Main,Gel,0000,0000,0000,,It'd get done faster if everyone chipped in.
+Dialogue: 0,0:16:55.51,0:16:59.28,Gatchaman(D)_Main,T,0000,0000,0000,,I just thought they might say it's \Nnot something Gatchaman should do.
+Dialogue: 0,0:16:59.28,0:17:01.83,Gatchaman(D)_Main,Gel,0000,0000,0000,,Everyone's thinking too much.
+Dialogue: 0,0:17:01.83,0:17:03.31,Gatchaman(D)_Main,T,0000,0000,0000,,Yeah, you're right!
+Dialogue: 0,0:17:03.31,0:17:06.74,Gatchaman(D)_Main,T,0000,0000,0000,,Why do heroes need to think about 2s and 6s
+Dialogue: 0,0:17:05.54,0:17:09.84,Authorized_Personnel_Only_17:05(GCI04),Sign 1707,0000,0000,0000,,Authorized \NPersonnel \NOnly
+Dialogue: 0,0:17:06.74,0:17:08.24,Gatchaman(D)_Main,T,0000,0000,0000,,and categorize people into groups?
+Dialogue: 0,0:17:08.24,0:17:09.84,Gatchaman(D)_Main,T,0000,0000,0000,,I don't like it.
+Dialogue: 0,0:17:09.84,0:17:13.30,Gatchaman(D)_Main,Gel,0000,0000,0000,,If everyone united their hearts \Nand tackled problems together,
+Dialogue: 0,0:17:13.30,0:17:15.55,Gatchaman(D)_Main,Gel,0000,0000,0000,,they'd be able to solve anything.
+Dialogue: 0,0:17:15.55,0:17:16.82,Gatchaman(D)_Main,T,0000,0000,0000,,You're exactly right!
+Dialogue: 0,0:17:16.82,0:17:19.56,Gatchaman(D)_Main,T,0000,0000,0000,,I get what you're saying \Nso much more than the others.
+Dialogue: 0,0:17:19.56,0:17:21.84,Gatchaman(D)_Main,Neighborhood,0000,0000,0000,,Tsubasa-chan, who are you voting for?
+Dialogue: 0,0:17:21.84,0:17:22.84,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:22.84,0:17:25.08,Gatchaman(D)_Main,Neigh,0000,0000,0000,,Oh, you mean for the \Nprime minister elections?
+Dialogue: 0,0:17:25.08,0:17:26.82,Gatchaman(D)_Main,Neigh,0000,0000,0000,,Wouldn't you end up voting for Sugayama?
+Dialogue: 0,0:17:26.82,0:17:28.70,Gatchaman(D)_Main,Neigh,0000,0000,0000,,You think so?
+Dialogue: 0,0:17:28.70,0:17:30.40,Gatchaman(D)_Main,Neigh,0000,0000,0000,,What do you think, Tsubasa-chan?
+Dialogue: 0,0:17:30.40,0:17:34.03,Gatchaman(D)_Main,T,0000,0000,0000,,I know it's not the best way to go about it,
+Dialogue: 0,0:17:34.03,0:17:36.11,Gatchaman(D)_Main,T,0000,0000,0000,,but I don't really understand \Nthe whole process,
+Dialogue: 0,0:17:36.11,0:17:38.12,Gatchaman(D)_Main,T,0000,0000,0000,,so I'll just take a quick \Nlook at election time
+Dialogue: 0,0:17:38.12,0:17:39.96,Gatchaman(D)_Main,T,0000,0000,0000,,and vote for the one who looks good to me.
+Dialogue: 0,0:17:40.43,0:17:42.15,Gatchaman(D)_Main,Neigh,0000,0000,0000,,I guess it's like that.
+Dialogue: 0,0:17:42.15,0:17:44.70,Gatchaman(D)_Main,Neigh,0000,0000,0000,,It doesn't seem to matter who you vote for.
+Dialogue: 0,0:17:45.15,0:17:49.00,Gatchaman(D)_Main,Neigh,0000,0000,0000,,Maybe Sugayama's just the safe choice.
+Dialogue: 0,0:17:52.50,0:17:56.43,Gatchaman(D)_Main,H,0000,0000,0000,,The Millione Show...
+Dialogue: 0,0:17:53.80,0:17:56.01,The_Millione_Show_04:15(GCI04),Sign 1755,0000,0000,0000,,Info-Live: The Millione Show
+Dialogue: 0,0:18:01.24,0:18:06.06,Gatchaman(D)_Main,Millio,0000,0000,0000,,Today, we have our semi-regulars, \NSadra-kun and Tsubasa-chan, with us!
+Dialogue: 0,0:18:06.06,0:18:08.69,Gatchaman(D)_Main,Millio,0000,0000,0000,,Isn't it time you became real regulars?
+Dialogue: 0,0:18:08.69,0:18:12.52,Gatchaman(D)_Main,Millio,0000,0000,0000,,Well, here's the first piece of news today!
+Dialogue: 0,0:18:12.75,0:18:16.74,PM_Resigns!_18:12(GCI04),Sign 1815,0000,0000,0000,,Prime Minister Sugayama Resigns! \N The First Popular Prime Minister Election Coming Up!
+Dialogue: 0,0:18:13.84,0:18:17.45,Gatchaman(D)_Main,Millio,0000,0000,0000,,The first popular Prime Minister \Nelections will soon be held,
+Dialogue: 0,0:18:16.76,0:18:26.24,Blocks_18:16(GCI04),Signs 1819,0000,0000,0000,,What Is the Popular Prime Minister Election? \NPrime Minister Resigns -> Smart Phone Vote
+Dialogue: 0,0:18:17.45,0:18:21.47,Gatchaman(D)_Main,Millio,0000,0000,0000,,but it's to be a smart phone vote.
+Dialogue: 0,0:18:21.98,0:18:24.87,Gatchaman(D)_Main,Millio,0000,0000,0000,,Until now, Japan has been \Nan indirect democracy
+Dialogue: 0,0:18:24.87,0:18:27.16,Gatchaman(D)_Main,Millio,0000,0000,0000,,where the most powerful man in government
+Dialogue: 0,0:18:26.25,0:18:36.01,Blocks_18:16(GCI04),Signs 1819,0000,0000,0000,,Appointment by Diet Members -> Election by Japanese Citizens
+Dialogue: 0,0:18:27.16,0:18:30.05,Gatchaman(D)_Main,Millio,0000,0000,0000,,would be appointed by \Ndiet members we'd voted in.
+Dialogue: 0,0:18:30.05,0:18:33.40,Gatchaman(D)_Main,Millio,0000,0000,0000,,But now, Japanese citizens \Ncan vote for one themselves
+Dialogue: 0,0:18:33.40,0:18:35.75,Gatchaman(D)_Main,,0000,0000,0000,,with a tap on their smart phones!
+Dialogue: 0,0:18:35.75,0:18:39.92,Gatchaman(D)_Main,Millio,0000,0000,0000,,Furthermore, there are no age or \Nnationality restrictions on candidates!
+Dialogue: 0,0:18:36.75,0:18:40.46,No_Restrictions!_18:36(GCI04),Signs 1839,0000,0000,0000,,No Age/Nationality Restrictions for Candidates \NAnyone can Nominate Themselves!
+Dialogue: 0,0:18:36.75,0:18:40.46,Anyone_Can_Register_18:36(GCI04),Signs 1839,0000,0000,0000,,Anyone Can Register via smart phone
+Dialogue: 0,0:18:41.09,0:18:42.74,Gatchaman(D)_Main,Millio,0000,0000,0000,,That's right!
+Dialogue: 0,0:18:42.74,0:18:45.04,Gatchaman(D)_Main,Millio,0000,0000,0000,,By law, anyone... babies, grandpas, grandmas,
+Dialogue: 0,0:18:45.04,0:18:50.48,Gatchaman(D)_Main,Millio,0000,0000,0000,,and even cat station masters and \Naliens can become candidates!
+Dialogue: 0,0:18:50.48,0:18:53.02,Gatchaman(D)_Main,Pman,0000,0000,0000,,Ha! He's dreaming.
+Dialogue: 0,0:18:53.02,0:18:56.30,Gatchaman(D)_Main,Pman,0000,0000,0000,,As if an alien could be \Nvoted in as prime minister.
+Dialogue: 0,0:18:56.30,0:18:57.86,Gatchaman(D)_Main,H,0000,0000,0000,,You think so?
+Dialogue: 0,0:18:57.86,0:18:59.45,Gatchaman(D)_Main,Pman,0000,0000,0000,,Of course!
+Dialogue: 0,0:18:59.45,0:19:00.75,Gatchaman(D)_Main,Pman,0000,0000,0000,,An alien!
+Dialogue: 0,0:19:00.75,0:19:02.48,Gatchaman(D)_Main,Pman,0000,0000,0000,,An alien prime minister!
+Dialogue: 0,0:19:02.48,0:19:03.50,Gatchaman(D)_Main,Pman,0000,0000,0000,,Impossible!
+Dialogue: 0,0:19:03.50,0:19:04.47,Gatchaman(D)_Main,Pman,0000,0000,0000,,Ridiculous!
+Dialogue: 0,0:19:04.83,0:19:06.87,Gatchaman(D)_Main,H,0000,0000,0000,,Is it really?
+Dialogue: 0,0:19:06.87,0:19:10.78,Gatchaman(D)_Main,Gel,0000,0000,0000,,Umm... So the prime minister \Nis the top leader of Japan?
+Dialogue: 0,0:19:10.78,0:19:12.90,Gatchaman(D)_Main,Millio,0000,0000,0000,,That's right, Gel-chan.
+Dialogue: 0,0:19:12.90,0:19:14.64,Gatchaman(D)_Main,Millio,0000,0000,0000,,It's an oversimplification,
+Dialogue: 0,0:19:14.64,0:19:18.53,Gatchaman(D)_Main,Millio,0000,0000,0000,,but the prime minister basically gets \Nfinal say on what happens to Japan.
+Dialogue: 0,0:19:18.53,0:19:22.01,Gatchaman(D)_Main,Gel,0000,0000,0000,,Can that person make \Npeople's wishes come true?
+Dialogue: 0,0:19:22.01,0:19:23.43,Gatchaman(D)_Main,Millio,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:23.43,0:19:25.33,Gatchaman(D)_Main,Millio,0000,0000,0000,,They're the top gun of democracy,
+Dialogue: 0,0:19:25.33,0:19:28.52,Gatchaman(D)_Main,Millio,0000,0000,0000,,so you could say that's their role.
+Dialogue: 0,0:19:28.52,0:19:31.81,Gatchaman(D)_Main,Gel,0000,0000,0000,,Can that person stop everyone's conflict?
+Dialogue: 0,0:19:32.14,0:19:34.54,Gatchaman(D)_Main,Millio,0000,0000,0000,,I'm sure they could.
+Dialogue: 0,0:19:34.54,0:19:37.44,Gatchaman(D)_Main,Gel,0000,0000,0000,,Can that person put an end to sadness?
+Dialogue: 0,0:19:37.44,0:19:39.71,Gatchaman(D)_Main,Millio,0000,0000,0000,,You're asking really tough questions.
+Dialogue: 0,0:19:39.71,0:19:46.45,Gatchaman(D)_Main,Millio,0000,0000,0000,,Well, I guess the Prime Minister has the \Nmost power to resolve everyone's problems.
+Dialogue: 0,0:19:46.45,0:19:50.27,Gatchaman(D)_Main,Gel,0000,0000,0000,,Then I'll run in the \Nprime minister elections!
+Dialogue: 0,0:19:50.27,0:19:51.44,Gatchaman(D)_Main,Millio,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:51.44,0:19:53.51,Gatchaman(D)_Main,OD,0000,0000,0000,,That's way too fun!
+Dialogue: 0,0:19:53.91,0:19:56.25,Gatchaman(D)_Main,Millio,0000,0000,0000,,Hmm... It may not be a bad idea!
+Dialogue: 0,0:19:56.95,0:19:58.73,Gatchaman(D)_Main,Millio,0000,0000,0000,,Way fun!
+Dialogue: 0,0:19:59.39,0:20:02.18,Gatchaman(D)_Main,Millio,0000,0000,0000,,But I don't think you can win.
+Dialogue: 0,0:20:02.65,0:20:04.80,Gatchaman(D)_Main,Gel,0000,0000,0000,,Is that because I'm an alien?
+Dialogue: 0,0:20:04.80,0:20:06.80,Gatchaman(D)_Main,Millio,0000,0000,0000,,No, because you're still a child.
+Dialogue: 0,0:20:06.80,0:20:08.89,Gatchaman(D)_Main,Millio,0000,0000,0000,,Aliens would be fun.
+Dialogue: 0,0:20:08.89,0:20:13.38,Gatchaman(D)_Main,Millio,0000,0000,0000,,But no one would think \Nthat a child could do politics.
+Dialogue: 0,0:20:15.75,0:20:16.80,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan?
+Dialogue: 0,0:20:19.56,0:20:20.96,Gatchaman(D)_Main,OD,0000,0000,0000,,What a shock!
+Dialogue: 0,0:20:20.96,0:20:22.74,Gatchaman(D)_Main,OD,0000,0000,0000,,That's growing up way too much!
+Dialogue: 0,0:20:23.24,0:20:24.21,Gatchaman(D)_Main,Gel,0000,0000,0000,,How's this?
+Dialogue: 0,0:20:23.46,0:20:24.56,Gatchaman(D)_Main,OD,0000,0000,0000,,Great!
+Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0000,0000,0000,,Super great!
+Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0000,0000,0000,,Yes, wonderful!
+Dialogue: 0,0:20:25.20,0:20:26.45,Gatchaman(D)_Main,Millio,0000,0000,0000,,{\a6}Thumbs up!
+Dialogue: 0,0:20:28.84,0:20:30.12,Gatchaman(D)_Main,Pman,0000,0000,0000,,Impossible!
+Dialogue: 0,0:20:30.12,0:20:32.37,Gatchaman(D)_Main,Pman,0000,0000,0000,,An alien as a prime minister candidate?!
+Dialogue: 0,0:20:32.37,0:20:35.03,Gatchaman(D)_Main,Pman,0000,0000,0000,,No way! It's not possible!
+Dialogue: 0,0:20:37.13,0:20:39.88,Gatchaman(D)_Main,H,0000,0000,0000,,Gel-chan's transformed again.
+Dialogue: 0,0:20:39.88,0:20:42.68,Gatchaman(D)_Main,H,0000,0000,0000,,I don't think he needs \Nto change so many times, though.
+Dialogue: 0,0:20:42.68,0:20:44.13,Gatchaman(D)_Main,Gel,0000,0000,0000,,Tsubasa-chan!
+Dialogue: 0,0:20:45.59,0:20:47.04,Gatchaman(D)_Main,T,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:20:47.04,0:20:49.31,Gatchaman(D)_Main,Gel,0000,0000,0000,,I want you to help me.
+Dialogue: 0,0:20:49.31,0:20:50.02,Gatchaman(D)_Main,T,0000,0000,0000,,What?!
+Dialogue: 0,0:20:50.29,0:20:55.19,Gatchaman(D)_Main,Gel,0000,0000,0000,,I think we can work together \Nto unite everyone's hearts.
+Dialogue: 0,0:20:55.19,0:20:57.87,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, okay! I'll help!
+Dialogue: 0,0:20:58.71,0:20:59.91,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yay!
+Dialogue: 0,0:21:01.16,0:21:02.70,Gatchaman(D)_Main,T,0000,0000,0000,,Hey, Gel-chan!
+Dialogue: 0,0:21:03.11,0:21:06.05,Gatchaman(D)_Main,Katze,0000,0000,0000,,Hajime-tan! He's gonna be a huge problem!
+Dialogue: 0,0:21:06.05,0:21:07.73,Gatchaman(D)_Main,Katze,0000,0000,0000,,If you don't stop him now,
+Dialogue: 0,0:21:07.73,0:21:09.31,Gatchaman(D)_Main,Katze,0000,0000,0000,,I'm gonna be in a huge pickle!
+Dialogue: 0,0:21:09.31,0:21:10.79,Gatchaman(D)_Main,Katze,0000,0000,0000,,Help me, Hajime-tan!
+Dialogue: 0,0:21:10.79,0:21:12.51,Gatchaman(D)_Main,Katze,0000,0000,0000,,Let's off him!
+Dialogue: 0,0:21:12.51,0:21:14.77,Gatchaman(D)_Main,Katze,0000,0000,0000,,Let's off Sadra!
+Dialogue: 0,0:21:13.62,0:21:14.77,Gatchaman(D)_Main,H,0000,0000,0000,,I'm gonna sleep.
+Dialogue: 0,0:21:16.28,0:21:18.09,Gatchaman(D)_Main,Katze,0000,0000,0000,,Hey, don't ignore me.
+Dialogue: 0,0:21:18.09,0:21:22.02,Gatchaman(D)_Main,Katze,0000,0000,0000,,Talk to me, you worthless bitch! Bitch! Bitch!
+Dialogue: 0,0:21:22.02,0:21:24.59,Gatchaman(D)_Main,Katze,0000,0000,0000,,You shitty bitch!
+Dialogue: 0,0:21:25.90,0:21:26.84,Gatchaman(D)_Main,T,0000,0000,0000,,Here!
+Dialogue: 0,0:21:26.84,0:21:28.90,Gatchaman(D)_Main,Millio,0000,0000,0000,,If you tap that "yes,"
+Dialogue: 0,0:21:26.84,0:21:31.85,Firs_PM_Elections-phone_21:31(GCI04),Sign 2130,0000,0000,0000,,The First Popular Prime Minister Elections \N Do you nominate yourself?
+Dialogue: 0,0:21:28.90,0:21:30.95,Gatchaman(D)_Main,Millio,0000,0000,0000,,you become a candidate?
+Dialogue: 0,0:21:30.95,0:21:31.85,Gatchaman(D)_Main,T,0000,0000,0000,,That's right.
+Dialogue: 0,0:21:31.85,0:21:33.31,Gatchaman(D)_Main,T,0000,0000,0000,,Here, Gel-chan.
+Dialogue: 0,0:21:34.96,0:21:36.54,Gatchaman-X,X,0000,0000,0000,,Do you wish to nominate \Nyourself as a candidate?
+Dialogue: 0,0:21:37.01,0:21:38.06,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yes!
+Dialogue: 0,0:21:38.36,0:21:41.49,Gatchaman-X,X,0000,0000,0000,,Your application has been accepted.
+Dialogue: 0,0:21:41.49,0:21:43.49,Gatchaman(D)_Main,,0000,0000,0000,,
+
