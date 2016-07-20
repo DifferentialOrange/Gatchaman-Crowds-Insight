@@ -7,7 +7,7 @@ WrapStyle: 0
 PlayResX: 1920
 PlayResY: 1080
 ScaledBorderAndShadow: yes
-YCbCr Matrix: None
+YCbCr Matrix: TV.601
 
 [Aegisub Project Garbage]
 Last Style Storage: GCI
@@ -16,9 +16,9 @@ Video File: [HorribleSubs] Gatchaman Crowds Insight - 04 [1080p].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.250000
-Scroll Position: 324
-Active Line: 335
-Video Position: 23686
+Scroll Position: 376
+Active Line: 388
+Video Position: 31919
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -46,6 +46,7 @@ Style: Anyone_Can_Register_18:36(GCI04),Open Sans Semibold,47,&H00F3F1F1,&H00000
 Style: Firs_PM_Elections-phone_21:31(GCI04),Open Sans Semibold,47,&H001F236A,&H000000FF,&H00EAEAF7,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,29,38,389,1
 Style: Authorized_Personnel_Only_17:15(GCI04),Open Sans Semibold,61,&H00250D0C,&H000000FF,&H00FEFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,7,392,29,331,1
 Style: News_0020,Open Sans Semibold,54,&H009BC386,&H000000FF,&H00FCFCFB,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,7,61,61,61,1
+Style: Ending,Ubuntu Light,50,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,3.825,0,7,0,0,63,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -56,7 +57,7 @@ Dialogue: 0,0:00:20.66,0:00:23.88,Gatchaman(D)_Main,Millio,0,0,0,,Гатчаме
 Dialogue: 0,0:00:20.68,0:00:24.25,News_0020,Sign 0022,0,0,0,,Срочные новости: Ниномия Руи в крови!\N{\c&H0000FF&} Гатчамены против VAPE
 Dialogue: 0,0:00:23.88,0:00:27.45,Gatchaman(D)_Main,Sign 0022,0,0,0,,По имеющимся у нас данным, это новичок,\N Мисудачи Цубаса-тян!
 Dialogue: 0,0:00:27.45,0:00:29.31,Gatchaman(D)_Announcer,Sign 0022,0,0,0,,Вперёд, Цубаса-тян!
-Dialogue: 0,0:02:04.20,0:02:05.31,Gatchaman(D)_Main,T,0,0,0,,{\a6}Так он их лидер
+Dialogue: 0,0:02:04.20,0:02:05.31,Gatchaman(D)_Main,T,0,0,0,,{\a6}Так это — их лидер!
 Dialogue: 0,0:02:05.31,0:02:07.56,Gatchaman(D)_Main,T,0,0,0,,Лоза цветущей сакуры!
 Dialogue: 0,0:02:08.60,0:02:10.10,Gatchaman(D)_Main,T,0,0,0,,Руи-семпай!
 Dialogue: 0,0:02:13.00,0:02:14.27,Gatchaman(D)_Main,T,0,0,0,,Уйдите!
@@ -70,7 +71,7 @@ Dialogue: 0,0:02:37.67,0:02:39.55,Gatchaman(D)_Main,Gel,0,0,0,,Давай вме
 Dialogue: 0,0:02:39.55,0:02:40.69,Gatchaman(D)_Main,T,0,0,0,,Спасибо!
 Dialogue: 0,0:02:43.72,0:02:47.21,Gatchaman(D)_Announcer,Millio,0,0,0,,Вперёд, Гатчамены!
 Dialogue: 0,0:02:47.76,0:02:49.60,Gatchaman(D)_Main,Natsuki,0,0,0,,Они такие крутые!
-Dialogue: 0,0:02:49.60,0:02:51.32,Gatchaman(D)_Main,Yuga,0,0,0,,Только посмотри на из командную работу!
+Dialogue: 0,0:02:49.60,0:02:51.32,Gatchaman(D)_Main,Yuga,0,0,0,,Только посмотри на их командную работу!
 Dialogue: 0,0:02:51.32,0:02:52.31,Gatchaman(D)_Main,Ran,0,0,0,,Отлично!
 Dialogue: 0,0:02:52.31,0:02:54.02,News_0020,Ran,0,0,0,,Срочные новости: на сцене возник новый Гатчамен! {\c&H0000FF&}\NГатчамены против VAPE
 Dialogue: 0,0:02:54.11,0:02:55.20,Gatchaman(D)_Announcer,Millio,0,0,0,,Вперёд!
@@ -79,23 +80,23 @@ Dialogue: 0,0:02:55.20,0:02:57.20,Gatchaman(D)_Announcer,Men,0,0,0,,Вперёд
 Dialogue: 0,0:02:55.34,0:02:58.17,Gatchaman(D)_Main,Men,0,0,0,,Почему они не могут собраться вместе?
 Dialogue: 0,0:02:58.17,0:02:59.74,Gatchaman(D)_Main,Men,0,0,0,,Держи их!
 Dialogue: 0,0:03:08.91,0:03:10.14,Gatchaman(D)_Main,Ri,0,0,0,,Я сдаюсь.
-Dialogue: 0,0:03:11.58,0:03:14.92,Gatchaman(D)_Main,Ri,0,0,0,,Моя цель исполнена даже полнее, чем я хотел.
+Dialogue: 0,0:03:11.58,0:03:14.92,Gatchaman(D)_Main,Ri,0,0,0,,Я добился даже большего, чем планировал.
 Dialogue: 0,0:03:23.39,0:03:25.01,Gatchaman(D)_Main,Hostages,0,0,0,,VAPE проиграл!
 Dialogue: 0,0:03:23.39,0:03:26.52,Gatchaman(D)_Main,Hostages,0,0,0,,Их лидер схвачен!
 Dialogue: 0,0:03:25.01,0:03:26.52,Gatchaman(D)_Main,Hostages,0,0,0,,Вы проиграли!
-Dialogue: 0,0:03:26.52,0:03:27.84,Gatchaman(D)_Main,Hostages,0,0,0,,Умри, VAPE!
+Dialogue: 0,0:03:26.52,0:03:27.84,Gatchaman(D)_Main,Hostages,0,0,0,,Сдохни, VAPE!
 Dialogue: 0,0:03:27.41,0:03:29.01,Gatchaman(D)_Main,Hostages,0,0,0,,Убирайтесь отсюда!
 Dialogue: 0,0:03:29.78,0:03:33.32,Gatchaman(D)_Announcer,Millio,0,0,0,,Благодаря доблестным действиям одного \Nиз наших недавних гостей, Цубасы-тян,
 Dialogue: 0,0:03:34.11,0:03:36.02,Gatchaman(D)_Announcer,Millio,0,0,0,,инцидент, похоже, разрешился!
 Dialogue: 0,0:03:40.19,0:03:43.45,News_0020,Sign 0343,0,0,0,,Срочные новости: лидер VAPE арестован!\N {\c&H0000FF&}Подлое террористическое нападение на Сибую подавлено!
-Dialogue: 0,0:03:40.38,0:03:41.97,Gatchaman(D)_Italics,Sign 0343,0,0,0,,Ребята, мы сделал это!
+Dialogue: 0,0:03:40.38,0:03:41.97,Gatchaman(D)_Italics,Sign 0343,0,0,0,,Ребята, мы сделали это!
 Dialogue: 0,0:03:41.97,0:03:45.40,Gatchaman(D)_Italics,Sign 0343,0,0,0,,Лидер VAPE был захвачен Гатчаменами!
 Dialogue: 0,0:03:45.40,0:03:46.90,Gatchaman(D)_Main,Natsuki,0,0,0,,Ура!
 Dialogue: 0,0:03:45.40,0:03:46.90,Gatchaman(D)_Main,Ran,0,0,0,,Отлично.
 Dialogue: 0,0:03:47.40,0:03:48.26,Gatchaman(D)_Main,Old,0,0,0,,Тшш!
 Dialogue: 0,0:03:48.26,0:03:49.62,Gatchaman(D)_Main,Old,0,0,0,,Тише, пожалуйста.
 Dialogue: 0,0:03:50.29,0:03:52.09,Gatchaman(D)_Main,Ran,0,0,0,,Извините!
-Dialogue: 0,0:03:51.16,0:03:55.33,Gatchaman(D)_Announcer,Millio,0,0,0,,Похоже, что Ниномия Руи-кун жив.
+Dialogue: 0,0:03:51.16,0:03:55.33,Gatchaman(D)_Announcer,Millio,0,0,0,,Похоже, что Ниномия Руи-сан жив.
 Dialogue: 0,0:03:55.33,0:03:56.50,Gatchaman(D)_Main,H,0,0,0,,Руи-кун!
 Dialogue: 0,0:03:56.97,0:03:59.50,Gatchaman(D)_Main,T,0,0,0,,Руи-семпай, всё будет в порядке.
 Dialogue: 0,0:03:59.84,0:04:02.25,Gatchaman(D)_Main,T,0,0,0,,Мы поймали лидера VAPE!
@@ -113,7 +114,7 @@ Dialogue: 0,0:04:22.70,0:04:24.13,Gatchaman(D)_Main,U,0,0,0,,Я не позво�
 Dialogue: 0,0:04:25.40,0:04:26.56,Gatchaman(D)_Main,T,0,0,0,,Я спасла его,
 Dialogue: 0,0:04:26.56,0:04:27.97,Gatchaman(D)_Main,T,0,0,0,,но он говорит, что я помешала.
 Dialogue: 0,0:04:28.94,0:04:30.86,Gatchaman(D)_Main,T,0,0,0,,Почему он сказал это?
-Dialogue: 0,0:04:36.23,0:04:39.67,Gatchaman(D)_Main,OD,0,0,0,,Похоже, что в конце концов всё разрешилось!
+Dialogue: 0,0:04:36.23,0:04:39.67,Gatchaman(D)_Main,OD,0,0,0,,Похоже, что в конце концов всё разрешилось.
 Dialogue: 0,0:04:44.01,0:04:45.39,Gatchaman(D)_Main,Cops,0,0,0,,Эта дорога временно закрыта
 Dialogue: 0,0:04:45.39,0:04:46.93,Gatchaman(D)_Main,Cops,0,0,0,,для разбора завалов.
 Dialogue: 0,0:04:46.93,0:04:48.69,Gatchaman(D)_Main,Cops,0,0,0,,Это небезопасно.
@@ -139,7 +140,7 @@ Dialogue: 0,0:05:30.76,0:05:32.11,Gatchaman(D)_Main,P,0,0,0,,Не обращай
 Dialogue: 0,0:05:32.11,0:05:34.90,Gatchaman(D)_Main,P,0,0,0,,Она иногда говорит всякие бессмысленные вещи.
 Dialogue: 0,0:05:34.90,0:05:37.15,Gatchaman(D)_Main,H,0,0,0,,Но у этого есть смысл!
 Dialogue: 0,0:05:37.15,0:05:38.94,Gatchaman(D)_Main,P,0,0,0,,Кстати, новенькая.
-Dialogue: 0,0:05:38.94,0:05:41.43,Gatchaman(D)_Main,P,0,0,0,,Я уверен, что я приказал тебе стоять в стороне.
+Dialogue: 0,0:05:38.94,0:05:41.43,Gatchaman(D)_Main,P,0,0,0,,Я уверен, что приказал тебе стоять в стороне.
 Dialogue: 0,0:05:41.43,0:05:44.18,Gatchaman(D)_Main,P,0,0,0,,Ты не должна игнорировать приказы.
 Dialogue: 0,0:05:44.18,0:05:46.08,Gatchaman(D)_Main,T,0,0,0,,Я извиняюсь, что не следовала приказам.
 Dialogue: 0,0:05:46.08,0:05:48.85,Gatchaman(D)_Main,T,0,0,0,,Но я не считаю, что я сделала что-то неправильно!
@@ -154,8 +155,8 @@ Dialogue: 0,0:06:01.10,0:06:03.71,Gatchaman(D)_Main,T,0,0,0,,Защита жиз
 Dialogue: 0,0:06:03.71,0:06:07.08,Gatchaman(D)_Main,H,0,0,0,,Но ты не знаешь, считает ли так же Руи-кун.
 Dialogue: 0,0:06:07.08,0:06:10.89,Gatchaman(D)_Main,T,0,0,0,,То есть, ты хочешь сказать, что мне\N надо было позволить Руи-семпаю умереть?
 Dialogue: 0,0:06:10.89,0:06:12.61,Gatchaman(D)_Main,H,0,0,0,,Я не это имела в виду,
-Dialogue: 0,0:06:12.61,0:06:16.42,Gatchaman(D)_Main,H,0,0,0,,но я думаю, что можно было дать\N ему чуть больше времени.
-Dialogue: 0,0:06:16.91,0:06:19.33,Gatchaman(D)_Main,T,0,0,0,,Но Руи-семпай был в жуасном состоянии!
+Dialogue: 0,0:06:12.61,0:06:16.42,Gatchaman(D)_Main,H,0,0,0,,но я думаю, что можно было бы дать\N ему чуть больше времени.
+Dialogue: 0,0:06:16.91,0:06:19.33,Gatchaman(D)_Main,T,0,0,0,,Но Руи-семпай был в ужасном состоянии!
 Dialogue: 0,0:06:19.33,0:06:21.35,Gatchaman(D)_Main,T,0,0,0,,Я не могла стоять на месте\N и ничего не делать!
 Dialogue: 0,0:06:21.35,0:06:22.90,Gatchaman(D)_Main,T,0,0,0,,Ты говоришь, что конфликты необходимы
 Dialogue: 0,0:06:22.90,0:06:24.63,Gatchaman(D)_Main,T,0,0,0,,и что не стоило помогать Руи-семпаю.
@@ -178,8 +179,8 @@ Dialogue: 0,0:07:08.30,0:07:10.02,Gatchaman(D)_Main,Suga,0,0,0,,направле
 Dialogue: 0,0:07:10.02,0:07:12.66,Gatchaman(D)_Main,Suga,0,0,0,,Сегодня мы арестовали лидера\N этой организации.
 Dialogue: 0,0:07:13.02,0:07:16.55,Gatchaman(D)_Main,Suga,0,0,0,,Толпы сделали значительный вклад\N в различные области жизни,
 Dialogue: 0,0:07:16.55,0:07:19.39,Gatchaman(D)_Main,Suga,0,0,0,,связанные с правопорядком, медицинской\N помощью и социальной работой.
-Dialogue: 0,0:07:19.39,0:07:24.46,Gatchaman(D)_Main,Suga,0,0,0,,Я хотел бы поддержать дальнейшее\N присутствие Толп в нашем обществе. 
-Dialogue: 0,0:07:24.46,0:07:26.02,Gatchaman(D)_Main,Journalist,0,0,0,,Это Smile TV.
+Dialogue: 0,0:07:19.39,0:07:24.46,Gatchaman(D)_Main,Suga,0,0,0,,Я хотел бы поддержать дальнейшее\N присутствие Толп в нашем обществе.
+Dialogue: 0,0:07:24.46,0:07:26.02,Gatchaman(D)_Main,Journalist,0,0,0,,Это Улыбка ТВ.
 Dialogue: 0,0:07:26.02,0:07:27.12,Gatchaman(D)_Main,Journalist,0,0,0,,Значит, Вы утверждаете, что синие Толпы
 Dialogue: 0,0:07:27.12,0:07:30.22,Gatchaman(D)_Main,Journalist,0,0,0,,никогда не станут причиной схожих\N инцидентов в будущем?
 Dialogue: 0,0:07:31.14,0:07:35.30,Gatchaman(D)_Main,Suga,0,0,0,,Синие Толпы находятся\N под нашим абсолютным контролем.
@@ -191,7 +192,7 @@ Dialogue: 0,0:07:47.72,0:07:49.52,Gatchaman(D)_Italics,Ri,0,0,0,,не покон
 Dialogue: 0,0:07:47.72,0:07:49.52,Gatchaman(D)_Main,Ri,0,0,0,,
 Dialogue: 0,0:07:57.90,0:08:00.88,Gatchaman(D)_Flashback,Ri,0,0,0,,Толпы сделали значительный вклад\N в различные области жизни...
 Dialogue: 0,0:07:59.95,0:08:01.55,Gatchaman(D)_Announcer,GALAX users,0,0,0,,{\a6}Толпы меня пугают!
-Dialogue: 0,0:08:00.88,0:08:05.67,Gatchaman(D)_Flashback,Ri,0,0,0,,Я хотел бы поддержать дальнейшее\N присутствие Толп в нашем обществе. 
+Dialogue: 0,0:08:00.88,0:08:05.67,Gatchaman(D)_Flashback,Ri,0,0,0,,Я хотел бы поддержать дальнейшее\N присутствие Толп в нашем обществе.
 Dialogue: 0,0:08:01.55,0:08:03.75,Gatchaman(D)_Announcer,GALAX users,0,0,0,,{\a6}Я больше и синим не могу доверять!
 Dialogue: 0,0:08:03.75,0:08:05.67,Gatchaman(D)_Announcer,GALAX users,0,0,0,,{\a6}Нам на самом деле нужны Толпы?
 Dialogue: 0,0:08:05.67,0:08:09.10,Gatchaman(D)_Announcer,TV,0,0,0,,Шоу Миллиона!
@@ -206,7 +207,7 @@ Dialogue: 0,0:08:23.06,0:08:25.70,Gatchaman(D)_Main,Millio,0,0,0,,Я долже�
 Dialogue: 0,0:08:25.70,0:08:27.52,Gatchaman(D)_Main,Millio,0,0,0,,Благодаря тебе террористы были остановлены
 Dialogue: 0,0:08:27.52,0:08:30.99,Gatchaman(D)_Main,Millio,0,0,0,,и Сузуки Ризуму, считающийся\N их лидером, был арестован.
 Dialogue: 0,0:08:30.99,0:08:33.07,Gatchaman(D)_Main,Millio,0,0,0,,Цубаса-тян и Гелсадра-кун,
-Dialogue: 0,0:08:33.07,0:08:36.28,Gatchaman(D)_Main,Millio,0,0,0,,вы обе — новые герои,\N которые защитят Японию
+Dialogue: 0,0:08:33.07,0:08:36.28,Gatchaman(D)_Main,Millio,0,0,0,,вы обе — новые герои,\N которые защитят Японию!
 Dialogue: 0,0:08:36.59,0:08:37.93,Gatchaman(D)_Main,T,0,0,0,,Спасибо!
 Dialogue: 0,0:08:37.93,0:08:39.65,Gatchaman(D)_Main,T,0,0,0,,Я продолжу стараться всеми силами!
 Dialogue: 0,0:08:40.09,0:08:45.06,Gatchaman(D)_Main,Millio,0,0,0,,Мы получили тонну вопросов о вас двоих\N после нашей вчерашней трансляции.
@@ -214,18 +215,18 @@ Dialogue: 0,0:08:45.06,0:08:48.30,Gatchaman(D)_Main,Millio,0,0,0,,В интер�
 Dialogue: 0,0:08:48.30,0:08:51.88,Gatchaman(D)_Main,Millio,0,0,0,,Это значит, что наши граждане признали \Nвашу ценность.
 Dialogue: 0,0:08:52.10,0:08:55.34,Gatchaman(D)_Main,Gel,0,0,0,,Я просто хотела забрать себе\N грусть каждого.
 Dialogue: 0,0:08:55.34,0:08:57.09,Gatchaman(D)_Main,Millio,0,0,0,,Такая скромная!
-Dialogue: 0,0:08:57.09,0:09:00.32,Gatchaman(D)_Main,Millio,0,0,0,,Вот что стало сейчас ярко выраженной проблемой!
+Dialogue: 0,0:08:57.09,0:09:00.32,Gatchaman(D)_Main,Millio,0,0,0,,Вот что сейчас стало насущной проблемой.
 Dialogue: 0,0:09:00.35,0:09:01.81,Urgent_Debate_09:00(GCI04),Sign 0901,0,0,0,,Срочное обсуждение: безопасны ли Толпы?\NМожем ли мы доверять синим Толпам?!
-Dialogue: 0,0:09:01.98,0:09:05.33,Gatchaman(D)_Main,Millio,0,0,0,,Теперь все мы знаем, что если\N Толпы уже выйдут из-под контроля,
+Dialogue: 0,0:09:01.98,0:09:05.33,Gatchaman(D)_Main,Millio,0,0,0,,Теперь все мы знаем, что если\N Толпы выйдут из-под контроля,
 Dialogue: 0,0:09:05.33,0:09:08.02,Gatchaman(D)_Main,Millio,0,0,0,,то они могут стать причиной инцидентов\N такого размаха.
-Dialogue: 0,0:09:08.02,0:09:12.23,Gatchaman(D)_Main,Millio,0,0,0,,Не внушает ли это страх\N в чьи-то сердца?
+Dialogue: 0,0:09:08.02,0:09:12.23,Gatchaman(D)_Main,Millio,0,0,0,,Не внушает ли это страх\N в ваши сердца?
 Dialogue: 0,0:09:12.66,0:09:13.44,Gatchaman(D)_Main,OD,0,0,0,,А?
 Dialogue: 0,0:09:13.44,0:09:14.60,Gatchaman(D)_Main,OD,0,0,0,,Постойте-ка,
 Dialogue: 0,0:09:14.60,0:09:16.71,Gatchaman(D)_Main,OD,0,0,0,,за этим инцидентом стояли красные Толпы.
 Dialogue: 0,0:09:16.71,0:09:18.95,Gatchaman(D)_Main,OD,0,0,0,,Они отличаются от красных Толп, знаешь ли.
 Dialogue: 0,0:09:18.95,0:09:22.06,Gatchaman(D)_Main,Millio,0,0,0,,Конечно, это же и сказал \N премьер-министр Сугаяма.
 Dialogue: 0,0:09:22.06,0:09:24.74,Gatchaman(D)_Main,Millio,0,0,0,,Но мы обсуждаем, так ли безопасны Толпы,
-Dialogue: 0,0:09:24.74,0:09:26.66,Gatchaman(D)_Main,Millio,0,0,0,,какими их считает премьер-министр.
+Dialogue: 0,0:09:24.74,0:09:26.66,Gatchaman(D)_Main,Millio,0,0,0,,каковыми их считает премьер-министр.
 Dialogue: 0,0:09:26.66,0:09:27.62,Gatchaman(D)_Main,Millio,0,0,0,,Что вы двое думаете?
 Dialogue: 0,0:09:27.92,0:09:30.82,Gatchaman(D)_Main,T,0,0,0,,Я считаю, что они опасны.
 Dialogue: 0,0:09:30.82,0:09:32.24,Gatchaman(D)_Main,T,0,0,0,,Если такое может произойти,
@@ -255,7 +256,7 @@ Dialogue: 0,0:10:25.84,0:10:27.48,Gatchaman(D)_Main,Katze,0,0,0,,Уахахах�
 Dialogue: 0,0:10:27.81,0:10:32.23,Gatchaman(D)_Main,Gel,0,0,0,,Я хотела бы объединить сердца каждого\N и избавиться от всех конфликтов.
 Dialogue: 0,0:10:32.23,0:10:35.38,Gatchaman(D)_Main,T,0,0,0,,Ага, я думаю, что это отличная идея.
 Dialogue: 0,0:10:35.38,0:10:37.45,Gatchaman(D)_Main,T,0,0,0,,Хаджиме-семпай много чего наговорила,
-Dialogue: 0,0:10:37.45,0:10:40.31,Gatchaman(D)_Main,T,0,0,0,,но то, что люди так вредят друг другу —\N это печально. 
+Dialogue: 0,0:10:37.45,0:10:40.31,Gatchaman(D)_Main,T,0,0,0,,но то, что люди так вредят друг другу —\N это печально.
 Dialogue: 0,0:10:40.31,0:10:42.16,Gatchaman(D)_Main,Gel,0,0,0,,Согласна.
 Dialogue: 0,0:10:42.50,0:10:45.42,Gatchaman(D)_Main,Gel,0,0,0,,Поэтому мне необходимо знать, \Nо чём все думают.
 Dialogue: 0,0:10:51.78,0:10:54.12,Gatchaman(D)_Main,T,0,0,0,,Ты на самом деле знаешь об этом?
@@ -266,7 +267,7 @@ Dialogue: 0,0:11:00.43,0:11:03.97,Toriyama_11:00(GCI04),Sign 1102,0,0,0,,Тор�
 Dialogue: 0,0:11:02.64,0:11:03.97,Gatchaman(D)_Main,Director,0,0,0,,Эй, почему?
 Dialogue: 0,0:11:03.97,0:11:08.39,Gatchaman(D)_Main,Director,0,0,0,,Наши рейтинги подскочили после того,\N как ОуДи-сан стал постоянным гостем.
 Dialogue: 0,0:11:08.39,0:11:10.66,Gatchaman(D)_Main,Millio,0,0,0,,Я говорю про будущее шоу.
-Dialogue: 0,0:11:10.66,0:11:12.25,Gatchaman(D)_Main,Millio,0,0,0,,Если...{\i1}поддерживающий{\i0}становится постоянным гостем,
+Dialogue: 0,0:11:10.66,0:11:12.25,Gatchaman(D)_Main,Millio,0,0,0,,Если...{\i1}спонсор{\i0} становится постоянным гостем,
 Dialogue: 0,0:11:12.25,0:11:16.07,Gatchaman(D)_Main,Millio,0,0,0,,мы можем оставить негативное впечатление \N на наших зрителей, понимаешь?
 Dialogue: 0,0:11:16.07,0:11:18.32,Gatchaman(D)_Main,Director,0,0,0,,Ясно. Ты прав.
 Dialogue: 0,0:11:18.32,0:11:20.50,Gatchaman(D)_Main,Millio,0,0,0,,Гляди в будущее, ладно?
@@ -313,26 +314,26 @@ Dialogue: 0,0:12:53.52,0:12:55.42,Gatchaman(D)_Main,Gel,0,0,0,,Как премь
 Dialogue: 0,0:12:55.80,0:12:57.38,Gatchaman(D)_Main,Sugane,0,0,0,,Ребята, у нас чрезвычайное происшествие!
 Dialogue: 0,0:12:57.38,0:12:59.64,Gatchaman(D)_Main,Sugane,0,0,0,,Преьмер-министр Сугаяма только что заявил\N об отставке!
 Dialogue: 0,0:13:02.64,0:13:05.79,Gatchaman(D)_Announcer,Suga,0,0,0,,Как я уже сказал, я хочу сложить с себя обязанности премьер-министра
-Dialogue: 0,0:13:05.79,0:13:09.47,Gatchaman(D)_Announcer,Suga,0,0,0,,и представить себя как кандидата на выборы \N премьер-министра голосованием.
+Dialogue: 0,0:13:05.79,0:13:09.47,Gatchaman(D)_Announcer,Suga,0,0,0,,и представить себя как кандидата на выборы \N премьер-министра народным голосованием.
 Dialogue: 0,0:13:09.77,0:13:12.66,Gatchaman(D)_Announcer,Suga,0,0,0,,Я хочу поставить своё переназначение на то,\N что все граждане Японии
 Dialogue: 0,0:13:12.66,0:13:14.18,Gatchaman(D)_Announcer,Suga,0,0,0,,верят в необходимость Толп.
 Dialogue: 0,0:13:14.18,0:13:17.72,Gatchaman(D)_Announcer,Suga,0,0,0,,Если вы действительно считаете, \N то Толпы не нужны обществу,
 Dialogue: 0,0:13:17.72,0:13:19.97,Gatchaman(D)_Announcer,Suga,0,0,0,,позвольте мне проиграть выборы!
 Dialogue: 0,0:13:19.97,0:13:23.24,Gatchaman(D)_Main,Suga,0,0,0,,Я хочу, чтобы люди проголосовали!
-Dialogue: 0,0:13:23.24,0:13:30.08,PM_Resigns_13:23(GCI04),Sign 1325,0,0,0,,Премьер-министр Сугаяма уходит в отставку;\NСтавка на Толпы во всеобщих выборах на пост премьер-министра
+Dialogue: 0,0:13:23.24,0:13:30.08,PM_Resigns_13:23(GCI04),Sign 1325,0,0,0,,Премьер-министр Сугаяма уходит в отставку;\NСтавка на Толпы в народных выборах на пост премьер-министра
 Dialogue: 0,0:13:23.24,0:13:30.08,Emergency_Broadcast_13:23(GCI04),Sign 1325,0,0,0,,Экстренная трансляция
 Dialogue: 0,0:13:23.72,0:13:27.84,Gatchaman(D)_Main,TV,0,0,0,,Премьер-министр будет избран\N голосованием через смартфон,
 Dialogue: 0,0:13:27.84,0:13:30.08,Gatchaman(D)_Main,TV,0,0,0,,что обуславливается прошлогодним законопроектом.
-Dialogue: 0,0:13:30.44,0:13:32.83,Gatchaman(D)_Main,OD,0,0,0,,Сугаяма-кун — мужик.
+Dialogue: 0,0:13:30.44,0:13:32.83,Gatchaman(D)_Main,OD,0,0,0,,Сугаяма-тян — мужик.
 Dialogue: 0,0:13:33.20,0:13:35.15,Gatchaman(D)_Main,Gel,0,0,0,,Что за выборы премьер-министра?
 Dialogue: 0,0:13:35.15,0:13:38.30,Gatchaman(D)_Main,OD,0,0,0,,Все будут голосовать, чтобы выбрать, кто станет\N лидером правительства.
 Dialogue: 0,0:13:38.96,0:13:40.85,Gatchaman(D)_Main,Jo,0,0,0,,Не думаю, что это хорошая стратегия:
 Dialogue: 0,0:13:40.85,0:13:43.84,Gatchaman(D)_Main,Jo,0,0,0,,класть свою голову на плаху,\N основываясь на мнении людей о Толпах.
 Dialogue: 0,0:13:44.22,0:13:45.58,Gatchaman(D)_Main,Sugane,0,0,0,,Разве?
-Dialogue: 0,0:13:45.58,0:13:50.00,Gatchaman(D)_Main,Sugane,0,0,0,,Я не думаю, что это такая плохая идея —\N выставить вопрос на всеобщее обсуждение,
+Dialogue: 0,0:13:45.58,0:13:50.00,Gatchaman(D)_Main,Sugane,0,0,0,,Я не думаю, что это такая плохая идея:\N выставить вопрос на всеобщее обсуждение,
 Dialogue: 0,0:13:50.00,0:13:51.76,Gatchaman(D)_Main,Sugane,0,0,0,,вместо того, чтобы просто запрещать Толпы.
 Dialogue: 0,0:13:52.07,0:13:54.70,Gatchaman(D)_Main,Pman,0,0,0,,Что за малоразвитая планета:
-Dialogue: 0,0:13:54.70,0:13:56.95,Gatchaman(D)_Main,,0,0,0,,устраивать такие беспорядки из-за мелочи\N вроде Толп.
+Dialogue: 0,0:13:54.70,0:13:56.95,Gatchaman(D)_Main,Pman,0,0,0,,устраивать такие беспорядки из-за мелочи\N вроде Толп.
 Dialogue: 0,0:13:56.95,0:14:00.52,Gatchaman(D)_Main,Pman,0,0,0,,Как дети могут расти в безопасности на такой планете?
 Dialogue: 0,0:14:00.52,0:14:03.92,Gatchaman(D)_Main,Jo,0,0,0,,Опасность Толп стала всемирно известна.
 Dialogue: 0,0:14:04.33,0:14:06.22,Gatchaman(D)_Main,Jo,0,0,0,,Сузуки Ризуму провёл хорошую работу.
@@ -341,21 +342,21 @@ Dialogue: 0,0:14:09.78,0:14:11.51,Gatchaman(D)_Main,OD,0,0,0,,Интересно
 Dialogue: 0,0:14:11.51,0:14:13.46,Gatchaman(D)_Main,OD,0,0,0,,Это как пытаться запретить все автомобили
 Dialogue: 0,0:14:13.46,0:14:16.87,Gatchaman(D)_Main,OD,0,0,0,,только потому, что кто-то потерял управление\N над свой машиной.
 Dialogue: 0,0:14:17.39,0:14:19.86,Gatchaman(D)_Main,Jo,0,0,0,,Толпы куда опаснее автомобилей.
-Dialogue: 0,0:14:20.24,0:14:23.13,Gatchaman(D)_Main,Jo,0,0,0,,Это устройства, которые человечество\N ещё не готово использовать.
+Dialogue: 0,0:14:20.24,0:14:23.13,Gatchaman(D)_Main,Jo,0,0,0,,Это инструменты, которые человечество\N ещё не готово использовать.
 Dialogue: 0,0:14:23.13,0:14:27.51,Gatchaman(D)_Main,Pman,0,0,0,,Блин, поэтому эта планета всегда\N будет оставаться под чьим-то надзором.
 Dialogue: 0,0:14:27.51,0:14:31.43,Gatchaman(D)_Main,OD,0,0,0,,Есть же люди, которые найдут им\N правильное применение.
-Dialogue: 0,0:14:31.96,0:14:34.35,Gatchaman(D)_Main,Jo,0,0,0,,Это правило два к шести к двум.
+Dialogue: 0,0:14:31.96,0:14:34.35,Gatchaman(D)_Main,Jo,0,0,0,,Это правило двух к шести к двум.
 Dialogue: 0,0:14:34.35,0:14:36.53,Gatchaman(D)_Main,Sugane,0,0,0,,Ты говоришь о том, как в группе людей
 Dialogue: 0,0:14:36.53,0:14:38.25,Gatchaman(D)_Main,Sugane,0,0,0,,20% будут разумными,
 Dialogue: 0,0:14:38.25,0:14:39.69,Gatchaman(D)_Main,Sugane,0,0,0,,60% будут людьми среднего уровня
 Dialogue: 0,0:14:39.69,0:14:42.65,Gatchaman(D)_Main,Sugane,0,0,0,,и 20% будут глупыми, как об общем правиле, да?
-Dialogue: 0,0:14:43.15,0:14:46.66,Gatchaman(D)_Main,Jo,0,0,0,,Прямо сейчас лишь 20% готовы\N использовать Толпы так, как задумано.
+Dialogue: 0,0:14:43.15,0:14:46.66,Gatchaman(D)_Main,Jo,0,0,0,,Прямо сейчас лишь 20% готовы\N использовать Толпы так как задумано.
 Dialogue: 0,0:14:47.10,0:14:49.69,Gatchaman(D)_Main,Jo,0,0,0,,Когда те средние 60% смогут\N использовать Толпы на том же уровне,
 Dialogue: 0,0:14:49.69,0:14:51.98,Gatchaman(D)_Main,Jo,0,0,0,,тогда можно будет говорить о том, \Nчто Толпы нашли своё законное место.
 Dialogue: 0,0:14:52.41,0:14:55.22,Gatchaman(D)_Main,Jo,0,0,0,,Но сейчас велика вероятность того,\N что Толпы станут
 Dialogue: 0,0:14:55.22,0:14:59.05,Gatchaman(D)_Main,Jo,0,0,0,,разрушительной силой в обществе раньше,\Nчем это произойдёт.
 Dialogue: 0,0:14:59.05,0:15:00.00,Gatchaman(D)_Main,T,0,0,0,,Эм!
-Dialogue: 0,0:15:00.00,0:15:02.65,Gatchaman(D)_Main,T,0,0,0,,Я часть 20% или 60%?
+Dialogue: 0,0:15:00.00,0:15:02.65,Gatchaman(D)_Main,T,0,0,0,,Я часть двадцати или шестидесяти процентов?
 Dialogue: 0,0:15:03.51,0:15:06.58,Gatchaman(D)_Main,T,0,0,0,,Ты говоришь об этом так возвышенно,
 Dialogue: 0,0:15:06.58,0:15:09.97,Gatchaman(D)_Main,T,0,0,0,,но разве это весело: смотреть сверху вниз\N на людей и классифицировать их таким образом?
 Dialogue: 0,0:15:10.34,0:15:13.72,Gatchaman(D)_Main,Sugane,0,0,0,,Нет, Цубаса-тян, дело не в веселье.
@@ -385,133 +386,133 @@ Dialogue: 0,0:16:18.39,0:16:20.67,Gatchaman(D)_Main,Gel,0,0,0,,Куда ты и�
 Dialogue: 0,0:16:20.67,0:16:22.68,Gatchaman(D)_Main,T,0,0,0,,Ничего особенного. Хочешь со мной?
 Dialogue: 0,0:16:23.15,0:16:24.17,Gatchaman(D)_Main,Gel,0,0,0,,Ага.
 Dialogue: 0,0:16:24.17,0:16:26.67,Gatchaman(D)_Main,Gel,0,0,0,,
-Dialogue: 0,0:16:26.67,0:16:28.87,Gatchaman(D)_Main,T,0,0,0,,I got to know some of the
-Dialogue: 0,0:16:28.87,0:16:31.59,Gatchaman(D)_Main,,0,0,0,,neighborhood association people \Nyesterday after the attack.
-Dialogue: 0,0:16:31.59,0:16:35.00,Gatchaman(D)_Main,T,0,0,0,,They said they were going to be clearing \Ndebris today, so I thought I'd chip in.
-Dialogue: 0,0:16:35.00,0:16:35.89,Gatchaman(D)_Main,Gel,0,0,0,,Great!
-Dialogue: 0,0:16:35.89,0:16:37.35,Gatchaman(D)_Main,Gel,0,0,0,,I'll help, too!
-Dialogue: 0,0:16:37.35,0:16:39.48,Gatchaman(D)_Main,Man,0,0,0,,Oh, Tsubasa-chan!
-Dialogue: 0,0:16:39.95,0:16:42.23,Gatchaman(D)_Main,T,0,0,0,,Hi, everyone!
-Dialogue: 0,0:16:42.23,0:16:44.70,Gatchaman(D)_Main,Man,0,0,0,,You must be Gel-chan.
-Dialogue: 0,0:16:44.70,0:16:47.06,Gatchaman(D)_Main,Man,0,0,0,,Thanks, you two! What a big help.
-Dialogue: 0,0:16:47.43,0:16:49.82,Gatchaman(D)_Main,Man,0,0,0,,C'mon, guys! We have friends!
-Dialogue: 0,0:16:50.16,0:16:53.06,Gatchaman(D)_Main,Gel,0,0,0,,You should've invited \NHajime-chan and the others, too.
-Dialogue: 0,0:16:53.06,0:16:55.51,Gatchaman(D)_Main,Gel,0,0,0,,It'd get done faster if everyone chipped in.
-Dialogue: 0,0:16:55.51,0:16:59.28,Gatchaman(D)_Main,T,0,0,0,,I just thought they might say it's \Nnot something Gatchaman should do.
-Dialogue: 0,0:16:59.28,0:17:01.83,Gatchaman(D)_Main,Gel,0,0,0,,Everyone's thinking too much.
-Dialogue: 0,0:17:01.83,0:17:03.31,Gatchaman(D)_Main,T,0,0,0,,Yeah, you're right!
-Dialogue: 0,0:17:03.31,0:17:06.74,Gatchaman(D)_Main,T,0,0,0,,Why do heroes need to think about 2s and 6s
-Dialogue: 0,0:17:05.54,0:17:09.84,Authorized_Personnel_Only_17:05(GCI04),Sign 1707,0,0,0,,Authorized \NPersonnel \NOnly
-Dialogue: 0,0:17:06.74,0:17:08.24,Gatchaman(D)_Main,T,0,0,0,,and categorize people into groups?
-Dialogue: 0,0:17:08.24,0:17:09.84,Gatchaman(D)_Main,T,0,0,0,,I don't like it.
-Dialogue: 0,0:17:09.84,0:17:13.30,Gatchaman(D)_Main,Gel,0,0,0,,If everyone united their hearts \Nand tackled problems together,
-Dialogue: 0,0:17:13.30,0:17:15.55,Gatchaman(D)_Main,Gel,0,0,0,,they'd be able to solve anything.
-Dialogue: 0,0:17:15.55,0:17:16.82,Gatchaman(D)_Main,T,0,0,0,,You're exactly right!
-Dialogue: 0,0:17:16.82,0:17:19.56,Gatchaman(D)_Main,T,0,0,0,,I get what you're saying \Nso much more than the others.
-Dialogue: 0,0:17:19.56,0:17:21.84,Gatchaman(D)_Main,Neighborhood,0,0,0,,Tsubasa-chan, who are you voting for?
-Dialogue: 0,0:17:21.84,0:17:22.84,Gatchaman(D)_Main,T,0,0,0,,Huh?
-Dialogue: 0,0:17:22.84,0:17:25.08,Gatchaman(D)_Main,Neigh,0,0,0,,Oh, you mean for the \Nprime minister elections?
-Dialogue: 0,0:17:25.08,0:17:26.82,Gatchaman(D)_Main,Neigh,0,0,0,,Wouldn't you end up voting for Sugayama?
-Dialogue: 0,0:17:26.82,0:17:28.70,Gatchaman(D)_Main,Neigh,0,0,0,,You think so?
-Dialogue: 0,0:17:28.70,0:17:30.40,Gatchaman(D)_Main,Neigh,0,0,0,,What do you think, Tsubasa-chan?
-Dialogue: 0,0:17:30.40,0:17:34.03,Gatchaman(D)_Main,T,0,0,0,,I know it's not the best way to go about it,
-Dialogue: 0,0:17:34.03,0:17:36.11,Gatchaman(D)_Main,T,0,0,0,,but I don't really understand \Nthe whole process,
-Dialogue: 0,0:17:36.11,0:17:38.12,Gatchaman(D)_Main,T,0,0,0,,so I'll just take a quick \Nlook at election time
-Dialogue: 0,0:17:38.12,0:17:39.96,Gatchaman(D)_Main,T,0,0,0,,and vote for the one who looks good to me.
-Dialogue: 0,0:17:40.43,0:17:42.15,Gatchaman(D)_Main,Neigh,0,0,0,,I guess it's like that.
-Dialogue: 0,0:17:42.15,0:17:44.70,Gatchaman(D)_Main,Neigh,0,0,0,,It doesn't seem to matter who you vote for.
-Dialogue: 0,0:17:45.15,0:17:49.00,Gatchaman(D)_Main,Neigh,0,0,0,,Maybe Sugayama's just the safe choice.
-Dialogue: 0,0:17:52.50,0:17:56.43,Gatchaman(D)_Main,H,0,0,0,,The Millione Show...
-Dialogue: 0,0:17:53.80,0:17:56.01,The_Millione_Show_04:15(GCI04),Sign 1755,0,0,0,,Info-Live: The Millione Show
-Dialogue: 0,0:18:01.24,0:18:06.06,Gatchaman(D)_Main,Millio,0,0,0,,Today, we have our semi-regulars, \NSadra-kun and Tsubasa-chan, with us!
-Dialogue: 0,0:18:06.06,0:18:08.69,Gatchaman(D)_Main,Millio,0,0,0,,Isn't it time you became real regulars?
-Dialogue: 0,0:18:08.69,0:18:12.52,Gatchaman(D)_Main,Millio,0,0,0,,Well, here's the first piece of news today!
-Dialogue: 0,0:18:12.75,0:18:16.74,PM_Resigns!_18:12(GCI04),Sign 1815,0,0,0,,Prime Minister Sugayama Resigns! \N The First Popular Prime Minister Election Coming Up!
-Dialogue: 0,0:18:13.84,0:18:17.45,Gatchaman(D)_Main,Millio,0,0,0,,The first popular Prime Minister \Nelections will soon be held,
-Dialogue: 0,0:18:16.76,0:18:26.24,Blocks_18:16(GCI04),Signs 1819,0,0,0,,What Is the Popular Prime Minister Election? \NPrime Minister Resigns -> Smart Phone Vote
-Dialogue: 0,0:18:17.45,0:18:21.47,Gatchaman(D)_Main,Millio,0,0,0,,but it's to be a smart phone vote.
-Dialogue: 0,0:18:21.98,0:18:24.87,Gatchaman(D)_Main,Millio,0,0,0,,Until now, Japan has been \Nan indirect democracy
-Dialogue: 0,0:18:24.87,0:18:27.16,Gatchaman(D)_Main,Millio,0,0,0,,where the most powerful man in government
-Dialogue: 0,0:18:26.25,0:18:36.01,Blocks_18:16(GCI04),Signs 1819,0,0,0,,Appointment by Diet Members -> Election by Japanese Citizens
-Dialogue: 0,0:18:27.16,0:18:30.05,Gatchaman(D)_Main,Millio,0,0,0,,would be appointed by \Ndiet members we'd voted in.
-Dialogue: 0,0:18:30.05,0:18:33.40,Gatchaman(D)_Main,Millio,0,0,0,,But now, Japanese citizens \Ncan vote for one themselves
-Dialogue: 0,0:18:33.40,0:18:35.75,Gatchaman(D)_Main,,0,0,0,,with a tap on their smart phones!
-Dialogue: 0,0:18:35.75,0:18:39.92,Gatchaman(D)_Main,Millio,0,0,0,,Furthermore, there are no age or \Nnationality restrictions on candidates!
-Dialogue: 0,0:18:36.75,0:18:40.46,No_Restrictions!_18:36(GCI04),Signs 1839,0,0,0,,No Age/Nationality Restrictions for Candidates \NAnyone can Nominate Themselves!
-Dialogue: 0,0:18:36.75,0:18:40.46,Anyone_Can_Register_18:36(GCI04),Signs 1839,0,0,0,,Anyone Can Register via smart phone
-Dialogue: 0,0:18:41.09,0:18:42.74,Gatchaman(D)_Main,Millio,0,0,0,,That's right!
-Dialogue: 0,0:18:42.74,0:18:45.04,Gatchaman(D)_Main,Millio,0,0,0,,By law, anyone... babies, grandpas, grandmas,
-Dialogue: 0,0:18:45.04,0:18:50.48,Gatchaman(D)_Main,Millio,0,0,0,,and even cat station masters and \Naliens can become candidates!
-Dialogue: 0,0:18:50.48,0:18:53.02,Gatchaman(D)_Main,Pman,0,0,0,,Ha! He's dreaming.
-Dialogue: 0,0:18:53.02,0:18:56.30,Gatchaman(D)_Main,Pman,0,0,0,,As if an alien could be \Nvoted in as prime minister.
-Dialogue: 0,0:18:56.30,0:18:57.86,Gatchaman(D)_Main,H,0,0,0,,You think so?
-Dialogue: 0,0:18:57.86,0:18:59.45,Gatchaman(D)_Main,Pman,0,0,0,,Of course!
-Dialogue: 0,0:18:59.45,0:19:00.75,Gatchaman(D)_Main,Pman,0,0,0,,An alien!
-Dialogue: 0,0:19:00.75,0:19:02.48,Gatchaman(D)_Main,Pman,0,0,0,,An alien prime minister!
-Dialogue: 0,0:19:02.48,0:19:03.50,Gatchaman(D)_Main,Pman,0,0,0,,Impossible!
-Dialogue: 0,0:19:03.50,0:19:04.47,Gatchaman(D)_Main,Pman,0,0,0,,Ridiculous!
-Dialogue: 0,0:19:04.83,0:19:06.87,Gatchaman(D)_Main,H,0,0,0,,Is it really?
-Dialogue: 0,0:19:06.87,0:19:10.78,Gatchaman(D)_Main,Gel,0,0,0,,Umm... So the prime minister \Nis the top leader of Japan?
-Dialogue: 0,0:19:10.78,0:19:12.90,Gatchaman(D)_Main,Millio,0,0,0,,That's right, Gel-chan.
-Dialogue: 0,0:19:12.90,0:19:14.64,Gatchaman(D)_Main,Millio,0,0,0,,It's an oversimplification,
-Dialogue: 0,0:19:14.64,0:19:18.53,Gatchaman(D)_Main,Millio,0,0,0,,but the prime minister basically gets \Nfinal say on what happens to Japan.
-Dialogue: 0,0:19:18.53,0:19:22.01,Gatchaman(D)_Main,Gel,0,0,0,,Can that person make \Npeople's wishes come true?
-Dialogue: 0,0:19:22.01,0:19:23.43,Gatchaman(D)_Main,Millio,0,0,0,,Yeah.
-Dialogue: 0,0:19:23.43,0:19:25.33,Gatchaman(D)_Main,Millio,0,0,0,,They're the top gun of democracy,
-Dialogue: 0,0:19:25.33,0:19:28.52,Gatchaman(D)_Main,Millio,0,0,0,,so you could say that's their role.
-Dialogue: 0,0:19:28.52,0:19:31.81,Gatchaman(D)_Main,Gel,0,0,0,,Can that person stop everyone's conflict?
-Dialogue: 0,0:19:32.14,0:19:34.54,Gatchaman(D)_Main,Millio,0,0,0,,I'm sure they could.
-Dialogue: 0,0:19:34.54,0:19:37.44,Gatchaman(D)_Main,Gel,0,0,0,,Can that person put an end to sadness?
-Dialogue: 0,0:19:37.44,0:19:39.71,Gatchaman(D)_Main,Millio,0,0,0,,You're asking really tough questions.
-Dialogue: 0,0:19:39.71,0:19:46.45,Gatchaman(D)_Main,Millio,0,0,0,,Well, I guess the Prime Minister has the \Nmost power to resolve everyone's problems.
-Dialogue: 0,0:19:46.45,0:19:50.27,Gatchaman(D)_Main,Gel,0,0,0,,Then I'll run in the \Nprime minister elections!
-Dialogue: 0,0:19:50.27,0:19:51.44,Gatchaman(D)_Main,Millio,0,0,0,,Huh?
-Dialogue: 0,0:19:51.44,0:19:53.51,Gatchaman(D)_Main,OD,0,0,0,,That's way too fun!
-Dialogue: 0,0:19:53.91,0:19:56.25,Gatchaman(D)_Main,Millio,0,0,0,,Hmm... It may not be a bad idea!
-Dialogue: 0,0:19:56.95,0:19:58.73,Gatchaman(D)_Main,Millio,0,0,0,,Way fun!
-Dialogue: 0,0:19:59.39,0:20:02.18,Gatchaman(D)_Main,Millio,0,0,0,,But I don't think you can win.
-Dialogue: 0,0:20:02.65,0:20:04.80,Gatchaman(D)_Main,Gel,0,0,0,,Is that because I'm an alien?
-Dialogue: 0,0:20:04.80,0:20:06.80,Gatchaman(D)_Main,Millio,0,0,0,,No, because you're still a child.
-Dialogue: 0,0:20:06.80,0:20:08.89,Gatchaman(D)_Main,Millio,0,0,0,,Aliens would be fun.
-Dialogue: 0,0:20:08.89,0:20:13.38,Gatchaman(D)_Main,Millio,0,0,0,,But no one would think \Nthat a child could do politics.
-Dialogue: 0,0:20:15.75,0:20:16.80,Gatchaman(D)_Main,T,0,0,0,,Gel-chan?
-Dialogue: 0,0:20:19.56,0:20:20.96,Gatchaman(D)_Main,OD,0,0,0,,What a shock!
-Dialogue: 0,0:20:20.96,0:20:22.74,Gatchaman(D)_Main,OD,0,0,0,,That's growing up way too much!
-Dialogue: 0,0:20:23.24,0:20:24.21,Gatchaman(D)_Main,Gel,0,0,0,,How's this?
-Dialogue: 0,0:20:23.46,0:20:24.56,Gatchaman(D)_Main,OD,0,0,0,,Great!
-Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0,0,0,,Super great!
-Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0,0,0,,Yes, wonderful!
-Dialogue: 0,0:20:25.20,0:20:26.45,Gatchaman(D)_Main,Millio,0,0,0,,{\a6}Thumbs up!
-Dialogue: 0,0:20:28.84,0:20:30.12,Gatchaman(D)_Main,Pman,0,0,0,,Impossible!
-Dialogue: 0,0:20:30.12,0:20:32.37,Gatchaman(D)_Main,Pman,0,0,0,,An alien as a prime minister candidate?!
-Dialogue: 0,0:20:32.37,0:20:35.03,Gatchaman(D)_Main,Pman,0,0,0,,No way! It's not possible!
-Dialogue: 0,0:20:37.13,0:20:39.88,Gatchaman(D)_Main,H,0,0,0,,Gel-chan's transformed again.
-Dialogue: 0,0:20:39.88,0:20:42.68,Gatchaman(D)_Main,H,0,0,0,,I don't think he needs \Nto change so many times, though.
-Dialogue: 0,0:20:42.68,0:20:44.13,Gatchaman(D)_Main,Gel,0,0,0,,Tsubasa-chan!
-Dialogue: 0,0:20:45.59,0:20:47.04,Gatchaman(D)_Main,T,0,0,0,,Y-Yes?
-Dialogue: 0,0:20:47.04,0:20:49.31,Gatchaman(D)_Main,Gel,0,0,0,,I want you to help me.
-Dialogue: 0,0:20:49.31,0:20:50.02,Gatchaman(D)_Main,T,0,0,0,,What?!
-Dialogue: 0,0:20:50.29,0:20:55.19,Gatchaman(D)_Main,Gel,0,0,0,,I think we can work together \Nto unite everyone's hearts.
-Dialogue: 0,0:20:55.19,0:20:57.87,Gatchaman(D)_Main,T,0,0,0,,Oh, okay! I'll help!
-Dialogue: 0,0:20:58.71,0:20:59.91,Gatchaman(D)_Main,Gel,0,0,0,,Yay!
-Dialogue: 0,0:21:01.16,0:21:02.70,Gatchaman(D)_Main,T,0,0,0,,Hey, Gel-chan!
-Dialogue: 0,0:21:03.11,0:21:06.05,Gatchaman(D)_Main,Katze,0,0,0,,Hajime-tan! He's gonna be a huge problem!
-Dialogue: 0,0:21:06.05,0:21:07.73,Gatchaman(D)_Main,Katze,0,0,0,,If you don't stop him now,
-Dialogue: 0,0:21:07.73,0:21:09.31,Gatchaman(D)_Main,Katze,0,0,0,,I'm gonna be in a huge pickle!
-Dialogue: 0,0:21:09.31,0:21:10.79,Gatchaman(D)_Main,Katze,0,0,0,,Help me, Hajime-tan!
-Dialogue: 0,0:21:10.79,0:21:12.51,Gatchaman(D)_Main,Katze,0,0,0,,Let's off him!
-Dialogue: 0,0:21:12.51,0:21:14.77,Gatchaman(D)_Main,Katze,0,0,0,,Let's off Sadra!
-Dialogue: 0,0:21:13.62,0:21:14.77,Gatchaman(D)_Main,H,0,0,0,,I'm gonna sleep.
-Dialogue: 0,0:21:16.28,0:21:18.09,Gatchaman(D)_Main,Katze,0,0,0,,Hey, don't ignore me.
-Dialogue: 0,0:21:18.09,0:21:22.02,Gatchaman(D)_Main,Katze,0,0,0,,Talk to me, you worthless bitch! Bitch! Bitch!
-Dialogue: 0,0:21:22.02,0:21:24.59,Gatchaman(D)_Main,Katze,0,0,0,,You shitty bitch!
-Dialogue: 0,0:21:25.90,0:21:26.84,Gatchaman(D)_Main,T,0,0,0,,Here!
-Dialogue: 0,0:21:26.84,0:21:28.90,Gatchaman(D)_Main,Millio,0,0,0,,If you tap that "yes,"
-Dialogue: 0,0:21:26.84,0:21:31.85,Firs_PM_Elections-phone_21:31(GCI04),Sign 2130,0,0,0,,The First Popular Prime Minister Elections \N Do you nominate yourself?
-Dialogue: 0,0:21:28.90,0:21:30.95,Gatchaman(D)_Main,Millio,0,0,0,,you become a candidate?
-Dialogue: 0,0:21:30.95,0:21:31.85,Gatchaman(D)_Main,T,0,0,0,,That's right.
-Dialogue: 0,0:21:31.85,0:21:33.31,Gatchaman(D)_Main,T,0,0,0,,Here, Gel-chan.
-Dialogue: 0,0:21:34.96,0:21:36.54,Gatchaman-X,X,0,0,0,,Do you wish to nominate \Nyourself as a candidate?
-Dialogue: 0,0:21:37.01,0:21:38.06,Gatchaman(D)_Main,Gel,0,0,0,,Yes!
-Dialogue: 0,0:21:38.36,0:21:41.49,Gatchaman-X,X,0,0,0,,Your application has been accepted.
-Dialogue: 0,0:21:41.49,0:21:43.49,Gatchaman(D)_Main,,0,0,0,,
+Dialogue: 0,0:16:26.67,0:16:28.87,Gatchaman(D)_Main,T,0,0,0,,Я познакомилась с несколькими людьми
+Dialogue: 0,0:16:28.87,0:16:31.59,Gatchaman(D)_Main,T,0,0,0,,из органа самоорганизации населения вчера,\N после нападения.
+Dialogue: 0,0:16:31.59,0:16:35.00,Gatchaman(D)_Main,T,0,0,0,,Они сказали, что сегодня будут разгребать завалы, \Nа я захотела присоединиться.
+Dialogue: 0,0:16:35.00,0:16:35.89,Gatchaman(D)_Main,Gel,0,0,0,,Отлично!
+Dialogue: 0,0:16:35.89,0:16:37.35,Gatchaman(D)_Main,Gel,0,0,0,,Тогда я тоже помогу!
+Dialogue: 0,0:16:37.35,0:16:39.48,Gatchaman(D)_Main,Man,0,0,0,,О, Цубаса-тян!
+Dialogue: 0,0:16:39.95,0:16:42.23,Gatchaman(D)_Main,T,0,0,0,,Привет!
+Dialogue: 0,0:16:42.23,0:16:44.70,Gatchaman(D)_Main,Man,0,0,0,,Должно быть, ты Гел-тян.
+Dialogue: 0,0:16:44.70,0:16:47.06,Gatchaman(D)_Main,Man,0,0,0,,Спасибо вам двоим! Вы сильно помогли.
+Dialogue: 0,0:16:47.43,0:16:49.82,Gatchaman(D)_Main,Man,0,0,0,,Давай, ребята! К нам пришли друзья!
+Dialogue: 0,0:16:50.16,0:16:53.06,Gatchaman(D)_Main,Gel,0,0,0,,Нам стоило пригласить Хаджиме-тян \N и остальных.
+Dialogue: 0,0:16:53.06,0:16:55.51,Gatchaman(D)_Main,Gel,0,0,0,,Мы бы быстрее управились все вместе.
+Dialogue: 0,0:16:55.51,0:16:59.28,Gatchaman(D)_Main,T,0,0,0,,Я просто подумала, что они не посчитают это\N достойным Гатчамена.
+Dialogue: 0,0:16:59.28,0:17:01.83,Gatchaman(D)_Main,Gel,0,0,0,,Вы все чересчур много думаете.
+Dialogue: 0,0:17:01.83,0:17:03.31,Gatchaman(D)_Main,T,0,0,0,,Ага, ты права!
+Dialogue: 0,0:17:03.31,0:17:06.74,Gatchaman(D)_Main,T,0,0,0,,Почему люди должны думать\N о двойках и шестёрках
+Dialogue: 0,0:17:05.54,0:17:09.84,Authorized_Personnel_Only_17:05(GCI04),Sign 1707,0,0,0,,Только\Nдля персонала
+Dialogue: 0,0:17:06.74,0:17:08.24,Gatchaman(D)_Main,T,0,0,0,,и делить людей на группы?
+Dialogue: 0,0:17:08.24,0:17:09.84,Gatchaman(D)_Main,T,0,0,0,,Мне это не нравится.
+Dialogue: 0,0:17:09.84,0:17:13.30,Gatchaman(D)_Main,Gel,0,0,0,,Если бы все объединялись и решали\Nпроблемы вместе,
+Dialogue: 0,0:17:13.30,0:17:15.55,Gatchaman(D)_Main,Gel,0,0,0,,то справились бы с чем угодно.
+Dialogue: 0,0:17:15.55,0:17:16.82,Gatchaman(D)_Main,T,0,0,0,,Именно!
+Dialogue: 0,0:17:16.82,0:17:19.56,Gatchaman(D)_Main,T,0,0,0,,Я куда лучше остальных понимаю то,\N о чём ты говоришь.
+Dialogue: 0,0:17:19.56,0:17:21.84,Gatchaman(D)_Main,Neighborhood,0,0,0,,Цубаса-тян, за кого ты голосовала?
+Dialogue: 0,0:17:21.84,0:17:22.84,Gatchaman(D)_Main,T,0,0,0,,Чего?
+Dialogue: 0,0:17:22.84,0:17:25.08,Gatchaman(D)_Main,Neigh,0,0,0,,А, ты про выборы премьер-министра?
+Dialogue: 0,0:17:25.08,0:17:26.82,Gatchaman(D)_Main,Neigh,0,0,0,,Разве не за Сугаяму?
+Dialogue: 0,0:17:26.82,0:17:28.70,Gatchaman(D)_Main,Neigh,0,0,0,,Думаешь?
+Dialogue: 0,0:17:28.70,0:17:30.40,Gatchaman(D)_Main,Neigh,0,0,0,,Что ты считаешь, Цубаса-тян?
+Dialogue: 0,0:17:30.40,0:17:34.03,Gatchaman(D)_Main,T,0,0,0,,Я знаю, что это не лучший способ,
+Dialogue: 0,0:17:34.03,0:17:36.11,Gatchaman(D)_Main,T,0,0,0,,но я совсем не понимаю весь этот процесс,
+Dialogue: 0,0:17:36.11,0:17:38.12,Gatchaman(D)_Main,T,0,0,0,,так что я бегло взгляну на кандидатов \Nво время голосования
+Dialogue: 0,0:17:38.12,0:17:39.96,Gatchaman(D)_Main,T,0,0,0,,и выберу того, кто мне понравится.
+Dialogue: 0,0:17:40.43,0:17:42.15,Gatchaman(D)_Main,Neigh,0,0,0,,Вот оно как.
+Dialogue: 0,0:17:42.15,0:17:44.70,Gatchaman(D)_Main,Neigh,0,0,0,,Мне кажется, что не так уж и важно, за кого ты голосуешь.
+Dialogue: 0,0:17:45.15,0:17:49.00,Gatchaman(D)_Main,Neigh,0,0,0,,Может быть, Сугаяма — самый безопасный вариант.
+Dialogue: 0,0:17:52.50,0:17:56.43,Gatchaman(D)_Main,H,0,0,0,,Шоу Миллиона...
+Dialogue: 0,0:17:53.80,0:17:56.01,The_Millione_Show_04:15(GCI04),Sign 1755,0,0,0,,Инфо-лайв: Шоу Миллиона
+Dialogue: 0,0:18:01.24,0:18:06.06,Gatchaman(D)_Main,Millio,0,0,0,,Сегодня у нас присутствуют наши частые гости:\N Садра-кун и Цубаса-тян!
+Dialogue: 0,0:18:06.06,0:18:08.69,Gatchaman(D)_Main,Millio,0,0,0,,Не пора ли вам стать постоянными?
+Dialogue: 0,0:18:08.69,0:18:12.52,Gatchaman(D)_Main,Millio,0,0,0,,Ну ладно, перейдём к сегодняшним новостям.
+Dialogue: 0,0:18:12.75,0:18:16.74,PM_Resigns!_18:12(GCI04),Sign 1815,0,0,0,,Отставка премьер-министра Сугаямы!\NПришло время первого народного голосования на пост премьер-министра!
+Dialogue: 0,0:18:13.84,0:18:17.45,Gatchaman(D)_Main,Millio,0,0,0,,Скоро пройдут первые народные выборы\N на пост премьер-министра,
+Dialogue: 0,0:18:16.76,0:18:26.24,Blocks_18:16(GCI04),Signs 1819,0,0,0,,Что такое "народные выборы на пост премьер-министра"?\NПремьер-министр уходит -> Люди голосуют через смартфоны
+Dialogue: 0,0:18:17.45,0:18:21.47,Gatchaman(D)_Main,Millio,0,0,0,,но это будет голосование через смартфон.
+Dialogue: 0,0:18:21.98,0:18:24.87,Gatchaman(D)_Main,Millio,0,0,0,,До сих пор Япония управлялась\N представительной демократией,
+Dialogue: 0,0:18:24.87,0:18:27.16,Gatchaman(D)_Main,Millio,0,0,0,,при которой самый влиятельный человек\N в правительстве
+Dialogue: 0,0:18:26.25,0:18:36.01,Blocks_18:16(GCI04),Signs 1819,0,0,0,,Назначение членами парламента -> Выборы гражданами Японии
+Dialogue: 0,0:18:27.16,0:18:30.05,Gatchaman(D)_Main,Millio,0,0,0,,назначался членами парламента, \N за которых мы голосовали.
+Dialogue: 0,0:18:30.05,0:18:33.40,Gatchaman(D)_Main,Millio,0,0,0,,Но теперь граждане Японии самостоятельно\N смогут выбрать его
+Dialogue: 0,0:18:33.40,0:18:35.75,Gatchaman(D)_Main,,0,0,0,,нажатием на экран своего смартфона!
+Dialogue: 0,0:18:35.75,0:18:39.92,Gatchaman(D)_Main,Millio,0,0,0,,Более того, теперь нет ограничений \Nпо возрасту и национальной принадлежности.
+Dialogue: 0,0:18:36.75,0:18:40.46,No_Restrictions!_18:36(GCI04),Signs 1839,0,0,0,,Нет ограничений по возрасту/национальности\N Каждый может выставить свою кандидатуру!
+Dialogue: 0,0:18:36.75,0:18:40.46,Anyone_Can_Register_18:36(GCI04),Signs 1839,0,0,0,,Каждый может зарегистрироваться через смартфон!
+Dialogue: 0,0:18:41.09,0:18:42.74,Gatchaman(D)_Main,Millio,0,0,0,,Всё именно так!
+Dialogue: 0,0:18:42.74,0:18:45.04,Gatchaman(D)_Main,Millio,0,0,0,,По закону любой... младенцы, дедушки, бабушки
+Dialogue: 0,0:18:45.04,0:18:50.48,Gatchaman(D)_Main,Millio,0,0,0,,и даже кот-станционный смотритель\N с инопланетянином могут стать кандидатом!
+Dialogue: 0,0:18:50.48,0:18:53.02,Gatchaman(D)_Main,Pman,0,0,0,,Ха! Да он бредит.
+Dialogue: 0,0:18:53.02,0:18:56.30,Gatchaman(D)_Main,Pman,0,0,0,,Как будто инопланетянин сможет\N стать премьер-министром.
+Dialogue: 0,0:18:56.30,0:18:57.86,Gatchaman(D)_Main,H,0,0,0,,Думаешь?
+Dialogue: 0,0:18:57.86,0:18:59.45,Gatchaman(D)_Main,Pman,0,0,0,,Конечно!
+Dialogue: 0,0:18:59.45,0:19:00.75,Gatchaman(D)_Main,Pman,0,0,0,,Инопланетянин!
+Dialogue: 0,0:19:00.75,0:19:02.48,Gatchaman(D)_Main,Pman,0,0,0,,Инопланетянин стать премьер-министром!
+Dialogue: 0,0:19:02.48,0:19:03.50,Gatchaman(D)_Main,Pman,0,0,0,,Невозможно!
+Dialogue: 0,0:19:03.50,0:19:04.47,Gatchaman(D)_Main,Pman,0,0,0,,Чепуха!
+Dialogue: 0,0:19:04.83,0:19:06.87,Gatchaman(D)_Main,H,0,0,0,,На самом деле?
+Dialogue: 0,0:19:06.87,0:19:10.78,Gatchaman(D)_Main,Gel,0,0,0,,А... премьер-министр — это главный лидер Японии?
+Dialogue: 0,0:19:10.78,0:19:12.90,Gatchaman(D)_Main,Millio,0,0,0,,Верно, Гел-тян.
+Dialogue: 0,0:19:12.90,0:19:14.64,Gatchaman(D)_Main,Millio,0,0,0,,Если вкратце, то
+Dialogue: 0,0:19:14.64,0:19:18.53,Gatchaman(D)_Main,Millio,0,0,0,,премьер-министр принимает окончательное\N решение по любому вопросу в стране.
+Dialogue: 0,0:19:18.53,0:19:22.01,Gatchaman(D)_Main,Gel,0,0,0,,Значит, этот человек может исполнять\N желания людей?
+Dialogue: 0,0:19:22.01,0:19:23.43,Gatchaman(D)_Main,Millio,0,0,0,,Ага.
+Dialogue: 0,0:19:23.43,0:19:25.33,Gatchaman(D)_Main,Millio,0,0,0,,Он представляет демократию,
+Dialogue: 0,0:19:25.33,0:19:28.52,Gatchaman(D)_Main,Millio,0,0,0,,так что, можно сказать, что это его работа.
+Dialogue: 0,0:19:28.52,0:19:31.81,Gatchaman(D)_Main,Gel,0,0,0,,Может ли этот человек прекратить\N конфликты между всеми?
+Dialogue: 0,0:19:32.14,0:19:34.54,Gatchaman(D)_Main,Millio,0,0,0,,Уверен, что может.
+Dialogue: 0,0:19:34.54,0:19:37.44,Gatchaman(D)_Main,Gel,0,0,0,,Может ли этот человек покончить\Nс грустью?
+Dialogue: 0,0:19:37.44,0:19:39.71,Gatchaman(D)_Main,Millio,0,0,0,,Ты задаёшь непростые вопросы.
+Dialogue: 0,0:19:39.71,0:19:46.45,Gatchaman(D)_Main,Millio,0,0,0,,Ну, я думаю, что у премьер-министра\Nбольше всего власти, чтобы решать проблемы.
+Dialogue: 0,0:19:46.45,0:19:50.27,Gatchaman(D)_Main,Gel,0,0,0,,Тогда я участвую в выборах премьер-министра!
+Dialogue: 0,0:19:50.27,0:19:51.44,Gatchaman(D)_Main,Millio,0,0,0,,А?
+Dialogue: 0,0:19:51.44,0:19:53.51,Gatchaman(D)_Main,OD,0,0,0,,Как забавно!
+Dialogue: 0,0:19:53.91,0:19:56.25,Gatchaman(D)_Main,Millio,0,0,0,,Хм... А не такая уж и плохая идея!
+Dialogue: 0,0:19:56.95,0:19:58.73,Gatchaman(D)_Main,Millio,0,0,0,,Отлично!
+Dialogue: 0,0:19:59.39,0:20:02.18,Gatchaman(D)_Main,Millio,0,0,0,,Но я не думаю, что ты сможешь победить.
+Dialogue: 0,0:20:02.65,0:20:04.80,Gatchaman(D)_Main,Gel,0,0,0,,Потому, что я инопланетянин?
+Dialogue: 0,0:20:04.80,0:20:06.80,Gatchaman(D)_Main,Millio,0,0,0,,Нет, потому, что ты ещё ребёнок.
+Dialogue: 0,0:20:06.80,0:20:08.89,Gatchaman(D)_Main,Millio,0,0,0,,Пришельцы — это интересно.
+Dialogue: 0,0:20:08.89,0:20:13.38,Gatchaman(D)_Main,Millio,0,0,0,,Но никто не поверит в то, \Nчто ребёнок сможет заниматься политикой.
+Dialogue: 0,0:20:15.75,0:20:16.80,Gatchaman(D)_Main,T,0,0,0,,Гел-тян?
+Dialogue: 0,0:20:19.56,0:20:20.96,Gatchaman(D)_Main,OD,0,0,0,,Вот это да!
+Dialogue: 0,0:20:20.96,0:20:22.74,Gatchaman(D)_Main,OD,0,0,0,,Ты слишком сильно выросла!
+Dialogue: 0,0:20:23.24,0:20:24.21,Gatchaman(D)_Main,Gel,0,0,0,,Как вам?
+Dialogue: 0,0:20:23.46,0:20:24.56,Gatchaman(D)_Main,OD,0,0,0,,Отлично!
+Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0,0,0,,Великолепно!
+Dialogue: 0,0:20:24.56,0:20:26.98,Gatchaman(D)_Main,OD,0,0,0,,Да, прекрасно!
+Dialogue: 0,0:20:25.20,0:20:26.45,Gatchaman(D)_Main,Millio,0,0,0,,{\a6}Ставлю класс!
+Dialogue: 0,0:20:28.84,0:20:30.12,Gatchaman(D)_Main,Pman,0,0,0,,Невозможно!
+Dialogue: 0,0:20:30.12,0:20:32.37,Gatchaman(D)_Main,Pman,0,0,0,,Пришелец как кандидат в премьер-министры?!
+Dialogue: 0,0:20:32.37,0:20:35.03,Gatchaman(D)_Main,Pman,0,0,0,,Ни за что! Это невозможно!
+Dialogue: 0,0:20:37.13,0:20:39.88,Gatchaman(D)_Main,H,0,0,0,,Гел-тян снова изменилась.
+Dialogue: 0,0:20:39.88,0:20:42.68,Gatchaman(D)_Main,H,0,0,0,,Не думаю, что ей стоит меняться так часто.
+Dialogue: 0,0:20:42.68,0:20:44.13,Gatchaman(D)_Main,Gel,0,0,0,,Цубаса-тян!
+Dialogue: 0,0:20:45.59,0:20:47.04,Gatchaman(D)_Main,T,0,0,0,,Д-да?
+Dialogue: 0,0:20:47.04,0:20:49.31,Gatchaman(D)_Main,Gel,0,0,0,,Я хочу, чтобы ты помогла мне.
+Dialogue: 0,0:20:49.31,0:20:50.02,Gatchaman(D)_Main,T,0,0,0,,Чего?!
+Dialogue: 0,0:20:50.29,0:20:55.19,Gatchaman(D)_Main,Gel,0,0,0,,Я думаю, что мы сможем работать вместе,\N чтобы объединить сердца каждого.
+Dialogue: 0,0:20:55.19,0:20:57.87,Gatchaman(D)_Main,T,0,0,0,,А, хорошо! Я помогу!
+Dialogue: 0,0:20:58.71,0:20:59.91,Gatchaman(D)_Main,Gel,0,0,0,,Ура!
+Dialogue: 0,0:21:01.16,0:21:02.70,Gatchaman(D)_Main,T,0,0,0,,Эй, Гел-тян!
+Dialogue: 0,0:21:03.11,0:21:06.05,Gatchaman(D)_Main,Katze,0,0,0,,Хаджиме-тян! Он станет большой проблемой!
+Dialogue: 0,0:21:06.05,0:21:07.73,Gatchaman(D)_Main,Katze,0,0,0,,Если ты не остановишь его сейчас,
+Dialogue: 0,0:21:07.73,0:21:09.31,Gatchaman(D)_Main,Katze,0,0,0,,Я попаду в неприятное положение!
+Dialogue: 0,0:21:09.31,0:21:10.79,Gatchaman(D)_Main,Katze,0,0,0,,Помоги мне, Хаджиме-тан!
+Dialogue: 0,0:21:10.79,0:21:12.51,Gatchaman(D)_Main,Katze,0,0,0,,Давай его укокошим!
+Dialogue: 0,0:21:12.51,0:21:14.77,Gatchaman(D)_Main,Katze,0,0,0,,Давай завалим Садру!
+Dialogue: 0,0:21:13.62,0:21:14.77,Gatchaman(D)_Main,H,0,0,0,,Пойду спать.
+Dialogue: 0,0:21:16.28,0:21:18.09,Gatchaman(D)_Main,Katze,0,0,0,,Эй, не игнорируй меня.
+Dialogue: 0,0:21:18.09,0:21:22.02,Gatchaman(D)_Main,Katze,0,0,0,,Поговори со мной, бесполезная сучка! Сучка! Сучка!
+Dialogue: 0,0:21:22.02,0:21:24.59,Gatchaman(D)_Main,Katze,0,0,0,,Дрянная сучка!
+Dialogue: 0,0:21:25.90,0:21:26.84,Gatchaman(D)_Main,T,0,0,0,,Держи!
+Dialogue: 0,0:21:26.84,0:21:28.90,Gatchaman(D)_Main,Millio,0,0,0,,Если ты нажмёшь на "да",
+Dialogue: 0,0:21:26.84,0:21:31.85,Firs_PM_Elections-phone_21:31(GCI04),Sign 2130,0,0,0,,Первые народные выборы премьер-министра\N Вы хотите выставить свою кандидатуру?
+Dialogue: 0,0:21:28.90,0:21:30.95,Gatchaman(D)_Main,Millio,0,0,0,,ты станешь кандидатом?
+Dialogue: 0,0:21:30.95,0:21:31.85,Gatchaman(D)_Main,T,0,0,0,,Верно.
+Dialogue: 0,0:21:31.85,0:21:33.31,Gatchaman(D)_Main,T,0,0,0,,Вот, Гел-тян.
+Dialogue: 0,0:21:34.96,0:21:36.54,Gatchaman-X,X,0,0,0,,Вы хотите выставить\N свою кандидатуру?
+Dialogue: 0,0:21:37.01,0:21:38.06,Gatchaman(D)_Main,Gel,0,0,0,,Да!
+Dialogue: 0,0:21:38.36,0:21:41.49,Gatchaman-X,X,0,0,0,,Ваша заявка принята.
+Dialogue: 0,0:21:44.49,0:21:54.49,Ending,,0,0,0,,SWW Subs\N\N  Перевод с английского:\NГеоргий Моисеев\N\N Редактура:\Nsupermario\N\N Источник англ. перевода:\N HorribleSubs
