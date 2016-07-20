@@ -1,0 +1,489 @@
+[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: Gatchaman(D)_Flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: Gatchaman(D)_Announcer,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: Our_hearts_00:00(GCI07),Open Sans Semibold,30,&H00B57169,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,27,13,27,1
+Style: Star_Rookie_00:15(GCI07),Open Sans Semibold,24,&H0036A8E9,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,27,13,100,1
+Style: Prohibition-big_00:26(GCI07),Open Sans Semibold,33,&H00382E2B,&H000000FF,&H00EFE0DC,&H00DE9AB5,1,0,0,0,100,100,0,0,1,2,2,8,27,17,27,1
+Style: Prohibition-bigger_00:26(GCI07),Open Sans Semibold,42,&H00382E2B,&H000000FF,&H00EFE0DC,&H00DE9AB5,1,0,0,0,100,100,0,0,1,2,2,8,27,17,40,1
+Style: Prohibition-tilted_00:26(GCI07),Open Sans Semibold,27,&H00382E2B,&H000000FF,&H00EFE0DC,&H00DE9AB5,1,0,0,0,100,100,0,19,1,2,2,8,53,17,133,1
+Style: Phone-text_01:41(GCI07),Open Sans Semibold,21,&H00B91B6E,&H000000FF,&H00F3F5F5,&H00000000,1,0,0,0,100,100,0,0,1,2,0,4,27,27,27,1
+Style: Phone-text_01:43(GCI07),Open Sans Semibold,24,&H00772DD8,&H000000FF,&H00FFFFF2,&H00000000,1,0,0,0,100,100,0,9,1,2,0,8,17,267,233,1
+Style: Phone-text_01:47(GCI07),Open Sans Semibold,24,&H004BA3DF,&H000000FF,&H00FFFFF2,&H00000000,1,0,0,0,100,100,0,9,1,2,0,2,17,133,40,1
+Style: Phone-text_01:48(GCI07),Open Sans Semibold,24,&H00FFDEA2,&H000000FF,&H00C96422,&H00000000,1,0,0,0,100,100,0,9,1,2,0,3,17,17,67,1
+Style: Our_hearts_05:17(GCI07),Open Sans Semibold,21,&H00FCE0FF,&H000000FF,&H00BC64B7,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,533,13,167,1
+Style: Pie_Chart_label--no_12:35(GCI07),Open Sans Semibold,30,&H00543309,&H000000FF,&H00E6DD5D,&H00000000,1,0,0,0,100,100,0,5,1,2,0,7,240,13,77,1
+Style: Pie_Chart_label--right_12:35(GCI07),Open Sans Semibold,30,&H00171534,&H000000FF,&H006345F4,&H00000000,1,0,0,0,100,100,0,7,1,2,0,2,167,13,240,1
+Style: Pie_Chart_label--right_12:36(GCI07),Open Sans Semibold,30,&H00171534,&H000000FF,&H006345F4,&H00000000,1,0,0,0,100,100,0,-10,1,2,0,8,500,13,27,1
+Style: Pie_Chart_label--no_12:36(GCI07),Open Sans Semibold,30,&H00543309,&H000000FF,&H00E6DD5D,&H00000000,1,0,0,0,100,100,0,-10,1,2,0,7,253,13,160,1
+Style: Studio3_Broadcast_Schedule_14:26,Open Sans Semibold,33,&H00171717,&H000000FF,&H00FFFFFF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,267,13,93,1
+Style: Limit?_14:6(GCI07),Open Sans Semibold,36,&H00EDF5F3,&H000000FF,&H002D2C29,&H00DFF7F8,1,0,0,0,100,100,0,0,1,2,0,7,280,27,267,1
+Style: Right-No_Way-Let_Sadra_14:39(GCI07),Open Sans Semibold,24,&H00FFF4DA,&H000000FF,&H00F5F5EF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,13,13,233,1
+Style: The_Millione_Show_15:05(GCI07),Open Sans Semibold,30,&H0056C733,&H0038363A,&H00FBF5F1,&H00771F5C,1,0,0,0,100,100,0,0,1,2,2,2,67,13,133,1
+Style: Child_Assistance_15:29(GCI07),Open Sans Semibold,24,&H00787D75,&H000000FF,&H00F3F8F5,&H00000000,1,0,0,0,100,100,0,-6,1,2,0,8,67,13,160,1
+Style: Child_Assistance_15:38(GCI07),Open Sans Semibold,21,&H00787D75,&H000000FF,&H00F3F8F5,&H00000000,1,0,0,0,100,100,0,12,1,2,0,8,13,87,213,1
+Style: Everyone_12:37(GCI07),Open Sans Semibold,33,&H00ECF3EC,&H000000FF,&H004214BD,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,53,13,133,1
+Style: Pie_Chart_label--right_17:41(GCI06),Open Sans Semibold,24,&H008C847C,&H000000FF,&H00F7FFEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,2,247,13,220,1
+Style: Pie_Chart_label--no_17:41(GCI06),Open Sans Semibold,24,&H008C847C,&H000000FF,&H00E3CBEF,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,300,13,87,1
+Style: The_Millione_Show_17:28(GCI05),Open Sans Semibold,27,&H00F4F2F2,&H000000FF,&H00CB9E15,&H00000000,1,0,0,0,100,100,0,-3,1,2,0,8,13,67,97,1
+Style: Elections_News_Flash_21:03(GCI05),Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,1
+Style: election_header,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H00C9BC42,&H00000000,1,0,0,0,100,100,0,0,1,2,0,8,13,13,27,1
+Style: Pie_Chart_12:23(GCI05) - Copy,Open Sans Semibold,24,&H00FFFFFF,&H000000FF,&H002C3435,&H00000000,1,0,0,0,100,100,0,0,1,2,0,5,13,13,93,1
+Style: Gatchaman-X,Open Sans Semibold,36,&H00E1FFEC,&H000000FF,&H003A1E03,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,13,13,24,1
+Style: Pie_Chart_label--no_17:41(GCI06) - Copy,Open Sans Semibold,24,&H00000000,&H000000FF,&H0065D3FA,&H00000000,1,0,0,0,100,100,0,0,1,2,0,7,300,13,87,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:16:04.98,Gatchaman(D)_Main,,0000,0000,0000,,
+Dialogue: 0,0:00:00.98,0:00:03.85,Our_hearts_00:00(GCI07),Sign 0003,0000,0000,0000,,Our Hearts as One: \N{\fs16}{\c&H5D35EA&}Our World to Create, Together!
+Dialogue: 0,0:00:01.76,0:00:03.02,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Morning!
+Dialogue: 0,0:00:02.20,0:00:03.02,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Good morning.
+Dialogue: 0,0:00:07.33,0:00:09.23,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Gelu-lu!
+Dialogue: 0,0:00:09.79,0:00:10.78,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Gelu-lu.
+Dialogue: 0,0:00:10.78,0:00:11.49,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Gelu-lu.
+Dialogue: 0,0:00:11.49,0:00:12.28,Gatchaman(D)_Main,Ppl,0000,0000,0000,,Gelu-lu.
+Dialogue: 0,0:00:12.52,0:00:15.20,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,You're a vision today like usual, DD.
+Dialogue: 0,0:00:15.22,0:00:16.81,Star_Rookie_00:15(GCI07),Sign 0016,0000,0000,0000,,A Star Rookie in the Drag Queen World: \N{\c&H5A577B&}DD
+Dialogue: 0,0:00:15.46,0:00:16.82,Gatchaman(D)_Announcer,DD,0000,0000,0000,,{\a6}Aw, c'mon.
+Dialogue: 0,0:00:16.82,0:00:20.54,Gatchaman(D)_Announcer,DD,0000,0000,0000,,Millio-chan, you're such a flirt.
+Dialogue: 0,0:00:21.15,0:00:23.65,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Huh? OD-san's not on.
+Dialogue: 0,0:00:21.78,0:00:26.75,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,{\an8}So, today, let's start by talking \Nabout the prohibition of CROWDS.
+Dialogue: 0,0:00:23.65,0:00:25.54,Gatchaman(D)_Main,Girl,0000,0000,0000,,DD's nice.
+Dialogue: 0,0:00:26.75,0:00:29.42,Gatchaman(D)_Italics,Millio,0000,0000,0000,,It's just a sign of the times.
+Dialogue: 0,0:00:26.77,0:00:29.41,Prohibition-big_00:26(GCI07),Sign 0027,0000,0000,0000,,CROWDS Prohibition Confirmed!
+Dialogue: 0,0:00:29.42,0:00:33.21,Gatchaman(D)_Italics,Millio,0000,0000,0000,,Gel-chan might say, "CROWDS, no way."
+Dialogue: 0,0:00:30.92,0:00:34.88,Prohibition-bigger_00:26(GCI07),Sign 0031,0000,0000,0000,,CROWDS Prohibition Confirmed!
+Dialogue: 0,0:00:33.80,0:00:37.39,Gatchaman(D)_Italics,Millio,0000,0000,0000,,CROWDS use has now become illegal.
+Dialogue: 0,0:00:37.39,0:00:38.61,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,What do you think, DD?
+Dialogue: 0,0:00:38.54,0:00:40.39,Gatchaman(D)_Main,Guy,0000,0000,0000,,Isn't the Gatchaman's \Npopularity in jeopardy?
+Dialogue: 0,0:00:38.61,0:00:40.24,Gatchaman(D)_Announcer,DD,0000,0000,0000,,{\a6}I think that's a good thing.
+Dialogue: 0,0:00:40.24,0:00:42.83,Gatchaman(D)_Announcer,DD,0000,0000,0000,,{\a6}I mean, CROWDS is way too dangerous!
+Dialogue: 0,0:00:41.11,0:00:43.68,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Well, popularity has nothing \Nto do with what we do...
+Dialogue: 0,0:00:42.83,0:00:44.36,Gatchaman(D)_Announcer,DD,0000,0000,0000,,{\a6}Oh, DD! That pose!
+Dialogue: 0,0:00:44.36,0:00:45.79,Gatchaman(D)_Italics,DD,0000,0000,0000,,It's been popular lately.
+Dialogue: 0,0:00:45.48,0:00:49.23,Prohibition-bigger_00:26(GCI07),Sign 0047,0000,0000,0000,,CROWDS Prohibition Confirmed!
+Dialogue: 0,0:00:45.78,0:00:48.80,Gatchaman(D)_Italics,Millio,0000,0000,0000,,Everyone knows this, right?
+Dialogue: 0,0:00:49.43,0:00:51.23,Gatchaman(D)_Main,Kids,0000,0000,0000,,Yeah! Gelu-lu!
+Dialogue: 0,0:00:51.23,0:00:53.61,Gatchaman(D)_Italics,Millio,0000,0000,0000,,Gel-chan started this Gel-sign.
+Dialogue: 0,0:00:51.25,0:00:57.24,Elections_News_Flash_21:03(GCI05),Sign 0052,0000,0000,0000,,Gelu-lu:{\c&H6CC369&} The Gel-Sign{\c&H4722AF&} Super Fad \N{\c&HD62026&} Prime Minister Sadra Unstoppable
+Dialogue: 0,0:00:53.61,0:00:57.70,Gatchaman(D)_Italics,Millio,0000,0000,0000,,It's how we signal each other \Nwhen strangers help each other
+Dialogue: 0,0:00:57.70,0:01:00.81,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,and their hearts become one.
+Dialogue: 0,0:01:00.81,0:01:02.78,Gatchaman(D)_Main,H,0000,0000,0000,,Can you make this sign, Pai-Pai?
+Dialogue: 0,0:01:01.38,0:01:02.78,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Maybe that's why,
+Dialogue: 0,0:01:02.78,0:01:04.00,Gatchaman(D)_Main,Pman,0000,0000,0000,,Quit it.
+Dialogue: 0,0:01:02.78,0:01:04.56,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,but everyone making the Gel-sign
+Dialogue: 0,0:01:04.56,0:01:08.00,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,gives off a really happy vibe!
+Dialogue: 0,0:01:08.00,0:01:09.48,Gatchaman(D)_Announcer,DD,0000,0000,0000,,Gelu-lu!
+Dialogue: 0,0:01:09.48,0:01:12.52,Gatchaman(D)_Announcer,DD,0000,0000,0000,,Forget the V sign! \NThis sign's the way to go!
+Dialogue: 0,0:01:12.84,0:01:15.77,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Hasn't it been all about Gel lately?
+Dialogue: 0,0:01:15.77,0:01:17.55,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Is this how we use it?
+Dialogue: 0,0:01:17.55,0:01:18.94,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,But viewers!
+Dialogue: 0,0:01:18.94,0:01:21.83,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Do we know any other prime minister \Nwho's enjoyed as much support as him?
+Dialogue: 0,0:01:20.31,0:01:22.60,Gatchaman(D)_Main,Pman,0000,0000,0000,,He's right! Gel's pretty impressive.
+Dialogue: 0,0:01:22.29,0:01:25.52,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Not to mention, \Nthanks to Gel-chan's influence,
+Dialogue: 0,0:01:22.60,0:01:25.18,Gatchaman(D)_Main,Pman,0000,0000,0000,,Kids, your future is looking bright!
+Dialogue: 0,0:01:25.52,0:01:27.82,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,people are helping each other, \Nregardless of gender or age.
+Dialogue: 0,0:01:25.53,0:01:27.74,Gatchaman(D)_Main,Kids,0000,0000,0000,,Gelu-lu!
+Dialogue: 0,0:01:28.31,0:01:31.75,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Simply put, what was previously \Noccurring on GALAX
+Dialogue: 0,0:01:31.75,0:01:34.96,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,is now occurring in actual society.
+Dialogue: 0,0:01:35.28,0:01:37.83,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,This is a huge development!
+Dialogue: 0,0:01:37.83,0:01:42.26,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Plus, the smart phone votes are making \Nthe people's lives easier by the day.
+Dialogue: 0,0:01:41.01,0:01:43.29,Phone-text_01:41(GCI07),Sign 0142,0000,0000,0000,,GALAX's obsolete now \N Shouldn't it just be used for voting?
+Dialogue: 0,0:01:42.26,0:01:45.70,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,I feel the Sadra leadership will remain \Nstable for the foreseeable future.
+Dialogue: 0,0:01:43.31,0:01:47.08,Phone-text_01:41(GCI07),Sign 0144,0000,0000,0000,,GALAX's obsolete now \N Shouldn't it just be used for voting? \N{\c&H772DD8&}I get nostalgic \N thinking about the times \Nwe used CROWDS to help people..
+Dialogue: 0,0:01:45.70,0:01:47.70,Gatchaman(D)_Main,Millio,0000,0000,0000,,
+Dialogue: 0,0:01:47.10,0:01:48.04,Phone-text_01:41(GCI07),Sign 0148,0000,0000,0000,,GALAX's obsolete now \N Shouldn't it just be used for voting? \N{\c&H772DD8&}I get nostalgic \N thinking about the times \Nwe used CROWDS to help people.\N{\c&H4BA3DF&}Just Gel it in the city. lol
+Dialogue: 0,0:01:48.06,0:01:48.98,Phone-text_01:41(GCI07),Sign 0149,0000,0000,0000,,GALAX's obsolete now \N Shouldn't it just be used for voting? \N{\c&H772DD8&}I get nostalgic \N thinking about the times \Nwe used CROWDS to help people.\N{\c&H4BA3DF&}Just Gel it in the city. lol \N{\c&HC96422&}Nah, I'm still a little embarrassed to do it.
+Dialogue: 0,0:03:19.23,0:03:22.17,Gatchaman(D)_Main,R,0000,0000,0000,,{\a6}I'm rather afraid.
+Dialogue: 0,0:03:22.17,0:03:23.93,Gatchaman(D)_Main,Jo,0000,0000,0000,,{\a6}Afraid? Of what?
+Dialogue: 0,0:03:24.55,0:03:26.96,Gatchaman(D)_Main,R,0000,0000,0000,,Of what people are doing right now—
+Dialogue: 0,0:03:26.98,0:03:29.95,Gatchaman(D)_Main,R,0000,0000,0000,,I'd like to think it's because \Neveryone is personally driven,
+Dialogue: 0,0:03:30.73,0:03:32.73,Gatchaman(D)_Main,R,0000,0000,0000,,but I wonder if it's just a passing fad.
+Dialogue: 0,0:03:33.40,0:03:36.07,Gatchaman(D)_Main,R,0000,0000,0000,,I wonder if we're pushing change too fast.
+Dialogue: 0,0:03:37.43,0:03:39.82,Gatchaman(D)_Main,Jo,0000,0000,0000,,I remember how you used to be \Nso keen on "updating" the world.
+Dialogue: 0,0:03:40.17,0:03:42.38,Gatchaman(D)_Main,Jo,0000,0000,0000,,It's strange to hear you say that.
+Dialogue: 0,0:03:43.58,0:03:45.80,Gatchaman(D)_Main,R,0000,0000,0000,,I've learned a lot.
+Dialogue: 0,0:03:45.80,0:03:48.50,Gatchaman(D)_Main,J,0000,0000,0000,,It's a necessary evil. It's just backlash.
+Dialogue: 0,0:03:48.83,0:03:49.79,Gatchaman(D)_Main,R,0000,0000,0000,,Backlash?
+Dialogue: 0,0:03:49.79,0:03:53.26,Gatchaman(D)_Main,J,0000,0000,0000,,Yeah, backlash against \Nwhat we've been doing.
+Dialogue: 0,0:03:53.67,0:03:55.19,Gatchaman(D)_Main,J,0000,0000,0000,,It was too soon for CROWDS.
+Dialogue: 0,0:03:55.62,0:03:57.09,Gatchaman(D)_Main,J,0000,0000,0000,,It resulted in conflict,
+Dialogue: 0,0:03:57.09,0:04:01.21,Gatchaman(D)_Main,J,0000,0000,0000,,and that, in turn, created a \Nreactionary drive for peace.
+Dialogue: 0,0:04:01.69,0:04:04.23,Gatchaman(D)_Main,J,0000,0000,0000,,We're the ones who acted too soon.
+Dialogue: 0,0:04:05.39,0:04:09.32,Gatchaman(D)_Main,R,0000,0000,0000,,So you're saying that it wasn't \NVAPE who threatened peace, but me?
+Dialogue: 0,0:04:10.33,0:04:11.39,Gatchaman(D)_Main,J,0000,0000,0000,,Are you referring to Suzuki Rizumu?
+Dialogue: 0,0:04:11.63,0:04:12.43,Gatchaman(D)_Main,R,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:12.86,0:04:16.11,Gatchaman(D)_Main,R,0000,0000,0000,,But I haven't given up yet.
+Dialogue: 0,0:04:16.55,0:04:19.73,Gatchaman(D)_Main,R,0000,0000,0000,,It's true that anyone can use CROWDS.
+Dialogue: 0,0:04:20.94,0:04:24.67,Gatchaman(D)_Main,R,0000,0000,0000,,In a way, that may have \Nbeen irresponsible of me.
+Dialogue: 0,0:04:24.67,0:04:27.61,Gatchaman(D)_Main,R,0000,0000,0000,,But the easy access is what \Nbroadens participation
+Dialogue: 0,0:04:27.61,0:04:29.88,Gatchaman(D)_Main,R,0000,0000,0000,,and increases the odds of it being \Nsustainable over the long run.
+Dialogue: 0,0:04:29.88,0:04:32.38,Gatchaman(D)_Main,R,0000,0000,0000,,Some day, people will rise to the challenge
+Dialogue: 0,0:04:32.38,0:04:34.16,Gatchaman(D)_Main,R,0000,0000,0000,,and CROWDS will be needed again—
+Dialogue: 0,0:04:34.16,0:04:35.11,Gatchaman(D)_Main,J,0000,0000,0000,,Rui!
+Dialogue: 0,0:04:35.61,0:04:37.86,Gatchaman(D)_Main,J,0000,0000,0000,,Forget about CROWDS for now.
+Dialogue: 0,0:04:38.52,0:04:40.84,Gatchaman(D)_Main,J,0000,0000,0000,,Backlash always dies down quickly.
+Dialogue: 0,0:04:41.20,0:04:44.43,Gatchaman(D)_Main,J,0000,0000,0000,,Gelsadra isn't the one \Nwho'll protect world peace.
+Dialogue: 0,0:04:44.82,0:04:46.00,Gatchaman(D)_Main,J,0000,0000,0000,,It's us.
+Dialogue: 0,0:04:47.49,0:04:51.47,Gatchaman(D)_Announcer,DD,0000,0000,0000,,Hey, you're getting way too close!
+Dialogue: 0,0:04:51.47,0:04:54.27,Gatchaman(D)_Main,OD,0000,0000,0000,,Maybe I should sue him.
+Dialogue: 0,0:04:54.92,0:04:57.02,Gatchaman(D)_Main,U,0000,0000,0000,,OD, you look serious...
+Dialogue: 0,0:04:57.02,0:04:59.98,Gatchaman(D)_Main,Gel,0000,0000,0000,,Okay, breathe in deeper!
+Dialogue: 0,0:04:59.98,0:05:00.79,Gatchaman(D)_Main,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:00.79,0:05:04.49,Gatchaman(D)_Main,T,0000,0000,0000,,Gelu-lu....
+Dialogue: 0,0:05:04.49,0:05:07.45,Gatchaman(D)_Main,All,0000,0000,0000,,Gelu-lu...
+Dialogue: 0,0:05:09.61,0:05:11.08,Gatchaman(D)_Main,All,0000,0000,0000,,Gel-chan, are you okay?
+Dialogue: 0,0:05:10.21,0:05:11.08,Gatchaman(D)_Main,All,0000,0000,0000,,You okay?
+Dialogue: 0,0:05:11.93,0:05:14.05,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'm fine. I'm fine.
+Dialogue: 0,0:05:14.05,0:05:17.67,Gatchaman(D)_Main,Gel,0000,0000,0000,,Well, people do tell me \NI look pale these days.
+Dialogue: 0,0:05:17.67,0:05:20.04,Our_hearts_05:17(GCI07),Sign 0520,0000,0000,0000,,Our Hearts as One! \N Create Our World, Together!
+Dialogue: 0,0:05:20.51,0:05:22.07,Gatchaman(D)_Main,T,0000,0000,0000,,That's no big surprise there.
+Dialogue: 0,0:05:22.07,0:05:27.93,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan's working so hard \Nthat he doesn't sleep or eat.
+Dialogue: 0,0:05:28.37,0:05:32.71,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'll work as long as I must \Nif I can unite everyone's heart.
+Dialogue: 0,0:05:33.24,0:05:36.72,Gatchaman(D)_Main,Gel,0000,0000,0000,,Fortunately, my home planet \Ndoesn't have the custom of sleep,
+Dialogue: 0,0:05:36.72,0:05:38.56,Gatchaman(D)_Main,Gel,0000,0000,0000,,natto, or melon bread.
+Dialogue: 0,0:05:38.98,0:05:41.14,Gatchaman(D)_Main,Gel,0000,0000,0000,,You're lucky that your \Nprime minister's an alien.
+Dialogue: 0,0:05:43.14,0:05:45.78,Gatchaman(D)_Main,Girl,0000,0000,0000,,Huh? Utsutsu-chan, is something wrong?
+Dialogue: 0,0:05:47.24,0:05:48.73,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy.
+Dialogue: 0,0:05:55.58,0:06:00.17,Gatchaman(D)_Main,JJ,0000,0000,0000,,Wings of Eight, gather at \Nthe Spiritual Precipice.
+Dialogue: 0,0:06:04.16,0:06:05.63,Gatchaman(D)_Main,JJ,0000,0000,0000,,The scarlet angel
+Dialogue: 0,0:06:06.25,0:06:08.25,Gatchaman(D)_Main,JJ,0000,0000,0000,,will, in time, transform,
+Dialogue: 0,0:06:08.25,0:06:10.35,Gatchaman(D)_Main,JJ,0000,0000,0000,,and gentle beasts will appear.
+Dialogue: 0,0:06:10.93,0:06:13.68,Gatchaman(D)_Main,JJ,0000,0000,0000,,Their names are many.
+Dialogue: 0,0:06:14.61,0:06:16.18,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Gentle beasts?
+Dialogue: 0,0:06:17.29,0:06:18.56,Gatchaman(D)_Main,Pman,0000,0000,0000,,Lord JJ!
+Dialogue: 0,0:06:18.56,0:06:21.77,Gatchaman(D)_Main,Pman,0000,0000,0000,,Can you be a little less vague?
+Dialogue: 0,0:06:27.28,0:06:30.41,Gatchaman(D)_Main,T,0000,0000,0000,,Wow! They're beautiful, Senpai!
+Dialogue: 0,0:06:30.64,0:06:32.39,Gatchaman(D)_Main,H,0000,0000,0000,,Right...
+Dialogue: 0,0:06:32.81,0:06:36.58,Gatchaman(D)_Main,H,0000,0000,0000,,Hmm... "Scarlet" again.
+Dialogue: 0,0:06:38.07,0:06:40.35,Gatchaman(D)_Main,H,0000,0000,0000,,Jou-san, what do you think?
+Dialogue: 0,0:06:41.14,0:06:42.95,Gatchaman(D)_Main,J,0000,0000,0000,,He said "scarlet" again.
+Dialogue: 0,0:06:42.95,0:06:45.67,Gatchaman(D)_Main,H,0000,0000,0000,,That bothers me, too.
+Dialogue: 0,0:06:45.88,0:06:48.49,Gatchaman(D)_Main,Sugane,0000,0000,0000,,But it can't be VAPE this time.
+Dialogue: 0,0:06:48.84,0:06:51.30,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Suzuki Rizumu's NOTE has been...
+Dialogue: 0,0:06:51.60,0:06:55.17,Gatchaman(D)_Main,Pman,0000,0000,0000,,I have put it away in a place \Nno one knows for safekeeping!
+Dialogue: 0,0:06:55.17,0:06:56.64,Gatchaman(D)_Main,Pman,0000,0000,0000,,Cough, cough.
+Dialogue: 0,0:06:56.64,0:06:58.96,Gatchaman(D)_Main,OD,0000,0000,0000,,The only other thing that's red is...
+Dialogue: 0,0:07:01.90,0:07:02.94,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:02.94,0:07:05.96,Gatchaman(D)_Main,T,0000,0000,0000,,But I'm blue.
+Dialogue: 0,0:07:05.96,0:07:08.56,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan, how's Gel-chan doing?
+Dialogue: 0,0:07:08.56,0:07:10.53,Gatchaman(D)_Main,T,0000,0000,0000,,He's doing great!
+Dialogue: 0,0:07:10.80,0:07:14.45,Gatchaman(D)_Main,T,0000,0000,0000,,I guess he's being told \Nhe looks a little pale lately,
+Dialogue: 0,0:07:14.45,0:07:17.36,Gatchaman(D)_Main,T,0000,0000,0000,,but, uh, that's just him joking like usual.
+Dialogue: 0,0:07:17.78,0:07:19.68,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, red...
+Dialogue: 0,0:07:20.27,0:07:23.46,Gatchaman(D)_Main,H,0000,0000,0000,,Has anything changed about Gel-chan?
+Dialogue: 0,0:07:23.74,0:07:26.34,Gatchaman(D)_Main,T,0000,0000,0000,,No. Nothing in particular.
+Dialogue: 0,0:07:27.76,0:07:29.13,Gatchaman(D)_Main,H,0000,0000,0000,,Really?
+Dialogue: 0,0:07:29.49,0:07:30.73,Gatchaman(D)_Main,T,0000,0000,0000,,Really!
+Dialogue: 0,0:07:30.73,0:07:33.06,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan's doing fine today, too!
+Dialogue: 0,0:07:33.06,0:07:37.54,Gatchaman(D)_Main,T,0000,0000,0000,,You all must be feeling \Nhis awesome influence every day!
+Dialogue: 0,0:07:38.04,0:07:40.31,Gatchaman(D)_Main,R,0000,0000,0000,,Yeah, it is powerful right now.
+Dialogue: 0,0:07:40.55,0:07:45.02,Gatchaman(D)_Main,T,0000,0000,0000,,Some people say \Nhis popularity is just a fad,
+Dialogue: 0,0:07:45.28,0:07:47.35,Gatchaman(D)_Main,T,0000,0000,0000,,but I don't think so.
+Dialogue: 0,0:07:47.75,0:07:50.94,Gatchaman(D)_Main,T,0000,0000,0000,,I think everyone's tired.
+Dialogue: 0,0:07:51.51,0:07:52.43,Gatchaman(D)_Main,H,0000,0000,0000,,Tired?
+Dialogue: 0,0:07:52.43,0:07:53.71,Gatchaman(D)_Main,H,0000,0000,0000,,Tired of what?
+Dialogue: 0,0:07:54.27,0:07:56.53,Gatchaman(D)_Main,T,0000,0000,0000,,Tired of a world with never-ending conflict.
+Dialogue: 0,0:07:57.41,0:08:02.04,Gatchaman(D)_Main,T,0000,0000,0000,,They've witnessed such a world \Nsince the day they were born,
+Dialogue: 0,0:08:02.44,0:08:04.65,Gatchaman(D)_Main,T,0000,0000,0000,,so everyone's come to realize
+Dialogue: 0,0:08:04.65,0:08:06.63,Gatchaman(D)_Main,T,0000,0000,0000,,that we should really unite our hearts
+Dialogue: 0,0:08:06.63,0:08:08.84,Gatchaman(D)_Main,T,0000,0000,0000,,and create a peaceful world.
+Dialogue: 0,0:08:09.12,0:08:11.84,Gatchaman(D)_Main,Pman,0000,0000,0000,,Yes, that's wonderful!
+Dialogue: 0,0:08:11.84,0:08:15.07,Gatchaman(D)_Main,OD,0000,0000,0000,,It's so wonderful that \Nit makes me a bit anxious.
+Dialogue: 0,0:08:16.00,0:08:17.56,Gatchaman(D)_Main,OD,0000,0000,0000,,If they're so fixated on maintaining peace
+Dialogue: 0,0:08:17.56,0:08:20.27,Gatchaman(D)_Main,OD,0000,0000,0000,,that they stop saying what they want to say,
+Dialogue: 0,0:08:20.27,0:08:22.51,Gatchaman(D)_Main,OD,0000,0000,0000,,that's not good.
+Dialogue: 0,0:08:22.51,0:08:24.10,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy...
+Dialogue: 0,0:08:24.10,0:08:25.91,Gatchaman(D)_Main,T,0000,0000,0000,,It'll be fine!
+Dialogue: 0,0:08:25.91,0:08:28.61,Gatchaman(D)_Main,T,0000,0000,0000,,Look how well it's going right now!
+Dialogue: 0,0:08:28.61,0:08:30.38,Gatchaman(D)_Main,T,0000,0000,0000,,Don't you agree, Sugane-senpai?
+Dialogue: 0,0:08:30.38,0:08:31.14,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:31.14,0:08:32.36,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Well, sure.
+Dialogue: 0,0:08:32.79,0:08:36.86,Gatchaman(D)_Main,Sugane,0000,0000,0000,,My friends all seem happier than before.
+Dialogue: 0,0:08:36.86,0:08:39.49,Gatchaman(D)_Main,Sugane,0000,0000,0000,,It does seem like we're \Nmoving in a good direction.
+Dialogue: 0,0:08:39.85,0:08:41.30,Gatchaman(D)_Main,T,0000,0000,0000,,Thank you!
+Dialogue: 0,0:08:41.69,0:08:42.80,Gatchaman(D)_Main,R,0000,0000,0000,,But, Tsubasa-chan.
+Dialogue: 0,0:08:43.44,0:08:45.47,Gatchaman(D)_Main,R,0000,0000,0000,,I'd like you to tell Sadra-kun
+Dialogue: 0,0:08:45.96,0:08:48.46,Gatchaman(D)_Main,R,0000,0000,0000,,to not rush change too much.
+Dialogue: 0,0:08:48.97,0:08:50.27,Gatchaman(D)_Main,T,0000,0000,0000,,Okay...
+Dialogue: 0,0:08:50.66,0:08:55.08,Gatchaman(D)_Main,T,0000,0000,0000,,Oh, I have to prep for \Na smart phone vote with Gel-chan,
+Dialogue: 0,0:08:55.08,0:08:56.69,Gatchaman(D)_Main,T,0000,0000,0000,,so I should get going!
+Dialogue: 0,0:08:59.35,0:09:00.56,Gatchaman(D)_Main,T,0000,0000,0000,,What, Senpai?
+Dialogue: 0,0:09:01.38,0:09:05.81,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan, is Gel-chan really okay?
+Dialogue: 0,0:09:05.81,0:09:07.57,Gatchaman(D)_Main,T,0000,0000,0000,,Of course he is.
+Dialogue: 0,0:09:07.57,0:09:09.36,Gatchaman(D)_Main,T,0000,0000,0000,,I said he is!
+Dialogue: 0,0:09:09.70,0:09:16.24,Gatchaman(D)_Main,J,0000,0000,0000,,Miss, don't forget that while \NGelsadra has become the prime minister,
+Dialogue: 0,0:09:16.76,0:09:18.46,Gatchaman(D)_Main,J,0000,0000,0000,,he remains under our observation.
+Dialogue: 0,0:09:18.46,0:09:19.40,Gatchaman(D)_Main,T,0000,0000,0000,,Right.
+Dialogue: 0,0:09:19.40,0:09:21.62,Gatchaman(D)_Main,T,0000,0000,0000,,I'm with him, so it's fine.
+Dialogue: 0,0:09:22.02,0:09:24.20,Gatchaman(D)_Main,T,0000,0000,0000,,I'm a Gatchaman, too.
+Dialogue: 0,0:09:24.20,0:09:26.85,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan, we're part of the same team.
+Dialogue: 0,0:09:26.85,0:09:29.00,Gatchaman(D)_Main,H,0000,0000,0000,,If anything happens, \Nplease tell us right away!
+Dialogue: 0,0:09:34.34,0:09:35.45,Gatchaman(D)_Main,T,0000,0000,0000,,Roger!
+Dialogue: 0,0:09:43.82,0:09:45.26,Gatchaman(D)_Main,Pman,0000,0000,0000,,Hey, guys!
+Dialogue: 0,0:09:45.26,0:09:47.68,Gatchaman(D)_Main,Pman,0000,0000,0000,,Why do you all look worried?
+Dialogue: 0,0:09:47.68,0:09:51.82,Gatchaman(D)_Main,Pman,0000,0000,0000,,The newbie's working hard \Nwith Gelsadra every day!
+Dialogue: 0,0:09:52.51,0:09:53.99,Gatchaman(D)_Main,Pman,0000,0000,0000,,Thanks to them,
+Dialogue: 0,0:09:53.99,0:09:57.82,Gatchaman(D)_Main,Pman,0000,0000,0000,,this planet may finally emerge \Nfrom protective observation status!
+Dialogue: 0,0:09:58.10,0:10:02.95,Gatchaman(D)_Main,OD,0000,0000,0000,,Pai-Pai, are you sure it's not \Njust you wanting to get credit?
+Dialogue: 0,0:10:03.86,0:10:06.58,Gatchaman(D)_Main,Pman,0000,0000,0000,,{\a6}Of course not!
+Dialogue: 0,0:10:04.47,0:10:08.85,Gatchaman(D)_Main,H,0000,0000,0000,,I wonder what "their names \Nare many" is supposed to mean.
+Dialogue: 0,0:10:11.40,0:10:12.87,Gatchaman(D)_Main,H,0000,0000,0000,,Katze-san.
+Dialogue: 0,0:10:16.41,0:10:18.55,Gatchaman(D)_Main,H,0000,0000,0000,,You seem sleepy lately.
+Dialogue: 0,0:10:19.07,0:10:20.83,Gatchaman(D)_Main,K,0000,0000,0000,,Sorry, sorry.
+Dialogue: 0,0:10:20.83,0:10:25.06,Gatchaman(D)_Main,K,0000,0000,0000,,I got sleepy all of a sudden.
+Dialogue: 0,0:10:26.59,0:10:30.44,Gatchaman(D)_Main,H,0000,0000,0000,,Katze-san, what's your opinion of Gel-chan?
+Dialogue: 0,0:10:30.72,0:10:33.73,Gatchaman(D)_Main,K,0000,0000,0000,,Let me see... I'll be seriously honest.
+Dialogue: 0,0:10:33.73,0:10:35.83,Gatchaman(D)_Main,K,0000,0000,0000,,He's a piece of shit.
+Dialogue: 0,0:10:35.83,0:10:38.43,Gatchaman(D)_Main,K,0000,0000,0000,,I think he can go die in a fire.
+Dialogue: 0,0:10:38.92,0:10:40.45,Gatchaman(D)_Main,H,0000,0000,0000,,So you don't like him?
+Dialogue: 0,0:10:40.45,0:10:42.07,Gatchaman(D)_Main,K,0000,0000,0000,,When I told him that,
+Dialogue: 0,0:10:42.07,0:10:45.49,Gatchaman(D)_Main,K,0000,0000,0000,,he got all teary-eyed. lol.
+Dialogue: 0,0:10:45.87,0:10:46.67,Gatchaman(D)_Main,H,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:46.67,0:10:49.67,Gatchaman(D)_Main,H,0000,0000,0000,,You've met Gel-chan before?
+Dialogue: 0,0:10:49.98,0:10:51.12,Gatchaman(D)_Main,K,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:51.12,0:10:53.09,Gatchaman(D)_Main,K,0000,0000,0000,,He's super famous.
+Dialogue: 0,0:10:53.51,0:10:54.92,Gatchaman(D)_Main,H,0000,0000,0000,,Really?
+Dialogue: 0,0:10:54.92,0:10:56.42,Gatchaman(D)_Main,H,0000,0000,0000,,So did you guys fight?
+Dialogue: 0,0:10:56.42,0:10:58.94,Gatchaman(D)_Main,K,0000,0000,0000,,Of course not! It'd never get to that!
+Dialogue: 0,0:10:59.35,0:11:01.09,Gatchaman(D)_Main,H,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:11:01.09,0:11:04.49,Gatchaman(D)_Main,K,0000,0000,0000,,Oh, c'mon, Hajime-tan. \NDon't play dumb.
+Dialogue: 0,0:11:04.49,0:11:05.91,Gatchaman(D)_Main,K,0000,0000,0000,,Hey, are you stupid?
+Dialogue: 0,0:11:05.91,0:11:07.60,Gatchaman(D)_Main,K,0000,0000,0000,,Are you stupid, Hajime-tan?
+Dialogue: 0,0:11:08.03,0:11:10.63,Gatchaman(D)_Main,K,0000,0000,0000,,Or are you just being a bitch? \NWhich is it?
+Dialogue: 0,0:11:11.10,0:11:12.38,Gatchaman(D)_Main,K,0000,0000,0000,,Hey, hey, hey.
+Dialogue: 0,0:11:12.38,0:11:14.71,Gatchaman(D)_Main,K,0000,0000,0000,,Are you just being a bitch? \NWhat is it, huh?
+Dialogue: 0,0:11:13.57,0:11:15.84,Gatchaman(D)_Main,H,0000,0000,0000,,{\a6}Hmm...
+Dialogue: 0,0:11:14.71,0:11:15.98,Gatchaman(D)_Main,K,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:15.84,0:11:17.48,Gatchaman(D)_Main,H,0000,0000,0000,,{\a6}Hmm!
+Dialogue: 0,0:11:15.98,0:11:17.48,Gatchaman(D)_Main,K,0000,0000,0000,,Hey, hey, hey.
+Dialogue: 0,0:11:17.48,0:11:19.48,Gatchaman(D)_Main,K,0000,0000,0000,,
+Dialogue: 0,0:11:28.80,0:11:31.46,Gatchaman(D)_Main,Gel,0000,0000,0000,,Gel-lu...
+Dialogue: 0,0:11:36.54,0:11:39.80,Gatchaman(D)_Main,Gel,0000,0000,0000,,Why won't the colors \Nand shapes become one yet?
+Dialogue: 0,0:11:40.10,0:11:41.30,Gatchaman(D)_Main,Girl,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:11:41.65,0:11:43.51,Gatchaman(D)_Main,Girl,0000,0000,0000,,Is something worrying you?
+Dialogue: 0,0:11:43.96,0:11:46.25,Gatchaman(D)_Main,Guy,0000,0000,0000,,Is there anything I can do?
+Dialogue: 0,0:11:47.09,0:11:49.35,Gatchaman(D)_Main,Girls,0000,0000,0000,,Being lonely is so lame!
+Dialogue: 0,0:11:49.35,0:11:50.98,Gatchaman(D)_Main,Guy,0000,0000,0000,,They're so creepy!
+Dialogue: 0,0:11:52.04,0:11:52.98,Gatchaman(D)_Main,Gel,0000,0000,0000,,Why?
+Dialogue: 0,0:11:52.98,0:11:54.86,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'm trying so hard.
+Dialogue: 0,0:11:56.57,0:12:00.23,Gatchaman(D)_Main,Gel,0000,0000,0000,,Gelu-lu...
+Dialogue: 0,0:12:09.74,0:12:12.79,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan, why don't you get some rest?
+Dialogue: 0,0:12:13.10,0:12:14.34,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'm fine.
+Dialogue: 0,0:12:14.34,0:12:16.63,Gatchaman(D)_Main,Gel,0000,0000,0000,,See? I'm fine.
+Dialogue: 0,0:12:16.63,0:12:19.66,Gatchaman(D)_Main,T,0000,0000,0000,,Well, you do look healthier than yesterday.
+Dialogue: 0,0:12:19.66,0:12:20.51,Gatchaman(D)_Main,Gel,0000,0000,0000,,Right?
+Dialogue: 0,0:12:20.73,0:12:23.29,Gatchaman(D)_Main,T,0000,0000,0000,,But if you're worried about anything,
+Dialogue: 0,0:12:23.29,0:12:25.34,Gatchaman(D)_Main,T,0000,0000,0000,,you can talk to me about anything!
+Dialogue: 0,0:12:28.42,0:12:29.48,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan?
+Dialogue: 0,0:12:29.92,0:12:33.08,Gatchaman(D)_Main,Gel,0000,0000,0000,,Tsubasa-chan, I'm sad.
+Dialogue: 0,0:12:33.08,0:12:34.21,Gatchaman(D)_Main,T,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:12:34.64,0:12:35.69,Gatchaman(D)_Main,Gel,0000,0000,0000,,Look.
+Dialogue: 0,0:12:35.69,0:12:36.77,Pie_Chart_label--right_12:35(GCI07),Sign 1236,0000,0000,0000,,Right!
+Dialogue: 0,0:12:35.69,0:12:36.77,Pie_Chart_label--no_12:35(GCI07),Sign 1236,0000,0000,0000,,No way!
+Dialogue: 0,0:12:36.77,0:12:37.98,Pie_Chart_label--no_12:36(GCI07),Sign 1238,0000,0000,0000,,No way!
+Dialogue: 0,0:12:36.77,0:12:37.98,Pie_Chart_label--right_12:36(GCI07),Sign 1238,0000,0000,0000,,Right!
+Dialogue: 0,0:12:37.98,0:12:40.32,Everyone_12:37(GCI07),Sign 1239,0000,0000,0000,,{\fad(444,1)}Everyone as one... lol \N That's just impossible
+Dialogue: 0,0:12:40.50,0:12:42.90,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'm trying so hard every day, but...
+Dialogue: 0,0:12:43.32,0:12:44.91,Gatchaman(D)_Main,T,0000,0000,0000,,It'll be okay!
+Dialogue: 0,0:12:44.91,0:12:47.41,Gatchaman(D)_Main,T,0000,0000,0000,,Everyone will come around eventually.
+Dialogue: 0,0:12:47.88,0:12:51.72,Gatchaman(D)_Main,T,0000,0000,0000,,I'll always be on your side, no matter what!
+Dialogue: 0,0:12:52.79,0:12:53.93,Gatchaman(D)_Main,Gel,0000,0000,0000,,Thanks...
+Dialogue: 0,0:12:54.35,0:12:55.87,Gatchaman(D)_Main,Jo,0000,0000,0000,,What's wrong with you?
+Dialogue: 0,0:12:56.14,0:12:56.91,Gatchaman(D)_Main,Gel,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:57.30,0:12:59.31,Gatchaman(D)_Main,T,0000,0000,0000,,What's wrong with what, Jou-san?
+Dialogue: 0,0:12:59.31,0:13:00.96,Gatchaman(D)_Main,Jo,0000,0000,0000,,Well, his body.
+Dialogue: 0,0:13:00.96,0:13:02.07,Gatchaman(D)_Main,T,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:02.07,0:13:05.00,Gatchaman(D)_Main,T,0000,0000,0000,,Everyone's way too worried.
+Dialogue: 0,0:13:05.00,0:13:07.85,Gatchaman(D)_Main,T,0000,0000,0000,,He's the same Gel-chan \Nwe all know and love, right?
+Dialogue: 0,0:13:27.03,0:13:30.58,Gatchaman(D)_Main,TV,0000,0000,0000,,A single tear just slid \Ndown Gel-chan's cheek.
+Dialogue: 0,0:13:30.99,0:13:33.97,Gatchaman(D)_Main,TV,0000,0000,0000,,"Why aren't everyone's hearts united?"
+Dialogue: 0,0:13:34.62,0:13:37.39,Gatchaman(D)_Main,TV,0000,0000,0000,,Falling silent after asking us that question,
+Dialogue: 0,0:13:38.54,0:13:41.13,Gatchaman(D)_Main,TV,0000,0000,0000,,his eyes brimmed \Nwith tears mourning the world.
+Dialogue: 0,0:13:41.13,0:13:42.77,Gatchaman(D)_Main,People,0000,0000,0000,,Don't cry, Gel-chan!
+Dialogue: 0,0:13:42.48,0:13:43.54,Gatchaman(D)_Main,People,0000,0000,0000,,Don't let this get to you!
+Dialogue: 0,0:13:43.54,0:13:44.80,Gatchaman(D)_Main,People,0000,0000,0000,,It'll only take a little longer.
+Dialogue: 0,0:13:44.80,0:13:46.27,Gatchaman(D)_Main,People,0000,0000,0000,,We'll try hard, too!
+Dialogue: 0,0:13:48.75,0:13:50.65,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan, do you see that?
+Dialogue: 0,0:13:50.65,0:13:51.71,Gatchaman(D)_Main,T,0000,0000,0000,,Do you hear that?
+Dialogue: 0,0:13:53.75,0:13:57.52,Gatchaman(D)_Main,Gel,0000,0000,0000,,Gelu-lu...
+Dialogue: 0,0:14:09.98,0:14:10.94,Gatchaman(D)_Main,Gel,0000,0000,0000,,I see.
+Dialogue: 0,0:14:10.94,0:14:11.99,Gatchaman(D)_Main,Gel,0000,0000,0000,,I get it now, everyone.
+Dialogue: 0,0:14:12.75,0:14:13.91,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan?
+Dialogue: 0,0:14:15.47,0:14:18.46,Gatchaman(D)_Main,Gel,0000,0000,0000,,Tsubasa-chan, I'll be fine now.
+Dialogue: 0,0:14:18.46,0:14:19.12,Gatchaman(D)_Main,Gel,0000,0000,0000,,Thank you!
+Dialogue: 0,0:14:26.38,0:14:28.84,Studio3_Broadcast_Schedule_14:26,Sign 1427,0000,0000,0000,,Studio 3: Broadcast Schedule      July
+Dialogue: 0,0:14:26.38,0:14:28.84,Limit?_14:6(GCI07),Sign 1427,0000,0000,0000,,Limit? \NWhat's that?
+Dialogue: 0,0:14:26.70,0:14:27.71,Gatchaman(D)_Italics,Millio,0000,0000,0000,,Everyone!
+Dialogue: 0,0:14:27.71,0:14:32.30,Gatchaman(D)_Italics,Millio,0000,0000,0000,,Just now, Gel-chan proposed a new idea!
+Dialogue: 0,0:14:32.86,0:14:36.31,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,From this day forward, there will be \Na third option during smart phone votes.
+Dialogue: 0,0:14:36.58,0:14:38.47,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,In addition to "Right!" and "No Way!",
+Dialogue: 0,0:14:38.47,0:14:41.28,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,there will be "Let Sadra Handle It"!
+Dialogue: 0,0:14:39.06,0:14:42.52,Right-No_Way-Let_Sadra_14:39(GCI07),Sign 1440,0000,0000,0000,,{\c&H4E30E6&}Right!     {\c&HEFF149&}No Way!     {\c&H56DEF3&}Let Sadra Handle It.
+Dialogue: 0,0:14:42.52,0:14:46.54,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,This is Gel-chan's decision \Nafter he thought long and hard
+Dialogue: 0,0:14:46.54,0:14:50.06,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,about how to make everyone's hearts into one.
+Dialogue: 0,0:14:50.31,0:14:51.77,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Right, Gel-chan!
+Dialogue: 0,0:14:51.77,0:14:54.13,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Right!
+Dialogue: 0,0:14:54.13,0:14:56.13,Gatchaman(D)_Announcer,Millio,0000,0000,0000,,Right, right!
+Dialogue: 0,0:14:54.13,0:14:57.85,Gatchaman(D)_Announcer,DD,0000,0000,0000,,Millio-chan, you're way too hyper!
+Dialogue: 0,0:14:58.77,0:15:00.26,Gatchaman(D)_Main,Pman,0000,0000,0000,,I see.
+Dialogue: 0,0:15:00.26,0:15:03.81,Gatchaman(D)_Main,Pman,0000,0000,0000,,I can see letting Gelsadra \Nhandle things now. Yep!
+Dialogue: 0,0:15:03.81,0:15:07.81,Gatchaman(D)_Main,H,0000,0000,0000,,{\a6}Wow! He's grown a lot!
+Dialogue: 0,0:15:05.17,0:15:08.88,The_Millione_Show_15:05(GCI07),Sign 1507,0000,0000,0000,,{\fs16}The Millione Show: {\c&H38363A&}New Option in {\c&H4722AF&} Smart Phone Voting \N{\fs20}{\c&H6CC369&} The "Let Sadra Handle It" {\c&H38363A&}Button
+Dialogue: 0,0:15:08.21,0:15:10.38,Gatchaman(D)_Main,OD,0000,0000,0000,,{\a6}It's just like Jou-chan said.
+Dialogue: 0,0:15:10.78,0:15:13.22,Gatchaman(D)_Main,Pman,0000,0000,0000,,You wouldn't understand.
+Dialogue: 0,0:15:13.22,0:15:16.84,Gatchaman(D)_Main,Pman,0000,0000,0000,,When you become a leader, you develop poise.
+Dialogue: 0,0:15:16.84,0:15:18.48,Gatchaman(D)_Main,Pman,0000,0000,0000,,Cough, cough.
+Dialogue: 0,0:15:20.28,0:15:22.08,Gatchaman(D)_Main,OD,0000,0000,0000,,Pai-Pai, you're way too dense!
+Dialogue: 0,0:15:22.08,0:15:23.36,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy...
+Dialogue: 0,0:15:23.58,0:15:26.57,Gatchaman(D)_Main,H,0000,0000,0000,,The angel's changed.
+Dialogue: 0,0:15:26.57,0:15:28.19,Gatchaman(D)_Main,H,0000,0000,0000,,This is bad news.
+Dialogue: 0,0:15:29.40,0:15:30.74,Child_Assistance_15:29(GCI07),Sign 1530,0000,0000,0000,,Is More Child Assistance Necessary? \N\N{\c&H56DEF3&} Let Sadra Handle It
+Dialogue: 0,0:15:30.93,0:15:32.34,Gatchaman(D)_Main,People,0000,0000,0000,,This works.
+Dialogue: 0,0:15:32.34,0:15:33.95,Gatchaman(D)_Main,People,0000,0000,0000,,I mean, it's Gel-chan.
+Dialogue: 0,0:15:34.23,0:15:36.79,Gatchaman(D)_Main,People,0000,0000,0000,,I feel like a weight's been \Nlifted off our shoulders.
+Dialogue: 0,0:15:36.80,0:15:39.74,Gatchaman(D)_Announcer,TV,0000,0000,0000,,Regarding the newly introduced\N "let Sadra handle it" button,
+Dialogue: 0,0:15:38.04,0:15:39.75,Child_Assistance_15:38(GCI07),Sign 1540,0000,0000,0000,,Is More Child Assistance Necessary? \N\N{\c&H56DEF3&} Let Sadra Handle It
+Dialogue: 0,0:15:38.11,0:15:39.75,Gatchaman(D)_Main,Kodama,0000,0000,0000,,Yup, let our hero, Sadra, handle it!
+Dialogue: 0,0:15:39.74,0:15:45.71,Gatchaman(D)_Announcer,TV,0000,0000,0000,,it's already received positive \Nreviews for being very convenient.
+Dialogue: 0,0:15:39.90,0:15:41.90,Gatchaman(D)_Main,Nozomi,0000,0000,0000,,Let Sadra handle it!
+Dialogue: 0,0:15:41.90,0:15:43.83,Gatchaman(D)_Main,Nozomi,0000,0000,0000,,Let Sadra handle it!
+Dialogue: 0,0:15:44.28,0:15:45.38,Gatchaman(D)_Main,People,0000,0000,0000,,Handle it!
+Dialogue: 0,0:15:45.71,0:15:49.70,Gatchaman(D)_Announcer,TV,0000,0000,0000,,What do you think about this reception, \NPrime Minister Sadra?
+Dialogue: 0,0:15:45.76,0:15:48.28,Gatchaman(D)_Main,TDad,0000,0000,0000,,Yuru-jii, I'll click for you—
+Dialogue: 0,0:15:48.58,0:15:49.66,Gatchaman(D)_Main,TDad,0000,0000,0000,,"Handle it."
+Dialogue: 0,0:15:49.66,0:15:50.48,Gatchaman(D)_Main,Y,0000,0000,0000,,Don't.
+Dialogue: 0,0:15:49.70,0:15:52.54,Gatchaman(D)_Announcer,Gel,0000,0000,0000,,Yes, I hope this will relieve \Npeople of their burden
+Dialogue: 0,0:15:50.48,0:15:51.90,Gatchaman(D)_Main,Y,0000,0000,0000,,I can think for myself.
+Dialogue: 0,0:15:51.90,0:15:53.76,Gatchaman(D)_Main,TMom,0000,0000,0000,,Oh, you're so stubborn.
+Dialogue: 0,0:15:52.54,0:15:58.62,Gatchaman(D)_Announcer,Gel,0000,0000,0000,,and help more people smile in this nation.
+Dialogue: 0,0:15:55.76,0:15:58.64,Gatchaman(D)_Main,TDad,0000,0000,0000,,Yuru-jii, you should talk to \NTsubasa on the phone sometimes.
+Dialogue: 0,0:15:58.62,0:16:04.98,Gatchaman(D)_Announcer,Gel,0000,0000,0000,,"Our hearts as one, create our world, together" remains my slogan.
+Dialogue: 0,0:15:59.43,0:16:01.71,Gatchaman(D)_Main,TDad,0000,0000,0000,,She's working really hard.
+Dialogue: 0,0:16:04.98,0:16:07.48,Pie_Chart_label--no_17:41(GCI06) - Copy,Sign 1606,0000,0000,0000,,Let Sadra Handle It (94%) \N Right! (4%) \N No way! (2%)
+Dialogue: 0,0:16:05.41,0:16:07.48,Gatchaman(D)_Main,Gel,0000,0000,0000,,So this is what everyone really wanted.
+Dialogue: 0,0:16:08.08,0:16:10.56,Gatchaman(D)_Main,Gel,0000,0000,0000,,Why didn't I realize this sooner?
+Dialogue: 0,0:16:11.38,0:16:13.28,Gatchaman(D)_Main,T,0000,0000,0000,,Are you okay, Gel-chan?
+Dialogue: 0,0:16:13.28,0:16:15.48,Gatchaman(D)_Main,Gel,0000,0000,0000,,Yep. I'm fine.
+Dialogue: 0,0:16:15.48,0:16:17.41,Gatchaman(D)_Main,Gel,0000,0000,0000,,We're almost there, Tsubasa-chan.
+Dialogue: 0,0:16:17.41,0:16:18.45,Gatchaman(D)_Main,T,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:19.01,0:16:23.08,Gatchaman(D)_Main,R,0000,0000,0000,,Sadra-kun, please cancel \Nthe change you made today.
+Dialogue: 0,0:16:23.42,0:16:26.63,Gatchaman(D)_Main,Gel,0000,0000,0000,,But I did it because everyone wanted it—
+Dialogue: 0,0:16:26.63,0:16:28.23,Gatchaman(D)_Main,R,0000,0000,0000,,If you do this,
+Dialogue: 0,0:16:28.23,0:16:30.10,Gatchaman(D)_Main,R,0000,0000,0000,,everyone will stop thinking,
+Dialogue: 0,0:16:30.10,0:16:32.42,Gatchaman(D)_Main,R,0000,0000,0000,,and the world will rapidly devolve!
+Dialogue: 0,0:16:33.59,0:16:35.39,Gatchaman(D)_Main,T,0000,0000,0000,,Are you talking about \Nsomething difficult again?
+Dialogue: 0,0:16:35.84,0:16:37.39,Gatchaman(D)_Main,R,0000,0000,0000,,No, Tsubasa-chan.
+Dialogue: 0,0:16:37.76,0:16:40.60,Gatchaman(D)_Main,T,0000,0000,0000,,I don't really understand difficult stuff,
+Dialogue: 0,0:16:41.15,0:16:42.65,Gatchaman(D)_Main,T,0000,0000,0000,,but I think the world right now
+Dialogue: 0,0:16:42.65,0:16:45.39,Gatchaman(D)_Main,T,0000,0000,0000,,is a much better world than \Nwhen CROWDS were in it!
+Dialogue: 0,0:16:46.31,0:16:50.23,Gatchaman(D)_Main,T,0000,0000,0000,,Look how peaceful the world \Nhas become, even without CROWDS.
+Dialogue: 0,0:16:50.78,0:16:52.58,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan's working hard,
+Dialogue: 0,0:16:52.58,0:16:54.86,Gatchaman(D)_Main,T,0000,0000,0000,,and everyone believes in him.
+Dialogue: 0,0:16:55.17,0:16:57.12,Gatchaman(D)_Main,R,0000,0000,0000,,Tsubasa-chan, you don't understand—
+Dialogue: 0,0:16:57.12,0:16:58.33,Gatchaman(D)_Main,T,0000,0000,0000,,If I may,
+Dialogue: 0,0:16:58.33,0:17:01.10,Gatchaman(D)_Main,T,0000,0000,0000,,I think I understand the \Nworld and the people in it
+Dialogue: 0,0:17:01.10,0:17:03.00,Gatchaman(D)_Main,T,0000,0000,0000,,a lot better than you, Rui-senpai!
+Dialogue: 0,0:17:03.00,0:17:04.18,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan...
+Dialogue: 0,0:17:04.57,0:17:07.82,Gatchaman(D)_Main,T,0000,0000,0000,,Gel-chan also realized how everyone feels.
+Dialogue: 0,0:17:07.82,0:17:10.13,Gatchaman(D)_Main,T,0000,0000,0000,,Everyone's been worried for a long time
+Dialogue: 0,0:17:10.62,0:17:13.42,Gatchaman(D)_Main,T,0000,0000,0000,,because their hearts wouldn't become one.
+Dialogue: 0,0:17:13.42,0:17:15.00,Gatchaman(D)_Main,R,0000,0000,0000,,You can't rush this.
+Dialogue: 0,0:17:15.00,0:17:16.47,Gatchaman(D)_Main,R,0000,0000,0000,,I told you this.
+Dialogue: 0,0:17:17.04,0:17:20.14,Gatchaman(D)_Main,R,0000,0000,0000,,Tsubasa-chan, even if it's \Nthe right thing to do,
+Dialogue: 0,0:17:20.14,0:17:21.25,Gatchaman(D)_Main,R,0000,0000,0000,,if you rush it too much,
+Dialogue: 0,0:17:21.25,0:17:22.51,Gatchaman(D)_Main,R,0000,0000,0000,,you'll trip and fall!
+Dialogue: 0,0:17:22.51,0:17:25.29,Gatchaman(D)_Main,T,0000,0000,0000,,But it's what we decided as a nation!
+Dialogue: 0,0:17:26.02,0:17:31.48,Gatchaman(D)_Main,R,0000,0000,0000,,But that'd mean individual \Nmotivation will never develop,
+Dialogue: 0,0:17:31.89,0:17:35.15,Gatchaman(D)_Main,R,0000,0000,0000,,and the world will never be updated.
+Dialogue: 0,0:17:35.53,0:17:37.39,Gatchaman(D)_Main,Gel,0000,0000,0000,,Please stop, please.
+Dialogue: 0,0:17:37.85,0:17:38.88,Gatchaman(D)_Main,H,0000,0000,0000,,Gel-chan.
+Dialogue: 0,0:17:39.37,0:17:41.56,Gatchaman(D)_Main,H,0000,0000,0000,,This may be conflict,
+Dialogue: 0,0:17:41.56,0:17:43.37,Gatchaman(D)_Main,H,0000,0000,0000,,but it's nothing to be sad about.
+Dialogue: 0,0:17:43.37,0:17:46.23,Gatchaman(D)_Main,H,0000,0000,0000,,Everyone's just searching \Nfor their own answer.
+Dialogue: 0,0:17:46.23,0:17:47.88,Gatchaman(D)_Main,H,0000,0000,0000,,You shouldn't be afraid.
+Dialogue: 0,0:17:48.38,0:17:50.15,Gatchaman(D)_Main,Gel,0000,0000,0000,,But I am.
+Dialogue: 0,0:17:50.46,0:17:52.85,Gatchaman(D)_Main,Gel,0000,0000,0000,,I'm afraid that someone \Nwill shatter everyone's hearts
+Dialogue: 0,0:17:52.85,0:17:54.12,Gatchaman(D)_Main,Gel,0000,0000,0000,,now that they're finally one.
+Dialogue: 0,0:17:55.63,0:17:57.25,Gatchaman(D)_Main,T,0000,0000,0000,,Please stop, Senpai.
+Dialogue: 0,0:17:57.62,0:17:59.38,Gatchaman(D)_Main,T,0000,0000,0000,,Look what you're doing to Gel-chan.
+Dialogue: 0,0:17:59.99,0:18:02.84,Gatchaman(D)_Main,T,0000,0000,0000,,I don't think I can become one with you guys.
+Dialogue: 0,0:18:02.84,0:18:04.36,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan, what becoming one means is—
+Dialogue: 0,0:18:04.36,0:18:07.18,Gatchaman(D)_Main,T,0000,0000,0000,,Like you said, I'm just me.
+Dialogue: 0,0:18:07.56,0:18:09.65,Gatchaman(D)_Main,T,0000,0000,0000,,Even if I won't be accepted as a Gatchaman,
+Dialogue: 0,0:18:10.16,0:18:13.27,Gatchaman(D)_Main,T,0000,0000,0000,,I'll believe in everyone with Gel-chan.
+Dialogue: 0,0:18:13.27,0:18:14.64,Gatchaman(D)_Main,R,0000,0000,0000,,If that's what you think...
+Dialogue: 0,0:18:14.64,0:18:15.65,Gatchaman(D)_Main,T,0000,0000,0000,,Yes?
+Dialogue: 0,0:18:15.65,0:18:17.24,Gatchaman(D)_Main,R,0000,0000,0000,,Resign from the Gatchaman right now.
+Dialogue: 0,0:18:22.82,0:18:23.99,Gatchaman(D)_Main,T,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:24.50,0:18:25.70,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan.
+Dialogue: 0,0:18:25.70,0:18:29.54,Gatchaman(D)_Main,T,0000,0000,0000,,No matter what people say to me,
+Dialogue: 0,0:18:29.88,0:18:32.46,Gatchaman(D)_Main,T,0000,0000,0000,,I'll protect the peace in Japan \Nin a way different than yours.
+Dialogue: 0,0:18:32.46,0:18:33.48,Gatchaman(D)_Main,Sugane,0000,0000,0000,,Tsubasa-chan.
+Dialogue: 0,0:18:33.48,0:18:35.26,Gatchaman(D)_Main,H,0000,0000,0000,,Tsubasa-chan, no.
+Dialogue: 0,0:18:35.26,0:18:37.79,Gatchaman(D)_Main,H,0000,0000,0000,,The Gatchaman need you, Tsubasa-chan.
+Dialogue: 0,0:18:38.11,0:18:40.36,Gatchaman(D)_Main,H,0000,0000,0000,,That's what I'll always believe!
+Dialogue: 0,0:18:40.76,0:18:41.97,Gatchaman(D)_Main,T,0000,0000,0000,,Senpai...
+Dialogue: 0,0:18:42.34,0:18:45.22,Gatchaman(D)_Main,T,0000,0000,0000,,Thank you for having me!
+Dialogue: 0,0:18:45.22,0:18:47.30,Gatchaman(D)_Main,PMan,0000,0000,0000,,Well, we don't have a choice.
+Dialogue: 0,0:18:47.99,0:18:48.97,Gatchaman(D)_Main,PMan,0000,0000,0000,,Newbie!
+Dialogue: 0,0:18:48.97,0:18:50.09,Gatchaman(D)_Main,PMan,0000,0000,0000,,Gelsadra!
+Dialogue: 0,0:18:50.09,0:18:51.72,Gatchaman(D)_Main,PMan,0000,0000,0000,,Take good care of this planet.
+Dialogue: 0,0:18:51.72,0:18:52.94,Gatchaman(D)_Main,U,0000,0000,0000,,I'm gloomy...
+Dialogue: 0,0:18:52.94,0:18:56.05,Gatchaman(D)_Main,K,0000,0000,0000,,"The Gatchaman need you, Tsubasa-chan!"
+Dialogue: 0,0:18:56.05,0:18:57.82,Gatchaman(D)_Main,H,0000,0000,0000,,Shut up, Katze-san!
+Dialogue: 0,0:18:58.19,0:19:01.53,Gatchaman(D)_Main,K,0000,0000,0000,,Hey, you stupid ass, naive Gatcha guys!
+Dialogue: 0,0:19:01.53,0:19:03.85,Gatchaman(D)_Main,H,0000,0000,0000,,Katze-san's saying something.
+Dialogue: 0,0:19:04.19,0:19:06.48,Gatchaman(D)_Main,K,0000,0000,0000,,You think you can win against that red pig?
+Dialogue: 0,0:19:06.48,0:19:08.26,Gatchaman(D)_Main,,0000,0000,0000,,Keep on dreaming!
+Dialogue: 0,0:19:08.26,0:19:12.42,Gatchaman(D)_Main,K,0000,0000,0000,,Even I ran away, shitting my pants!
+Dialogue: 0,0:19:13.00,0:19:15.22,Gatchaman(D)_Main,K,0000,0000,0000,,Gatchaman's finished,
+Dialogue: 0,0:19:15.14,0:19:16.34,Gatchaman(D)_Main,G,0000,0000,0000,,I'm gloomy.
+Dialogue: 0,0:19:15.22,0:19:16.83,Gatchaman(D)_Main,K,0000,0000,0000,,really finished,
+Dialogue: 0,0:19:16.89,0:19:18.26,Gatchaman(D)_Main,J,0000,0000,0000,,Berg-Katze...
+Dialogue: 0,0:19:17.28,0:19:20.76,Gatchaman(D)_Main,K,0000,0000,0000,,lololololololol.
+Dialogue: 0,0:19:18.48,0:19:20.76,Gatchaman(D)_Main,OD,0000,0000,0000,,{\i1}You{\i0} ran?
+Dialogue: 0,0:19:21.17,0:19:23.22,Gatchaman(D)_Main,K,0000,0000,0000,,Gatchaman's finished,
+Dialogue: 0,0:19:23.22,0:19:24.73,Gatchaman(D)_Main,K,0000,0000,0000,,real finished.
+Dialogue: 0,0:19:24.73,0:19:25.93,Gatchaman(D)_Main,K,0000,0000,0000,,All together now, everyone!
+Dialogue: 0,0:19:26.81,0:19:27.93,Gatchaman(D)_Main,Ri,0000,0000,0000,,I see.
+Dialogue: 0,0:19:27.93,0:19:29.69,Gatchaman(D)_Main,Ri,0000,0000,0000,,That's a dangerous turn of events.
+Dialogue: 0,0:19:30.12,0:19:33.50,Gatchaman(D)_Main,Ri,0000,0000,0000,,Still, you're coming to me for help? \NIs the world ending?
+Dialogue: 0,0:19:35.69,0:19:37.61,Gatchaman(D)_Main,Ri,0000,0000,0000,,Well, I can see why.
+Dialogue: 0,0:19:37.95,0:19:40.95,Gatchaman(D)_Main,Ri,0000,0000,0000,,Having a power no one else has can be lonely.
+Dialogue: 0,0:19:41.54,0:19:43.32,Gatchaman(D)_Main,R,0000,0000,0000,,I just want you to think about it with me.
+Dialogue: 0,0:19:43.32,0:19:45.46,Gatchaman(D)_Main,Ri,0000,0000,0000,,Think about what?
+Dialogue: 0,0:19:46.00,0:19:47.77,Gatchaman(D)_Main,R,0000,0000,0000,,About this country's future.
+Dialogue: 0,0:19:48.86,0:19:49.91,Gatchaman(D)_Main,Ri,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:19:49.91,0:19:51.98,Gatchaman(D)_Main,Ri,0000,0000,0000,,My role in this is finished.
+Dialogue: 0,0:19:52.50,0:19:54.60,Gatchaman(D)_Main,Ri,0000,0000,0000,,There's nothing left for me to think about.
+Dialogue: 0,0:19:55.06,0:19:57.25,Gatchaman(D)_Main,Ri,0000,0000,0000,,I'm an ape just like everyone else.
+Dialogue: 0,0:19:57.60,0:19:58.71,Gatchaman(D)_Main,R,0000,0000,0000,,You're not an ape.
+Dialogue: 0,0:19:59.64,0:20:00.92,Gatchaman(D)_Main,R,0000,0000,0000,,Both you and I
+Dialogue: 0,0:20:00.92,0:20:03.86,Gatchaman(D)_Main,R,0000,0000,0000,,are human beings, \Nconcerned for this nation's future.
+Dialogue: 0,0:20:03.86,0:20:06.14,Gatchaman(D)_Main,R,0000,0000,0000,,I know that's what you \Nalso believe, deep down.
+Dialogue: 0,0:20:08.48,0:20:10.42,Gatchaman(D)_Main,Ri,0000,0000,0000,,You don't give up, do you?
+Dialogue: 0,0:20:10.42,0:20:12.85,Gatchaman(D)_Main,Ri,0000,0000,0000,,Well, a word of advice, then.
+Dialogue: 0,0:20:13.66,0:20:16.65,Gatchaman(D)_Main,Ri,0000,0000,0000,,Everyone will become real apes now.
+Dialogue: 0,0:20:17.59,0:20:19.06,Gatchaman(D)_Main,R,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:20:19.06,0:20:20.34,Gatchaman(D)_Main,Ri,0000,0000,0000,,Think.
+Dialogue: 0,0:20:20.34,0:20:22.70,Gatchaman(D)_Main,Ri,0000,0000,0000,,You said you're not an ape, didn't you?
+Dialogue: 0,0:20:22.70,0:20:24.55,Gatchaman(D)_Main,Ri,0000,0000,0000,,It'll all happen in a flash.
+Dialogue: 0,0:20:24.55,0:20:25.68,Gatchaman(D)_Main,Ri,0000,0000,0000,,Be ready. Prepare yourself.
+Dialogue: 0,0:20:41.73,0:20:43.01,Gatchaman(D)_Main,Gel,0000,0000,0000,,It hurts...
+Dialogue: 0,0:20:43.37,0:20:45.42,Gatchaman(D)_Main,Gel,0000,0000,0000,,I can't swallow or inhale any more.
+Dialogue: 0,0:21:06.72,0:21:08.91,Gatchaman(D)_Main,Gel,0000,0000,0000,,What was that just now?
+Dialogue: 0,0:21:42.71,0:21:44.95,Gatchaman(D)_Main,Ku,0000,0000,0000,,Gelu-lu...
+Dialogue: 0,0:21:44.95,0:21:46.95,Gatchaman(D)_Main,,0000,0000,0000,,
+
