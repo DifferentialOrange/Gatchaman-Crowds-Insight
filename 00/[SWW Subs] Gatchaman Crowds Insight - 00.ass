@@ -16,8 +16,8 @@ Video File: [SWW Subs] Gatchaman Crowds Insight - 00 [1080p].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.250000
-Scroll Position: 5
-Active Line: 12
+Scroll Position: 123
+Active Line: 19
 Video Position: 4139
 
 [V4+ Styles]
@@ -40,7 +40,7 @@ Style: Sign,Ubuntu Light,50,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:01.66,0:00:04.20,Default,,0,0,0,,{\pos(812,1069)}прибытие
-Dialogue: 0,0:00:13.06,0:00:15.47,Gatchaman(D)_Flashback,H,0,0,0,,{\an8}Эм, а кто Вы такой?
+Dialogue: 0,0:00:13.06,0:00:15.47,Gatchaman(D)_Flashback,H,0,0,0,,{\an8}Эм, а кто вы такой?
 Dialogue: 0,0:00:15.47,0:00:18.40,Gatchaman(D)_Flashback,JJ,0,0,0,,{\an8}Стань крыльями, \Nчто защитят эту планету.
 Dialogue: 0,0:00:18.40,0:00:20.38,Gatchaman(D)_Main,K,0,0,0,,Мы зовёмся Гатчаменами.
 Dialogue: 0,0:00:20.89,0:00:25.13,Gatchaman(D)_Main,K,0,0,0,,Наши скрытые силы \N были пробуждены Джей-Джеем,
